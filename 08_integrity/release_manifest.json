@@ -1,6 +1,6 @@
 {
   "release_name": "ICCAI_2027_Submission_v5_minor_revision",
-  "created_utc": "2026-11-06T13:40:05+00:00",
+  "created_utc": "2026-11-06T14:14:40+00:00",
   "layout": "Manuscript DOC/DOCX/PDF + Supplementary Appendix PDF + one public GitHub Reproducibility_Package",
   "evidence_lineage": "Core Aircraft protocol, resource and predictions from the prior archive; fixed-order control from the subsequent archive; ICCAI controls and paper assets from this working build. See 07_provenance/PROVENANCE_INDEX.csv.",
   "limits": [
@@ -10,16 +10,16 @@
   ],
   "submission_files": {
     "Manuscript.doc": {
-      "sha256": "47eb29015012c3e6c559bf813d918163f8c73b816a587111370fbc0009ddf7a9",
-      "bytes": 797184
+      "sha256": "3e195087512d6f1acac028e78a2b2931dd4779f75dbc64ef0982d1ff16e86730",
+      "bytes": 796672
     },
     "Manuscript.docx": {
-      "sha256": "e2f102973e30cf4921785493b202ed7e103a8a55462f99087637f78a401a8e84",
-      "bytes": 709604
+      "sha256": "e7d113af184c434fadea88148b6a97807277c5f3df1f2a6cffaaa4f55879edb1",
+      "bytes": 709579
     },
     "Manuscript.pdf": {
-      "sha256": "840ab7d76e70904d0e5bed098b06aec2a65a319d24639b531c114ffd826f42ef",
-      "bytes": 591982
+      "sha256": "321df3711261dd66368a7592cec63e1d9ee4c54b8c6f5cc8bbd5506802f91959",
+      "bytes": 589867
     },
     "Supplementary_Appendix.pdf": {
       "sha256": "3239e416b9cd5a8fae6182459edc912c75daa40f402cef8df9481d3fd6fc1d51",

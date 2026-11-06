@@ -9,7 +9,7 @@
   },
   "document_checks": {
     "manuscript_template": "PASS: page size, margins, and core paragraph styles match the supplied ICCAI official template",
-    "figures_and_equations": "PASS: nine-page PDF rendered and inspected; Figure 1, Figure 2, formulas, Table 1 panels, and Mean ? SD caption visually checked; legacy DOC export also renders to nine pages with formulas and figures visible",
+    "figures_and_equations": "PASS: clean and marked nine-page PDFs rendered and visually inspected; Figure 1 is placed with Table 1 on page 5; Figure 2, formulas, table panels, and the Mean ? SD notation are legible; legacy DOC export also renders to nine pages with figures and formulas visible.",
     "public_github_repository": {
       "status": "PASS",
       "url": "https://github.com/tter1boom/iccai-2027-descriptor-budget-audit",
