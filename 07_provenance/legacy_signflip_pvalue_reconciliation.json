@@ -1,0 +1,32 @@
+{
+  "status": "verified",
+  "contrast_id": "ViT-B-16|positive_mean|1->2",
+  "legacy_reported_raw_p": 0.5941740582594174,
+  "legacy_implied_exceedance_count": 59417,
+  "current_random_seed": 11789901110311654668,
+  "n_permutations": 100000,
+  "observed_numerator": -1506,
+  "statistic_denominator": 561000,
+  "strictly_greater_count": 59372,
+  "exact_boundary_tie_count": 53,
+  "current_exact_exceedance_count": 59425,
+  "current_raw_p": 0.5942540574594254,
+  "difference_in_exceedances": 8,
+  "same_seed_and_labels": true,
+  "legacy_float32_null_rescaled_and_rounded_to_integer_numerators_matches_current_null": true,
+  "legacy_null_file": {
+    "path": "07_provenance/adjacent_signflip_null_float32_legacy.npz",
+    "sha256": "68c11d20d2208e2a3a0909749e604487a8f09af90a73bd280b170286e7abd123",
+    "dtype": "float32"
+  },
+  "current_exact_null_file": {
+    "path": "05_results/analysis_outputs/adjacent_budget_inference/adjacent_signflip_null_float64.npz",
+    "sha256": "ad9d76150ba169324036c771fa29a88142fdef6e4ed26337342bc8a64d7e4747",
+    "integer_numerators_dtype": "int64"
+  },
+  "interpretation": "No model rerun, seed change, observed-statistic change, or sign-flip draw change occurred. The legacy p-value implies 59,417 exceedances; the same exact null has 59,372 strict exceedances plus 53 boundary ties. The former in-memory floating comparison therefore counted 45 of those ties; the exact integer comparison counts all 53, adding 8 exceedances. The archived float32 null directly recounts to 59,372 because its quantized ties fall below threshold, and cannot reconstruct the legacy in-memory comparison. Current integer counts govern reported p-values.",
+  "legacy_float32_direct_recount_exceedance_count": 59372,
+  "legacy_implied_boundary_ties_counted": 45,
+  "current_boundary_ties_counted": 53,
+  "boundary_ties_omitted_by_legacy_comparison": 8
+}

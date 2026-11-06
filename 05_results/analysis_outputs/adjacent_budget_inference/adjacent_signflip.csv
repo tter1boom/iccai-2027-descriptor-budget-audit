@@ -1,0 +1,17 @@
+backbone,ranker,transition,k_from,k_to,delta_macro_accuracy,raw_p_two_sided,holm_p_16,signflip_replicates,p_value_correction
+ViT-B-16,positive_mean,0->1,0,1,0.0186488413547237,0.0015899841001589985,0.025439745602543976,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-16,positive_mean,1->2,1,2,-0.0026844919786096,0.5942540574594254,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-16,positive_mean,2->3,2,3,-0.0040516934046345,0.48151518484815153,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-16,positive_mean,3->4,3,4,-0.0003172905525846,0.9438905610943891,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-16,contrastive_margin,0->1,0,1,0.0086060606060606,0.12384876151238487,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-16,contrastive_margin,1->2,1,2,-0.0021746880570409,0.6230737692623074,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-16,contrastive_margin,2->3,2,3,0.0012477718360071,0.8013419865801342,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-16,contrastive_margin,3->4,3,4,0.003916221033868,0.3740362596374036,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,positive_mean,0->1,0,1,0.0088663101604278,0.1015889841101589,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,positive_mean,1->2,1,2,-0.0046791443850267,0.3329866701332987,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,positive_mean,2->3,2,3,-0.0004848484848484,0.9186708132918671,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,positive_mean,3->4,3,4,0.0003975044563279,0.9225907740922591,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,contrastive_margin,0->1,0,1,0.0018734402852049,0.7070329296707033,1.0,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,contrastive_margin,1->2,1,2,-0.0103048128342245,0.011909880901190988,0.1786482135178648,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,contrastive_margin,2->3,2,3,0.0106488413547237,0.012079879201207988,0.1786482135178648,100000,integer exceedance count; Monte Carlo add-one
+ViT-B-32,contrastive_margin,3->4,3,4,0.0018823529411764,0.6085039149608504,1.0,100000,integer exceedance count; Monte Carlo add-one

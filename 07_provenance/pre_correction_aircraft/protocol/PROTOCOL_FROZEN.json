@@ -1,0 +1,17 @@
+{
+  "protocol_version": "fgvc_aircraft_confirmation_v1",
+  "sha256": {
+    "FGVC_Aircraft_External_Confirmation_Protocol_filename_redacted.md": "0432b9a49caa278d6cd3e200cb6d1843a8f12e898a4a6567a47381b9e8db8cca",
+    "external_aircraft/protocol/dataset_audit.json": "8dbc4b177e73f9777d838b6e43204c549113efa99d90d99549680fc2c789ea85",
+    "external_aircraft/resources/aircraft_descriptors_clean.json": "f1a9c23ece32c836c44e7c82d793f42414cf9920c10421fbcc88ddb9ea508647",
+    "external_aircraft/config/model_fingerprints.json": "2192ec7dc18128ff4991356620894f5973dd612159ea9b9a46d250a7b4be4435",
+    "external_aircraft/config/prompt_templates.json": "b1e2dc4011d417c4e7aaf7fa01aa0ad7403be52f5e8af32e7c3c2a6432464f32",
+    "external_aircraft/config/preprocessing.json": "a4c6f1d3c3eb10dbcae6acb7c33e268541b06dbeab5e37651a7c2ace4f61b6bf",
+    "external_aircraft/protocol/split_seed_20261003.json": "ae41a04c284a3f0ba3e917cc66abde0130041b42f20cca0c3cfbc8973b53d6a6",
+    "external_aircraft/protocol/split_seed_20261004.json": "78ed5e8ebdbfb2bbf483f890b2a3f928d02fd686f103ddbfe82f22da43bae100",
+    "external_aircraft/protocol/split_seed_20261005.json": "e27e2cc7766e44d7031ca5ac53d2e3ce22ca7812e1ef5e5faea83219423a158e",
+    "external_aircraft/protocol/split_seed_20261006.json": "730e175372a57090dbc0a6d80240a74ac0739366b0c2ce55689bb46414f83c95",
+    "external_aircraft/protocol/split_seed_20261007.json": "2dcebf7dbe74f151befe9ca5ad4fbb7a099a605127c37155db199685584dc54f"
+  },
+  "test_access": "unlocked_after_hash_verification"
+}

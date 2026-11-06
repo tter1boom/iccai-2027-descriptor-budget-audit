@@ -1,0 +1,25 @@
+{
+  "run_id": "external_aircraft_corrected_clean",
+  "timestamp_utc": "2026-10-04T04:27:57.673682+00:00",
+  "resource": "02_resources/aircraft_descriptors_frozen.json",
+  "resource_sha256": "67876cc858a9b6a1785b7eaa229a54dd40ad3394de7a7c989ad0d77b803808fc",
+  "audit_csv": "02_resources/aircraft_descriptor_audit.csv",
+  "audit_sha256": "bdb085a4bbfaa1ec8a732e2ec0930388cfe07bdee5e726391ef0221ff18433b5",
+  "class_count": 100,
+  "descriptor_count": 400,
+  "dataset_audit_sha256": "8dbc4b177e73f9777d838b6e43204c549113efa99d90d99549680fc2c789ea85",
+  "split_manifest_sha256": {
+    "20261003": "ae41a04c284a3f0ba3e917cc66abde0130041b42f20cca0c3cfbc8973b53d6a6",
+    "20261004": "78ed5e8ebdbfb2bbf483f890b2a3f928d02fd686f103ddbfe82f22da43bae100",
+    "20261005": "e27e2cc7766e44d7031ca5ac53d2e3ce22ca7812e1ef5e5faea83219423a158e",
+    "20261006": "730e175372a57090dbc0a6d80240a74ac0739366b0c2ce55689bb46414f83c95",
+    "20261007": "2dcebf7dbe74f151befe9ca5ad4fbb7a099a605127c37155db199685584dc54f"
+  },
+  "model_fingerprints_sha256": "2192ec7dc18128ff4991356620894f5973dd612159ea9b9a46d250a7b4be4435",
+  "status": "PASS",
+  "errors": [],
+  "cpu_only": true,
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:12:46) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "no_test_access_before_status": "PASS"
+}

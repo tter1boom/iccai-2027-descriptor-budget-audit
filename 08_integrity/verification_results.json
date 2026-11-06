@@ -1,0 +1,24 @@
+{
+  "release_name": "ICCAI_2027_minor_revision_reviewer_package",
+  "verification_scope": "public GitHub reproducibility package and sibling submission documents",
+  "reproduction_checks": {
+    "analysis_tables": "PASS: Aircraft curves, 20 x 50 x 6 validation grid, three-interface k=1 identity checks, integer-count p-values and Holm adjustment, random-ranking outputs, normalized-mean outputs, class-wise summaries, token and checkpoint audit",
+    "cached_feature_replay": "PASS: replay_from_features.py completed with locally supplied frozen checkpoints; no source images were used",
+    "prediction_level_curve_recomputation": "PASS: 200 recomputed Aircraft curve rows match archived values exactly after key-based comparison",
+    "resampling_count_audit": "PASS: 80 seed effects, 16 exact count-based p-values and Holm adjustment"
+  },
+  "document_checks": {
+    "manuscript_template": "PASS: page size, margins, and core paragraph styles match the supplied ICCAI official template",
+    "figures_and_equations": "PASS: nine-page PDF rendered and inspected; Figure 1, Figure 2, formulas, Table 1 panels, and Mean ? SD caption visually checked; legacy DOC export also renders to nine pages with formulas and figures visible",
+    "public_github_repository": {
+      "status": "CREATED_PENDING_PUSH",
+      "url": "https://github.com/tter1boom/iccai-2027-descriptor-budget-audit",
+      "visibility": "public"
+    },
+    "public_release_content_scan": "PASS: no Git metadata, local paths, emails, or identifying Office/PDF metadata"
+  },
+  "limitations": [
+    "Source images and local frozen CLIP checkpoints are not redistributed.",
+    "Earlier Aircraft test access remains disclosed; corrected rerun is not an untouched holdout."
+  ]
+}

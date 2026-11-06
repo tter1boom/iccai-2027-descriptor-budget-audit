@@ -1,0 +1,2807 @@
+{
+  "resource_id": "fgvc_aircraft_clean_v1",
+  "generation_boundary": "image blind; no FGVC images or outcomes inspected",
+  "classes": [
+    {
+      "class_id": 0,
+      "name_en": "707-320",
+      "morphology_en": "four engines mounted below the wings; low swept wings; a single vertical tail; a long cylindrical fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a long cylindrical fuselage"
+      ],
+      "caption_en": "a 707-320, a type of aircraft, four engines mounted below the wings, low swept wings, a single vertical tail, a long cylindrical fuselage",
+      "base_description": "a 707-320, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a long cylindrical fuselage"
+      ],
+      "profile": "narrow_four",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 1,
+      "name_en": "727-200",
+      "morphology_en": "two engines mounted at the rear fuselage; a third engine at the tail base; low swept wings; a T-shaped tail.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a third engine at the tail base",
+        "low swept wings",
+        "a T-shaped tail"
+      ],
+      "caption_en": "a 727-200, a type of aircraft, two engines mounted at the rear fuselage, a third engine at the tail base, low swept wings, a T-shaped tail",
+      "base_description": "a 727-200, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a third engine at the tail base",
+        "low swept wings",
+        "a T-shaped tail"
+      ],
+      "profile": "rear_trijet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 2,
+      "name_en": "737-200",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-200, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-200, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 3,
+      "name_en": "737-300",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-300, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-300, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 4,
+      "name_en": "737-400",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-400, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-400, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 5,
+      "name_en": "737-500",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-500, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-500, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 6,
+      "name_en": "737-600",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-600, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-600, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 7,
+      "name_en": "737-700",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-700, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-700, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 8,
+      "name_en": "737-800",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-800, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-800, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 9,
+      "name_en": "737-900",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 737-900, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 737-900, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 10,
+      "name_en": "747-100",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 747-100, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 747-100, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_four",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 11,
+      "name_en": "747-200",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 747-200, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 747-200, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_four",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 12,
+      "name_en": "747-300",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 747-300, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 747-300, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_four",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 13,
+      "name_en": "747-400",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 747-400, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 747-400, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_four",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 14,
+      "name_en": "757-200",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 757-200, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 757-200, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 15,
+      "name_en": "757-300",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a 757-300, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a 757-300, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 16,
+      "name_en": "767-200",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 767-200, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 767-200, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 17,
+      "name_en": "767-300",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 767-300, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 767-300, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 18,
+      "name_en": "767-400",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 767-400, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 767-400, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 19,
+      "name_en": "777-200",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 777-200, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 777-200, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 20,
+      "name_en": "777-300",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide long fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "caption_en": "a 777-300, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide long fuselage",
+      "base_description": "a 777-300, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide long fuselage"
+      ],
+      "profile": "wide_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 21,
+      "name_en": "A300B4",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A300B4, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A300B4, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_twin",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 22,
+      "name_en": "A310",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A310, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A310, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_twin",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 23,
+      "name_en": "A318",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a round narrow-body fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "caption_en": "a A318, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a round narrow-body fuselage",
+      "base_description": "a A318, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "profile": "airbus_narrow",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 24,
+      "name_en": "A319",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a round narrow-body fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "caption_en": "a A319, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a round narrow-body fuselage",
+      "base_description": "a A319, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "profile": "airbus_narrow",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 25,
+      "name_en": "A320",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a round narrow-body fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "caption_en": "a A320, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a round narrow-body fuselage",
+      "base_description": "a A320, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "profile": "airbus_narrow",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 26,
+      "name_en": "A321",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a round narrow-body fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "caption_en": "a A321, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a round narrow-body fuselage",
+      "base_description": "a A321, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a round narrow-body fuselage"
+      ],
+      "profile": "airbus_narrow",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 27,
+      "name_en": "A330-200",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A330-200, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A330-200, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_twin",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 28,
+      "name_en": "A330-300",
+      "morphology_en": "two large engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A330-300, a type of aircraft, two large engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A330-300, a type of aircraft",
+      "descriptors": [
+        "two large engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_twin",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 29,
+      "name_en": "A340-200",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A340-200, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A340-200, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_four",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 30,
+      "name_en": "A340-300",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A340-300, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A340-300, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_four",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 31,
+      "name_en": "A340-500",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A340-500, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A340-500, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_four",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 32,
+      "name_en": "A340-600",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A340-600, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A340-600, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_four",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 33,
+      "name_en": "A380",
+      "morphology_en": "four engines mounted below the wings; long swept wings; a single vertical tail; a wide-body fuselage.",
+      "key_points_en": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "caption_en": "a A380, a type of aircraft, four engines mounted below the wings, long swept wings, a single vertical tail, a wide-body fuselage",
+      "base_description": "a A380, a type of aircraft",
+      "descriptors": [
+        "four engines mounted below the wings",
+        "long swept wings",
+        "a single vertical tail",
+        "a wide-body fuselage"
+      ],
+      "profile": "airbus_wide_four",
+      "sources": [
+        {
+          "institution": "Airbus",
+          "title": "Commercial aircraft technical documents",
+          "url": "https://www.airbus.com/en/key-documents"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 34,
+      "name_en": "ATR-42",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a ATR-42, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a ATR-42, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 35,
+      "name_en": "ATR-72",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a ATR-72, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a ATR-72, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 36,
+      "name_en": "An-12",
+      "morphology_en": "four wing-mounted propeller engines; a high straight wing; a boxy fuselage; a conventional vertical tail.",
+      "key_points_en": [
+        "four wing-mounted propeller engines",
+        "a high straight wing",
+        "a boxy fuselage",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a An-12, a type of aircraft, four wing-mounted propeller engines, a high straight wing, a boxy fuselage, a conventional vertical tail",
+      "base_description": "a An-12, a type of aircraft",
+      "descriptors": [
+        "four wing-mounted propeller engines",
+        "a high straight wing",
+        "a boxy fuselage",
+        "a conventional vertical tail"
+      ],
+      "profile": "four_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 37,
+      "name_en": "BAE 146-200",
+      "morphology_en": "four jet engines mounted beneath the wings; a high swept wing; a compact regional fuselage; a conventional vertical tail.",
+      "key_points_en": [
+        "four jet engines mounted beneath the wings",
+        "a high swept wing",
+        "a compact regional fuselage",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a BAE 146-200, a type of aircraft, four jet engines mounted beneath the wings, a high swept wing, a compact regional fuselage, a conventional vertical tail",
+      "base_description": "a BAE 146-200, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "a high swept wing",
+        "a compact regional fuselage",
+        "a conventional vertical tail"
+      ],
+      "profile": "four_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 38,
+      "name_en": "BAE 146-300",
+      "morphology_en": "four jet engines mounted beneath the wings; a high swept wing; a compact regional fuselage; a conventional vertical tail.",
+      "key_points_en": [
+        "four jet engines mounted beneath the wings",
+        "a high swept wing",
+        "a compact regional fuselage",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a BAE 146-300, a type of aircraft, four jet engines mounted beneath the wings, a high swept wing, a compact regional fuselage, a conventional vertical tail",
+      "base_description": "a BAE 146-300, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "a high swept wing",
+        "a compact regional fuselage",
+        "a conventional vertical tail"
+      ],
+      "profile": "four_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 39,
+      "name_en": "BAE-125",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a BAE-125, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a BAE-125, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 40,
+      "name_en": "Beechcraft 1900",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Beechcraft 1900, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a Beechcraft 1900, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 41,
+      "name_en": "Boeing 717",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a Boeing 717, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a Boeing 717, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 42,
+      "name_en": "C-130",
+      "morphology_en": "four wing-mounted propeller engines; a high straight wing; a boxy fuselage; a conventional vertical tail.",
+      "key_points_en": [
+        "four wing-mounted propeller engines",
+        "a high straight wing",
+        "a boxy fuselage",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a C-130, a type of aircraft, four wing-mounted propeller engines, a high straight wing, a boxy fuselage, a conventional vertical tail",
+      "base_description": "a C-130, a type of aircraft",
+      "descriptors": [
+        "four wing-mounted propeller engines",
+        "a high straight wing",
+        "a boxy fuselage",
+        "a conventional vertical tail"
+      ],
+      "profile": "four_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 43,
+      "name_en": "C-47",
+      "morphology_en": "propeller engines mounted ahead of the wings; a straight wing; a conventional tail; a rounded fuselage.",
+      "key_points_en": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "caption_en": "a C-47, a type of aircraft, propeller engines mounted ahead of the wings, a straight wing, a conventional tail, a rounded fuselage",
+      "base_description": "a C-47, a type of aircraft",
+      "descriptors": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "profile": "historic_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 44,
+      "name_en": "CRJ-200",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a CRJ-200, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a CRJ-200, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 45,
+      "name_en": "CRJ-700",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a CRJ-700, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a CRJ-700, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 46,
+      "name_en": "CRJ-900",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a CRJ-900, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a CRJ-900, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 47,
+      "name_en": "Cessna 172",
+      "morphology_en": "a single nose-mounted propeller; a high-mounted wing; a conventional vertical tail; a compact light-aircraft fuselage.",
+      "key_points_en": [
+        "a single nose-mounted propeller",
+        "a high-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "caption_en": "a Cessna 172, a type of aircraft, a single nose-mounted propeller, a high-mounted wing, a conventional vertical tail, a compact light-aircraft fuselage",
+      "base_description": "a Cessna 172, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted propeller",
+        "a high-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "profile": "light_single",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 48,
+      "name_en": "Cessna 208",
+      "morphology_en": "a single nose-mounted propeller; a high-mounted wing; a conventional vertical tail; a compact light-aircraft fuselage.",
+      "key_points_en": [
+        "a single nose-mounted propeller",
+        "a high-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "caption_en": "a Cessna 208, a type of aircraft, a single nose-mounted propeller, a high-mounted wing, a conventional vertical tail, a compact light-aircraft fuselage",
+      "base_description": "a Cessna 208, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted propeller",
+        "a high-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "profile": "light_single",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 49,
+      "name_en": "Cessna 525",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Cessna 525, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Cessna 525, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 50,
+      "name_en": "Cessna 560",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Cessna 560, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Cessna 560, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 51,
+      "name_en": "Challenger 600",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Challenger 600, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Challenger 600, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 52,
+      "name_en": "DC-10",
+      "morphology_en": "two engines mounted beneath the wings; a third engine at the tail base; long swept wings; a wide fuselage.",
+      "key_points_en": [
+        "two engines mounted beneath the wings",
+        "a third engine at the tail base",
+        "long swept wings",
+        "a wide fuselage"
+      ],
+      "caption_en": "a DC-10, a type of aircraft, two engines mounted beneath the wings, a third engine at the tail base, long swept wings, a wide fuselage",
+      "base_description": "a DC-10, a type of aircraft",
+      "descriptors": [
+        "two engines mounted beneath the wings",
+        "a third engine at the tail base",
+        "long swept wings",
+        "a wide fuselage"
+      ],
+      "profile": "wide_trijet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 53,
+      "name_en": "DC-3",
+      "morphology_en": "propeller engines mounted ahead of the wings; a straight wing; a conventional tail; a rounded fuselage.",
+      "key_points_en": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "caption_en": "a DC-3, a type of aircraft, propeller engines mounted ahead of the wings, a straight wing, a conventional tail, a rounded fuselage",
+      "base_description": "a DC-3, a type of aircraft",
+      "descriptors": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "profile": "historic_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 54,
+      "name_en": "DC-6",
+      "morphology_en": "propeller engines mounted ahead of the wings; a straight wing; a conventional tail; a rounded fuselage.",
+      "key_points_en": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "caption_en": "a DC-6, a type of aircraft, propeller engines mounted ahead of the wings, a straight wing, a conventional tail, a rounded fuselage",
+      "base_description": "a DC-6, a type of aircraft",
+      "descriptors": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "profile": "historic_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 55,
+      "name_en": "DC-8",
+      "morphology_en": "two engines mounted below the wings; low swept wings; a single vertical tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a DC-8, a type of aircraft, two engines mounted below the wings, low swept wings, a single vertical tail, a slender cylindrical fuselage",
+      "base_description": "a DC-8, a type of aircraft",
+      "descriptors": [
+        "two engines mounted below the wings",
+        "low swept wings",
+        "a single vertical tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "narrow_twin",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing commercial aircraft product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 56,
+      "name_en": "DC-9-30",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a DC-9-30, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a DC-9-30, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 57,
+      "name_en": "DH-82",
+      "morphology_en": "propeller engines mounted ahead of the wings; a straight wing; a conventional tail; a rounded fuselage.",
+      "key_points_en": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "caption_en": "a DH-82, a type of aircraft, propeller engines mounted ahead of the wings, a straight wing, a conventional tail, a rounded fuselage",
+      "base_description": "a DH-82, a type of aircraft",
+      "descriptors": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "profile": "historic_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 58,
+      "name_en": "DHC-1",
+      "morphology_en": "propeller engines mounted ahead of the wings; a straight wing; a conventional tail; a rounded fuselage.",
+      "key_points_en": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "caption_en": "a DHC-1, a type of aircraft, propeller engines mounted ahead of the wings, a straight wing, a conventional tail, a rounded fuselage",
+      "base_description": "a DHC-1, a type of aircraft",
+      "descriptors": [
+        "propeller engines mounted ahead of the wings",
+        "a straight wing",
+        "a conventional tail",
+        "a rounded fuselage"
+      ],
+      "profile": "historic_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 59,
+      "name_en": "DHC-6",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a DHC-6, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a DHC-6, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 60,
+      "name_en": "DHC-8-100",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a DHC-8-100, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a DHC-8-100, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 61,
+      "name_en": "DHC-8-300",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a DHC-8-300, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a DHC-8-300, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 62,
+      "name_en": "DR-400",
+      "morphology_en": "a single nose-mounted propeller; a low-mounted wing; a conventional vertical tail; a compact light-aircraft fuselage.",
+      "key_points_en": [
+        "a single nose-mounted propeller",
+        "a low-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "caption_en": "a DR-400, a type of aircraft, a single nose-mounted propeller, a low-mounted wing, a conventional vertical tail, a compact light-aircraft fuselage",
+      "base_description": "a DR-400, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted propeller",
+        "a low-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "profile": "light_low",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 63,
+      "name_en": "Dornier 328",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Dornier 328, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a Dornier 328, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 64,
+      "name_en": "E-170",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a E-170, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a E-170, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 65,
+      "name_en": "E-190",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a E-190, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a E-190, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 66,
+      "name_en": "E-195",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a E-195, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a E-195, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 67,
+      "name_en": "EMB-120",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a EMB-120, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a EMB-120, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 68,
+      "name_en": "ERJ 135",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a ERJ 135, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a ERJ 135, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 69,
+      "name_en": "ERJ 145",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a ERJ 145, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a ERJ 145, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 70,
+      "name_en": "Embraer Legacy 600",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Embraer Legacy 600, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Embraer Legacy 600, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 71,
+      "name_en": "Eurofighter Typhoon",
+      "morphology_en": "a pointed nose; a swept wing; twin rear jet exhausts; a prominent vertical tail.",
+      "key_points_en": [
+        "a pointed nose",
+        "a swept wing",
+        "twin rear jet exhausts",
+        "a prominent vertical tail"
+      ],
+      "caption_en": "a Eurofighter Typhoon, a type of aircraft, a pointed nose, a swept wing, twin rear jet exhausts, a prominent vertical tail",
+      "base_description": "a Eurofighter Typhoon, a type of aircraft",
+      "descriptors": [
+        "a pointed nose",
+        "a swept wing",
+        "twin rear jet exhausts",
+        "a prominent vertical tail"
+      ],
+      "profile": "fighter_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 72,
+      "name_en": "F-16A/B",
+      "morphology_en": "a pointed nose; a swept wing; a single vertical tail; a single rear jet exhaust.",
+      "key_points_en": [
+        "a pointed nose",
+        "a swept wing",
+        "a single vertical tail",
+        "a single rear jet exhaust"
+      ],
+      "caption_en": "a F-16A/B, a type of aircraft, a pointed nose, a swept wing, a single vertical tail, a single rear jet exhaust",
+      "base_description": "a F-16A/B, a type of aircraft",
+      "descriptors": [
+        "a pointed nose",
+        "a swept wing",
+        "a single vertical tail",
+        "a single rear jet exhaust"
+      ],
+      "profile": "fighter_single",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 73,
+      "name_en": "F/A-18",
+      "morphology_en": "a pointed nose; a swept wing; twin rear jet exhausts; a prominent vertical tail.",
+      "key_points_en": [
+        "a pointed nose",
+        "a swept wing",
+        "twin rear jet exhausts",
+        "a prominent vertical tail"
+      ],
+      "caption_en": "a F/A-18, a type of aircraft, a pointed nose, a swept wing, twin rear jet exhausts, a prominent vertical tail",
+      "base_description": "a F/A-18, a type of aircraft",
+      "descriptors": [
+        "a pointed nose",
+        "a swept wing",
+        "twin rear jet exhausts",
+        "a prominent vertical tail"
+      ],
+      "profile": "fighter_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 74,
+      "name_en": "Falcon 2000",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Falcon 2000, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Falcon 2000, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 75,
+      "name_en": "Falcon 900",
+      "morphology_en": "three engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "three engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Falcon 900, a type of aircraft, three engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Falcon 900, a type of aircraft",
+      "descriptors": [
+        "three engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_trijet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 76,
+      "name_en": "Fokker 100",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a Fokker 100, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a Fokker 100, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 77,
+      "name_en": "Fokker 50",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Fokker 50, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a Fokker 50, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 78,
+      "name_en": "Fokker 70",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a Fokker 70, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a Fokker 70, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 79,
+      "name_en": "Global Express",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Global Express, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Global Express, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 80,
+      "name_en": "Gulfstream IV",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Gulfstream IV, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Gulfstream IV, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 81,
+      "name_en": "Gulfstream V",
+      "morphology_en": "two engines mounted at the rear fuselage; a swept low wing; a T-shaped tail; a narrow pointed nose.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "caption_en": "a Gulfstream V, a type of aircraft, two engines mounted at the rear fuselage, a swept low wing, a T-shaped tail, a narrow pointed nose",
+      "base_description": "a Gulfstream V, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a swept low wing",
+        "a T-shaped tail",
+        "a narrow pointed nose"
+      ],
+      "profile": "business_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 82,
+      "name_en": "Hawk T1",
+      "morphology_en": "a pointed nose; a swept wing; a single vertical tail; a single rear jet exhaust.",
+      "key_points_en": [
+        "a pointed nose",
+        "a swept wing",
+        "a single vertical tail",
+        "a single rear jet exhaust"
+      ],
+      "caption_en": "a Hawk T1, a type of aircraft, a pointed nose, a swept wing, a single vertical tail, a single rear jet exhaust",
+      "base_description": "a Hawk T1, a type of aircraft",
+      "descriptors": [
+        "a pointed nose",
+        "a swept wing",
+        "a single vertical tail",
+        "a single rear jet exhaust"
+      ],
+      "profile": "fighter_single",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 83,
+      "name_en": "Il-76",
+      "morphology_en": "four jet engines mounted beneath the wings; a high swept wing; a compact regional fuselage; a conventional vertical tail.",
+      "key_points_en": [
+        "four jet engines mounted beneath the wings",
+        "a high swept wing",
+        "a compact regional fuselage",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Il-76, a type of aircraft, four jet engines mounted beneath the wings, a high swept wing, a compact regional fuselage, a conventional vertical tail",
+      "base_description": "a Il-76, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "a high swept wing",
+        "a compact regional fuselage",
+        "a conventional vertical tail"
+      ],
+      "profile": "four_jet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 84,
+      "name_en": "L-1011",
+      "morphology_en": "two engines mounted beneath the wings; a third engine at the tail base; long swept wings; a wide fuselage.",
+      "key_points_en": [
+        "two engines mounted beneath the wings",
+        "a third engine at the tail base",
+        "long swept wings",
+        "a wide fuselage"
+      ],
+      "caption_en": "a L-1011, a type of aircraft, two engines mounted beneath the wings, a third engine at the tail base, long swept wings, a wide fuselage",
+      "base_description": "a L-1011, a type of aircraft",
+      "descriptors": [
+        "two engines mounted beneath the wings",
+        "a third engine at the tail base",
+        "long swept wings",
+        "a wide fuselage"
+      ],
+      "profile": "wide_trijet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 85,
+      "name_en": "MD-11",
+      "morphology_en": "two engines mounted beneath the wings; a third engine at the tail base; long swept wings; a wide fuselage.",
+      "key_points_en": [
+        "two engines mounted beneath the wings",
+        "a third engine at the tail base",
+        "long swept wings",
+        "a wide fuselage"
+      ],
+      "caption_en": "a MD-11, a type of aircraft, two engines mounted beneath the wings, a third engine at the tail base, long swept wings, a wide fuselage",
+      "base_description": "a MD-11, a type of aircraft",
+      "descriptors": [
+        "two engines mounted beneath the wings",
+        "a third engine at the tail base",
+        "long swept wings",
+        "a wide fuselage"
+      ],
+      "profile": "wide_trijet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 86,
+      "name_en": "MD-80",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a MD-80, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a MD-80, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 87,
+      "name_en": "MD-87",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a MD-87, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a MD-87, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 88,
+      "name_en": "MD-90",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a MD-90, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a MD-90, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 89,
+      "name_en": "Metroliner",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Metroliner, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a Metroliner, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 90,
+      "name_en": "Model B200",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Model B200, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a Model B200, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 91,
+      "name_en": "PA-28",
+      "morphology_en": "a single nose-mounted propeller; a low-mounted wing; a conventional vertical tail; a compact light-aircraft fuselage.",
+      "key_points_en": [
+        "a single nose-mounted propeller",
+        "a low-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "caption_en": "a PA-28, a type of aircraft, a single nose-mounted propeller, a low-mounted wing, a conventional vertical tail, a compact light-aircraft fuselage",
+      "base_description": "a PA-28, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted propeller",
+        "a low-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "profile": "light_low",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 92,
+      "name_en": "SR-20",
+      "morphology_en": "a single nose-mounted propeller; a low-mounted wing; a conventional vertical tail; a compact light-aircraft fuselage.",
+      "key_points_en": [
+        "a single nose-mounted propeller",
+        "a low-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "caption_en": "a SR-20, a type of aircraft, a single nose-mounted propeller, a low-mounted wing, a conventional vertical tail, a compact light-aircraft fuselage",
+      "base_description": "a SR-20, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted propeller",
+        "a low-mounted wing",
+        "a conventional vertical tail",
+        "a compact light-aircraft fuselage"
+      ],
+      "profile": "light_low",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 93,
+      "name_en": "Saab 2000",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Saab 2000, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a Saab 2000, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 94,
+      "name_en": "Saab 340",
+      "morphology_en": "two wing-mounted turboprop engines; large propellers; a high straight wing; a conventional vertical tail.",
+      "key_points_en": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "caption_en": "a Saab 340, a type of aircraft, two wing-mounted turboprop engines, large propellers, a high straight wing, a conventional vertical tail",
+      "base_description": "a Saab 340, a type of aircraft",
+      "descriptors": [
+        "two wing-mounted turboprop engines",
+        "large propellers",
+        "a high straight wing",
+        "a conventional vertical tail"
+      ],
+      "profile": "turboprop",
+      "sources": [
+        {
+          "institution": "ATR",
+          "title": "ATR regional aircraft technical comparison",
+          "url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 95,
+      "name_en": "Spitfire",
+      "morphology_en": "a single nose-mounted propeller; an elliptical low wing; a conventional vertical tail; a compact fighter fuselage.",
+      "key_points_en": [
+        "a single nose-mounted propeller",
+        "an elliptical low wing",
+        "a conventional vertical tail",
+        "a compact fighter fuselage"
+      ],
+      "caption_en": "a Spitfire, a type of aircraft, a single nose-mounted propeller, an elliptical low wing, a conventional vertical tail, a compact fighter fuselage",
+      "base_description": "a Spitfire, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted propeller",
+        "an elliptical low wing",
+        "a conventional vertical tail",
+        "a compact fighter fuselage"
+      ],
+      "profile": "historic_fighter_prop",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 96,
+      "name_en": "Tornado",
+      "morphology_en": "a pointed nose; a swept wing; twin rear jet exhausts; a prominent vertical tail.",
+      "key_points_en": [
+        "a pointed nose",
+        "a swept wing",
+        "twin rear jet exhausts",
+        "a prominent vertical tail"
+      ],
+      "caption_en": "a Tornado, a type of aircraft, a pointed nose, a swept wing, twin rear jet exhausts, a prominent vertical tail",
+      "base_description": "a Tornado, a type of aircraft",
+      "descriptors": [
+        "a pointed nose",
+        "a swept wing",
+        "twin rear jet exhausts",
+        "a prominent vertical tail"
+      ],
+      "profile": "fighter_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 97,
+      "name_en": "Tu-134",
+      "morphology_en": "two engines mounted at the rear fuselage; low swept wings; a T-shaped tail; a slender cylindrical fuselage.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "caption_en": "a Tu-134, a type of aircraft, two engines mounted at the rear fuselage, low swept wings, a T-shaped tail, a slender cylindrical fuselage",
+      "base_description": "a Tu-134, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "low swept wings",
+        "a T-shaped tail",
+        "a slender cylindrical fuselage"
+      ],
+      "profile": "rear_twin",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 98,
+      "name_en": "Tu-154",
+      "morphology_en": "two engines mounted at the rear fuselage; a third engine at the tail base; low swept wings; a T-shaped tail.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a third engine at the tail base",
+        "low swept wings",
+        "a T-shaped tail"
+      ],
+      "caption_en": "a Tu-154, a type of aircraft, two engines mounted at the rear fuselage, a third engine at the tail base, low swept wings, a T-shaped tail",
+      "base_description": "a Tu-154, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a third engine at the tail base",
+        "low swept wings",
+        "a T-shaped tail"
+      ],
+      "profile": "rear_trijet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    },
+    {
+      "class_id": 99,
+      "name_en": "Yak-42",
+      "morphology_en": "two engines mounted at the rear fuselage; a third engine at the tail base; low swept wings; a T-shaped tail.",
+      "key_points_en": [
+        "two engines mounted at the rear fuselage",
+        "a third engine at the tail base",
+        "low swept wings",
+        "a T-shaped tail"
+      ],
+      "caption_en": "a Yak-42, a type of aircraft, two engines mounted at the rear fuselage, a third engine at the tail base, low swept wings, a T-shaped tail",
+      "base_description": "a Yak-42, a type of aircraft",
+      "descriptors": [
+        "two engines mounted at the rear fuselage",
+        "a third engine at the tail base",
+        "low swept wings",
+        "a T-shaped tail"
+      ],
+      "profile": "rear_trijet",
+      "sources": [
+        {
+          "institution": "Federal Aviation Administration",
+          "title": "Aircraft type-certificate data-sheet lookup",
+          "url": "https://www.faa.gov/faq/how-can-i-locate-type-certificate-data-sheet-tcds-aircraft"
+        }
+      ],
+      "review_status": "source_scope_and_format_checked"
+    }
+  ],
+  "construction_scope": "Class names and documented public source material only. No FGVC image, support selection, validation output, test output, or prediction was used."
+}

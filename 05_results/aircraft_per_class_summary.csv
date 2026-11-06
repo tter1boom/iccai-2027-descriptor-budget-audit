@@ -1,0 +1,10 @@
+measure,value,unit,interpretation
+Class-by-resample cells with at least one gained correct prediction,330/500,100 classes x 5 support resamples,Descriptive; cells share the fixed test split.
+Class-by-resample cells with at least one lost correct prediction,264/500,100 classes x 5 support resamples,Descriptive; cells share the fixed test split.
+Classes with positive net change across five resamples,44,classes,"Net gained minus lost correct predictions, summed over resamples."
+Classes with zero net change across five resamples,21,classes,"Net gained minus lost correct predictions, summed over resamples."
+Classes with negative net change across five resamples,35,classes,"Net gained minus lost correct predictions, summed over resamples."
+Gained correct predictions across five resamples,1330,class-image-resample events,The same test images are evaluated in each support resample.
+Lost correct predictions across five resamples,1015,class-image-resample events,The same test images are evaluated in each support resample.
+Net correct-prediction change across five resamples,315,class-image-resample events,Gained minus lost events; not a count of unique test images.
+Largest positive class net change,SR-20: 116,correct-prediction events,Class-level sum over the five fixed test-set evaluations.

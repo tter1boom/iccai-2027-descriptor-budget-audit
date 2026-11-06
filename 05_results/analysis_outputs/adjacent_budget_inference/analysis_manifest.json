@@ -1,0 +1,15 @@
+{
+  "analysis": "corrected Aircraft adjacent-budget inference",
+  "status": "current archived result",
+  "result_file": "04_results/aircraft_main/adjacent_budget_inference/adjacent_results.csv",
+  "result_sha256": "252c36f5d9f6e59fe3b6a317c20f2bbff65bbc19bf1426787072886205f02a3a",
+  "contrast_count": 16,
+  "support_validation_resamples": 5,
+  "paired_class_stratified_bootstrap_draws": 20000,
+  "image_block_sign_flips": 100000,
+  "multiplicity_correction": "Holm across the 16 post-review specified adjacent-budget contrasts",
+  "p_value_source": "integer exceedance_count; add-one Monte Carlo p=(e+1)/(100000+1); Holm recomputed from the 16 exact raw p values",
+  "null_artifact": "adjacent_signflip_null_float64.npz",
+  "count_artifact": "adjacent_signflip_counts.csv",
+  "random_seed": 11789901110311654668
+}

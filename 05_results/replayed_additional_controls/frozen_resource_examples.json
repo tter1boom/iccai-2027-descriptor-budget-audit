@@ -1,0 +1,43 @@
+[
+  {
+    "class_id": 0,
+    "class_name": "707-320",
+    "base_description": "a 707-320, a type of aircraft",
+    "descriptors": [
+      "four jet engines mounted beneath the wings",
+      "low-mounted swept wings",
+      "a conventional tail with mid-set horizontal stabilizers",
+      "a long narrow-body fuselage"
+    ],
+    "sources": [
+      {
+        "institution": "EUROCONTROL Aviation Learning Centre",
+        "title": "Aircraft Performance Database — ICAO B703",
+        "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B703"
+      },
+      {
+        "institution": "Boeing",
+        "title": "Boeing — Airplane Characteristics / 707 planning manual index",
+        "url": "https://www.boeing.com/commercial/airports/plan-manuals"
+      }
+    ]
+  },
+  {
+    "class_id": 1,
+    "class_name": "727-200",
+    "base_description": "a 727-200, a type of aircraft",
+    "descriptors": [
+      "two jet engines mounted on the rear fuselage",
+      "a third jet intake integrated at the base of the vertical fin",
+      "low-mounted swept wings",
+      "a T-tail"
+    ],
+    "sources": [
+      {
+        "institution": "EUROCONTROL Aviation Learning Centre",
+        "title": "Aircraft Performance Database — ICAO B722",
+        "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B722"
+      }
+    ]
+  }
+]

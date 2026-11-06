@@ -1,0 +1,22 @@
+{
+  "backbone": "ViT-B-32",
+  "support_seed": 20261027,
+  "worker_index": 0,
+  "device": "cuda:0",
+  "worker_script_sha256": "e2c95fe94847f0b4207ff31979b8b1e6df7d55acbc11ee4a8f61982971c4276b",
+  "core_script_sha256": "567b21876e0699bd37fa80b41a3502924dbae5a1571a8d45bfd1a07f0399540e",
+  "files": {
+    "all_selections.csv": "df7e1abf5c8ccae603caa25539d6825b762a6e10f7f39e06bdd69d585d4e6afe",
+    "rankings.csv": "1bd2536ebae36e5ed2596283c3a02b5b4e7b34b6fceba71c029f14e07c31373d",
+    "test_curves.csv": "cf3c5407b9beb97d7c5b20099a4e874bf7b3fc93e16a4c64f5c14a5a37494046",
+    "exact_prompts.csv": "60199b97df4b11f7d98b0381c1e47158d89159cbfb5ed0aa73e4a32858881b4e",
+    "predictions_positive_mean.npz": "fd7b1b15d75aa4312a69fdc72ee39bfb87d2332e36b3c47c9da4126e5c4f73c9",
+    "predictions_contrastive_margin.npz": "04fc2d7d4c9f503dfa170a4e8135cec21e648511c73708c3abe2459641c1dd70"
+  },
+  "counts": {
+    "selection_rows": 600,
+    "ranking_rows": 800,
+    "curve_rows": 10,
+    "prompt_rows": 1000
+  }
+}

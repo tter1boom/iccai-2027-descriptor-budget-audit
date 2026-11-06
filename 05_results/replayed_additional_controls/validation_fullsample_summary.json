@@ -1,0 +1,12 @@
+{
+  "n_support_resamples": 20,
+  "agreement_count": 4,
+  "agreement_fraction": 0.2,
+  "mean_regret_pp": 0.445053475935825,
+  "median_regret_pp": 0.385472370766485,
+  "q1_regret_pp": 0.27540106951871246,
+  "q3_regret_pp": 0.688725490196075,
+  "min_regret_pp": 0.0,
+  "max_regret_pp": 0.9465240641711101,
+  "test_best_is_descriptive_only": true
+}

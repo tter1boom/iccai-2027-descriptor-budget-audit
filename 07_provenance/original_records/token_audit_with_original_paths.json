@@ -1,0 +1,66 @@
+{
+  "ViT-B-16": {
+    "tokenizer_class": "CLIPTokenizer",
+    "local_path": "[local checkpoint path redacted; see 01_protocol/model_lock.json]",
+    "k": {
+      "0": {
+        "max_tokens": 16,
+        "min_tokens": 9,
+        "limit": 77
+      },
+      "1": {
+        "max_tokens": 33,
+        "min_tokens": 19,
+        "limit": 77
+      },
+      "2": {
+        "max_tokens": 43,
+        "min_tokens": 24,
+        "limit": 77
+      },
+      "3": {
+        "max_tokens": 49,
+        "min_tokens": 29,
+        "limit": 77
+      },
+      "4": {
+        "max_tokens": 61,
+        "min_tokens": 35,
+        "limit": 77
+      }
+    },
+    "k4_identical_across_scorers": true
+  },
+  "ViT-B-32": {
+    "tokenizer_class": "CLIPTokenizer",
+    "local_path": "[local checkpoint path redacted; see 01_protocol/model_lock.json]",
+    "k": {
+      "0": {
+        "max_tokens": 16,
+        "min_tokens": 9,
+        "limit": 77
+      },
+      "1": {
+        "max_tokens": 33,
+        "min_tokens": 19,
+        "limit": 77
+      },
+      "2": {
+        "max_tokens": 43,
+        "min_tokens": 24,
+        "limit": 77
+      },
+      "3": {
+        "max_tokens": 49,
+        "min_tokens": 29,
+        "limit": 77
+      },
+      "4": {
+        "max_tokens": 61,
+        "min_tokens": 35,
+        "limit": 77
+      }
+    },
+    "k4_identical_across_scorers": true
+  }
+}

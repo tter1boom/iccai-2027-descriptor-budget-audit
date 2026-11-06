@@ -1,0 +1,11 @@
+evidence_id,paper_location,claim_or_content,package_path,status,role,sha256
+R01,Methods / Table 1,Aircraft setup,01_protocol/experiment_config.json,current,evidence,ee70a8ab89a7395fac72457949c56f8ef1c6f2274ac02a622cd7f70fc6ae406e
+R02,Methods / Appendix Table S1,Dataset and preprocessing,01_protocol/dataset_protocol.json,current,evidence,f625ffa98677ea3af5f95374b11dc1c4b33d0814af22082c2ab08a6493700691
+R03,Methods / Appendix Table S1,Split manifests,01_protocol/split_manifests/,current,evidence,directory
+R04,Results,Frozen descriptor catalogue,02_resources/aircraft_descriptors_frozen.json,current,evidence,67876cc858a9b6a1785b7eaa229a54dd40ad3394de7a7c989ad0d77b803808fc
+R05,Resource audit,Descriptor-level audit,02_resources/aircraft_descriptor_audit.csv,current,evidence,bdb085a4bbfaa1ec8a732e2ec0930388cfe07bdee5e726391ef0221ff18433b5
+R06,Resource audit,Revision timeline,02_resources/resource_revision_timeline.csv,current,evidence,e6b7b75fe611c531759818d1b1304e6a06fe4a8d0131e7eddb25818c96833471
+R07,Resource audit,Freeze manifest,02_resources/resource_freeze_manifest.json,current,evidence,5eacd66ae89cb8344efa9f1832ffa368ec4f4d072cc9dda3b2730639494da774
+R08,Figure 1 and Figure 2,Figure source tables and rendered assets,05_results/figure_source_data/,current,evidence,directory
+R09,Section 4 / Figure 2a,Nested validation records,04_data/validation_selection_records/all_selections.csv,current,evidence,800c36d8dd6937588dc2b2a2adba03ff753fdf08c24516c242c7cd66f43d813e
+R10,Section 4 / Figure 1,Per-image predictions,04_data/aircraft_prediction_records/predictions.csv,current,evidence,5fe55b0dc3abb50b46e5c7ad40a645b1d18bdb50d01be78e27397062c18396f4

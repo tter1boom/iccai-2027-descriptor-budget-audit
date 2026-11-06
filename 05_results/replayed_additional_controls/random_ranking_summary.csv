@@ -1,0 +1,3 @@
+backbone,n_random_rankings,mean_of_ranking_means_macro_accuracy,sd_across_random_ranking_means,q025_ranking_mean_macro_accuracy,median_ranking_mean_macro_accuracy,q975_ranking_mean_macro_accuracy,mean_selected_k,summary_unit,analysis_status
+ViT-B-16,50,0.24976064171122997,0.003742801172420691,0.24406323529411766,0.24930124777183604,0.2586210784313725,0.972,"50 random ranking means, each averaged across the same five support/validation resamples",post_review_exploratory_no_hypothesis_test
+ViT-B-32,50,0.19657447415329773,0.0027963369819211793,0.19108030303030302,0.19629055258467024,0.20145476827094477,1.8359999999999999,"50 random ranking means, each averaged across the same five support/validation resamples",post_review_exploratory_no_hypothesis_test

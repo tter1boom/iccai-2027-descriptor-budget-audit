@@ -1,0 +1,16 @@
+backbone,ranker,comparison,class_seed_rows,class_seed_rows_with_any_gain,class_seed_rows_with_any_loss,class_seed_rows_net_positive,class_seed_rows_net_negative,total_gains,total_losses,total_net_change
+ViT-B-16,contrastive_margin,k1_vs_k0,500,330,281,206,164,1176,1028,148
+ViT-B-16,contrastive_margin,selected_k0_vs_k0,200,0,0,0,0,0,0,0
+ViT-B-16,contrastive_margin,selected_k1_vs_k0,300,194,171,118,104,689,625,64
+ViT-B-16,positive_mean,k1_vs_k0,500,330,264,210,156,1330,1015,315
+ViT-B-16,positive_mean,selected_k0_vs_k0,100,0,0,0,0,0,0,0
+ViT-B-16,positive_mean,selected_k1_vs_k0,300,199,157,128,91,784,596,188
+ViT-B-16,positive_mean,selected_k2_vs_k0,100,51,54,35,39,279,222,57
+ViT-B-32,contrastive_margin,k1_vs_k0,500,273,272,196,197,875,843,32
+ViT-B-32,contrastive_margin,selected_k0_vs_k0,100,0,0,0,0,0,0,0
+ViT-B-32,contrastive_margin,selected_k2_vs_k0,100,57,66,34,40,187,222,-35
+ViT-B-32,contrastive_margin,selected_k3_vs_k0,300,179,175,123,105,549,527,22
+ViT-B-32,positive_mean,k1_vs_k0,500,297,283,209,164,964,813,151
+ViT-B-32,positive_mean,selected_k0_vs_k0,200,0,0,0,0,0,0,0
+ViT-B-32,positive_mean,selected_k2_vs_k0,100,58,58,40,37,207,186,21
+ViT-B-32,positive_mean,selected_k3_vs_k0,200,114,121,82,76,374,337,37

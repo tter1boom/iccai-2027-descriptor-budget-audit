@@ -1,0 +1,564 @@
+{
+  "basis": "This release incorporates five reviewer-driven analyses that followed a documented post-review plan, plus a separate post hoc base-matched Aircraft addendum reported only as a distinct diagnostic; the packaged five-analysis protocol is a consolidated record rather than a preregistration; it also includes a separately reported post-review exploratory fixed-catalogue ranking control that is not a hypothesis-test family",
+  "aircraft_adjacent": {
+    "planned_contrasts": 16,
+    "holm_supported_contrasts": 1,
+    "holm_supported_negative_contrasts": 0,
+    "only_supported_contrast": {
+      "backbone": "ViT-B-16",
+      "ranker": "positive_mean",
+      "transition": "0->1",
+      "delta_pp": 1.864884,
+      "ci95_pp": [
+        0.821903,
+        2.910896
+      ],
+      "holm_p": 0.02543975
+    },
+    "specification_timing": "post-review specified after earlier Aircraft test-split use and resource revision; Holm adjustment addresses multiplicity only"
+  },
+  "development_class_concentration": [
+    {
+      "backbone": "ViT-B-32",
+      "ranker": "positive_mean",
+      "net_correct_gain": 22,
+      "improved_classes": 5,
+      "worse_classes": 4,
+      "unchanged_classes": 1,
+      "drugstore_net_correct_gain": 22,
+      "drugstore_positive_gain_share_pct": 68.75,
+      "gain_after_excluding_drugstore_pp": 0.0
+    },
+    {
+      "backbone": "ViT-B-32",
+      "ranker": "contrastive_margin",
+      "net_correct_gain": 24,
+      "improved_classes": 5,
+      "worse_classes": 3,
+      "unchanged_classes": 2,
+      "drugstore_net_correct_gain": 22,
+      "drugstore_positive_gain_share_pct": 68.75,
+      "gain_after_excluding_drugstore_pp": 0.740741
+    },
+    {
+      "backbone": "ViT-B-16",
+      "ranker": "positive_mean",
+      "net_correct_gain": 36,
+      "improved_classes": 5,
+      "worse_classes": 4,
+      "unchanged_classes": 1,
+      "drugstore_net_correct_gain": 20,
+      "drugstore_positive_gain_share_pct": 41.666667,
+      "gain_after_excluding_drugstore_pp": 5.925926
+    },
+    {
+      "backbone": "ViT-B-16",
+      "ranker": "contrastive_margin",
+      "net_correct_gain": 31,
+      "improved_classes": 7,
+      "worse_classes": 2,
+      "unchanged_classes": 1,
+      "drugstore_net_correct_gain": 24,
+      "drugstore_positive_gain_share_pct": 52.173913,
+      "gain_after_excluding_drugstore_pp": 2.592593
+    }
+  ],
+  "aircraft_validation_regret": {
+    "ViT-B-16|positive_mean": {
+      "nV5_pp": 0.510322,
+      "allV_pp": 0.092112,
+      "mean_regret_ci95_pp": {
+        "1": [
+          0.691324,
+          0.935267
+        ],
+        "2": [
+          0.583694,
+          0.776702
+        ],
+        "5": [
+          0.412822,
+          0.617202
+        ],
+        "10": [
+          0.258521,
+          0.42091
+        ],
+        "20": [
+          0.085803,
+          0.196364
+        ],
+        "all": [
+          0.026159,
+          0.175758
+        ]
+      }
+    },
+    "ViT-B-16|contrastive_margin": {
+      "nV5_pp": 0.528066,
+      "allV_pp": 0.332843,
+      "mean_regret_ci95_pp": {
+        "1": [
+          0.556099,
+          0.698832
+        ],
+        "2": [
+          0.493314,
+          0.644889
+        ],
+        "5": [
+          0.435303,
+          0.617766
+        ],
+        "10": [
+          0.368994,
+          0.571017
+        ],
+        "20": [
+          0.264426,
+          0.53678
+        ],
+        "all": [
+          0.179854,
+          0.507674
+        ]
+      }
+    },
+    "ViT-B-32|positive_mean": {
+      "nV5_pp": 0.409127,
+      "allV_pp": 0.445053,
+      "mean_regret_ci95_pp": {
+        "1": [
+          0.432252,
+          0.563977
+        ],
+        "2": [
+          0.383107,
+          0.514012
+        ],
+        "5": [
+          0.348731,
+          0.473358
+        ],
+        "10": [
+          0.32694,
+          0.457843
+        ],
+        "20": [
+          0.317211,
+          0.461845
+        ],
+        "all": [
+          0.310245,
+          0.58075
+        ]
+      }
+    },
+    "ViT-B-32|contrastive_margin": {
+      "nV5_pp": 0.273224,
+      "allV_pp": 0.118226,
+      "mean_regret_ci95_pp": {
+        "1": [
+          0.378083,
+          0.509174
+        ],
+        "2": [
+          0.321033,
+          0.431565
+        ],
+        "5": [
+          0.225793,
+          0.324327
+        ],
+        "10": [
+          0.153556,
+          0.2473
+        ],
+        "20": [
+          0.082956,
+          0.172574
+        ],
+        "all": [
+          0.044027,
+          0.207488
+        ]
+      }
+    }
+  },
+  "aircraft_b32_pm": {
+    "top1_modal_ranking_agreement_pct": 91.15,
+    "test_oracle_k1_support_resamples": 17,
+    "support_resamples": 20,
+    "full_validation_k3_support_resamples": 15,
+    "full_validation_support_resamples": 20,
+    "validation_permutation_records_per_support_resample": 50,
+    "full_validation_permutation_records_are_duplicate_within_support": true,
+    "full_validation_k3_pct": 75.0
+  },
+  "prompt_macro_accuracy": {
+    "aircraft|ViT-B-16|contrastive_margin|current_base": 0.24452763,
+    "aircraft|ViT-B-16|contrastive_margin|fixed_k1": 0.25313369,
+    "aircraft|ViT-B-16|contrastive_margin|k4_all_descriptors": 0.25612299,
+    "aircraft|ViT-B-16|not_applicable|class_name_only": 0.21082888,
+    "aircraft|ViT-B-16|not_applicable|standard_template": 0.23759358,
+    "aircraft|ViT-B-16|positive_mean|current_base": 0.24452763,
+    "aircraft|ViT-B-16|positive_mean|fixed_k1": 0.26317647,
+    "aircraft|ViT-B-16|positive_mean|k4_all_descriptors": 0.25612299,
+    "aircraft|ViT-B-32|contrastive_margin|current_base": 0.19787879,
+    "aircraft|ViT-B-32|contrastive_margin|fixed_k1": 0.19975223,
+    "aircraft|ViT-B-32|contrastive_margin|k4_all_descriptors": 0.20197861,
+    "aircraft|ViT-B-32|not_applicable|class_name_only": 0.17804813,
+    "aircraft|ViT-B-32|not_applicable|standard_template": 0.18771836,
+    "aircraft|ViT-B-32|positive_mean|current_base": 0.19787879,
+    "aircraft|ViT-B-32|positive_mean|fixed_k1": 0.2067451,
+    "aircraft|ViT-B-32|positive_mean|k4_all_descriptors": 0.20197861,
+    "development|ViT-B-16|contrastive_margin|current_base": 0.40666667,
+    "development|ViT-B-16|contrastive_margin|fixed_k1": 0.48666667,
+    "development|ViT-B-16|contrastive_margin|k4_all_descriptors": 0.40666667,
+    "development|ViT-B-16|not_applicable|class_name_only": 0.33666667,
+    "development|ViT-B-16|not_applicable|standard_template": 0.30666667,
+    "development|ViT-B-16|positive_mean|current_base": 0.40666667,
+    "development|ViT-B-16|positive_mean|fixed_k1": 0.52666667,
+    "development|ViT-B-16|positive_mean|k4_all_descriptors": 0.40666667,
+    "development|ViT-B-32|contrastive_margin|current_base": 0.36666667,
+    "development|ViT-B-32|contrastive_margin|fixed_k1": 0.44666667,
+    "development|ViT-B-32|contrastive_margin|k4_all_descriptors": 0.37666667,
+    "development|ViT-B-32|not_applicable|class_name_only": 0.27333333,
+    "development|ViT-B-32|not_applicable|standard_template": 0.21666667,
+    "development|ViT-B-32|positive_mean|current_base": 0.36666667,
+    "development|ViT-B-32|positive_mean|fixed_k1": 0.44,
+    "development|ViT-B-32|positive_mean|k4_all_descriptors": 0.37666667
+  },
+  "matched_interface_mean_pct": [
+    {
+      "backbone": "ViT-B-16",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 1,
+      "mean_pct": 24.116578,
+      "seed_sd_pp": 0.761131
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 2,
+      "mean_pct": 24.046702,
+      "seed_sd_pp": 0.439718
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 3,
+      "mean_pct": 24.696257,
+      "seed_sd_pp": 0.297686
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 4,
+      "mean_pct": 25.854724,
+      "seed_sd_pp": 0.0
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "independent_attribute_voting",
+      "k": 1,
+      "mean_pct": 3.101248,
+      "seed_sd_pp": 0.144036
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "independent_attribute_voting",
+      "k": 2,
+      "mean_pct": 5.272014,
+      "seed_sd_pp": 0.653761
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "independent_attribute_voting",
+      "k": 3,
+      "mean_pct": 4.818182,
+      "seed_sd_pp": 0.354195
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "independent_attribute_voting",
+      "k": 4,
+      "mean_pct": 4.903743,
+      "seed_sd_pp": 0.0
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "single_recomposed_prototype",
+      "k": 1,
+      "mean_pct": 26.317647,
+      "seed_sd_pp": 0.644203
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "single_recomposed_prototype",
+      "k": 2,
+      "mean_pct": 26.049198,
+      "seed_sd_pp": 0.175026
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "single_recomposed_prototype",
+      "k": 3,
+      "mean_pct": 25.644029,
+      "seed_sd_pp": 0.319506
+    },
+    {
+      "backbone": "ViT-B-16",
+      "interface": "single_recomposed_prototype",
+      "k": 4,
+      "mean_pct": 25.612299,
+      "seed_sd_pp": 0.0
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 1,
+      "mean_pct": 20.439929,
+      "seed_sd_pp": 0.151801
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 2,
+      "mean_pct": 20.705526,
+      "seed_sd_pp": 0.195138
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 3,
+      "mean_pct": 20.488592,
+      "seed_sd_pp": 0.314722
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "class_anchored_descriptor_ensemble",
+      "k": 4,
+      "mean_pct": 20.655971,
+      "seed_sd_pp": 0.0
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "independent_attribute_voting",
+      "k": 1,
+      "mean_pct": 4.757219,
+      "seed_sd_pp": 0.475056
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "independent_attribute_voting",
+      "k": 2,
+      "mean_pct": 4.835116,
+      "seed_sd_pp": 0.229487
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "independent_attribute_voting",
+      "k": 3,
+      "mean_pct": 3.105348,
+      "seed_sd_pp": 0.548217
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "independent_attribute_voting",
+      "k": 4,
+      "mean_pct": 2.125668,
+      "seed_sd_pp": 0.0
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "single_recomposed_prototype",
+      "k": 1,
+      "mean_pct": 20.67451,
+      "seed_sd_pp": 0.108235
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "single_recomposed_prototype",
+      "k": 2,
+      "mean_pct": 20.206595,
+      "seed_sd_pp": 0.210063
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "single_recomposed_prototype",
+      "k": 3,
+      "mean_pct": 20.158111,
+      "seed_sd_pp": 0.167567
+    },
+    {
+      "backbone": "ViT-B-32",
+      "interface": "single_recomposed_prototype",
+      "k": 4,
+      "mean_pct": 20.197861,
+      "seed_sd_pp": 0.0
+    }
+  ],
+  "centroid_test_top1_accuracy_pct": {
+    "ViT-B-32": 87.333333,
+    "ViT-B-16": 88.333333
+  },
+  "source_only_exploratory_ci_pp": {
+    "ViT-B-32|positive_mean": {
+      "contrast": "k=1_minus_k=4",
+      "delta_pp": 8.33,
+      "ci95_pp": [
+        4.41,
+        12.22
+      ]
+    },
+    "ViT-B-32|contrastive_margin": {
+      "contrast": "k=1_minus_k=4",
+      "delta_pp": 11.33,
+      "ci95_pp": [
+        7.1,
+        15.4
+      ]
+    },
+    "ViT-B-16|positive_mean": {
+      "contrast": "k=2_minus_k=4",
+      "delta_pp": 3.0,
+      "ci95_pp": [
+        -0.54,
+        6.66
+      ]
+    },
+    "ViT-B-16|contrastive_margin": {
+      "contrast": "k=2_minus_k=4",
+      "delta_pp": 1.67,
+      "ci95_pp": [
+        -2.11,
+        5.31
+      ]
+    }
+  },
+  "prompt_accuracy_primary_metric": "macro_accuracy",
+  "aircraft_fixed_catalogue_ranking_control": {
+    "ViT-B-16|contrastive_margin": {
+      "selected_k_by_seed": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "seed_order": [
+        20261003,
+        20261004,
+        20261005,
+        20261006,
+        20261007
+      ],
+      "mean_selected_test_macro_accuracy_pct": 24.819786,
+      "sd_selected_test_macro_accuracy_pp": 0.563074,
+      "status": "post_review_exploratory_descriptive_control_no_hypothesis_test"
+    },
+    "ViT-B-16|fixed_catalogue_order": {
+      "selected_k_by_seed": [
+        4,
+        0,
+        1,
+        1,
+        0
+      ],
+      "seed_order": [
+        20261003,
+        20261004,
+        20261005,
+        20261006,
+        20261007
+      ],
+      "mean_selected_test_macro_accuracy_pct": 25.200178,
+      "sd_selected_test_macro_accuracy_pp": 0.684331,
+      "status": "post_review_exploratory_descriptive_control_no_hypothesis_test"
+    },
+    "ViT-B-16|positive_mean": {
+      "selected_k_by_seed": [
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "seed_order": [
+        20261003,
+        20261004,
+        20261005,
+        20261006,
+        20261007
+      ],
+      "mean_selected_test_macro_accuracy_pct": 25.902317,
+      "sd_selected_test_macro_accuracy_pp": 1.037156,
+      "status": "post_review_exploratory_descriptive_control_no_hypothesis_test"
+    },
+    "ViT-B-32|contrastive_margin": {
+      "selected_k_by_seed": [
+        3,
+        3,
+        2,
+        3,
+        0
+      ],
+      "seed_order": [
+        20261003,
+        20261004,
+        20261005,
+        20261006,
+        20261007
+      ],
+      "mean_selected_test_macro_accuracy_pct": 19.709447,
+      "sd_selected_test_macro_accuracy_pp": 0.61029,
+      "status": "post_review_exploratory_descriptive_control_no_hypothesis_test"
+    },
+    "ViT-B-32|fixed_catalogue_order": {
+      "selected_k_by_seed": [
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "seed_order": [
+        20261003,
+        20261004,
+        20261005,
+        20261006,
+        20261007
+      ],
+      "mean_selected_test_macro_accuracy_pct": 19.64385,
+      "sd_selected_test_macro_accuracy_pp": 0.568123,
+      "status": "post_review_exploratory_descriptive_control_no_hypothesis_test"
+    },
+    "ViT-B-32|positive_mean": {
+      "selected_k_by_seed": [
+        3,
+        2,
+        3,
+        0,
+        0
+      ],
+      "seed_order": [
+        20261003,
+        20261004,
+        20261005,
+        20261006,
+        20261007
+      ],
+      "mean_selected_test_macro_accuracy_pct": 20.129412,
+      "sd_selected_test_macro_accuracy_pp": 0.313504,
+      "status": "post_review_exploratory_descriptive_control_no_hypothesis_test"
+    }
+  },
+  "aircraft_adjacent_signflip_counts": {
+    "n_contrasts": 16,
+    "n_permutations": 100000,
+    "raw_p_rule": "(exceedance_count + 1)/(100000 + 1)",
+    "counts_file": "04_results/aircraft_main/adjacent_budget_inference/adjacent_signflip_counts.csv",
+    "null_file": "04_results/aircraft_main/adjacent_budget_inference/adjacent_signflip_null_float64.npz"
+  }
+}

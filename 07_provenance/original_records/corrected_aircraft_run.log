@@ -1,0 +1,154 @@
+2026-10-04T04:27:57.686213+00:00 pre-run QA PASS; test evaluation unlocked
+2026-10-04T04:27:57.698878+00:00 loading ViT-B-16 from exact local checkpoint models\clip-vit-base-patch16
+2026-10-04T04:27:59.872810+00:00 image_features_ViT-B-16: encoded 16/10000 images
+2026-10-04T04:28:17.666994+00:00 image_features_ViT-B-16: encoded 176/10000 images
+2026-10-04T04:28:35.744857+00:00 image_features_ViT-B-16: encoded 336/10000 images
+2026-10-04T04:28:53.609065+00:00 image_features_ViT-B-16: encoded 496/10000 images
+2026-10-04T04:29:11.729107+00:00 image_features_ViT-B-16: encoded 656/10000 images
+2026-10-04T04:29:29.633652+00:00 image_features_ViT-B-16: encoded 816/10000 images
+2026-10-04T04:29:47.589934+00:00 image_features_ViT-B-16: encoded 976/10000 images
+2026-10-04T04:30:05.581829+00:00 image_features_ViT-B-16: encoded 1136/10000 images
+2026-10-04T04:30:23.523503+00:00 image_features_ViT-B-16: encoded 1296/10000 images
+2026-10-04T04:30:41.534565+00:00 image_features_ViT-B-16: encoded 1456/10000 images
+2026-10-04T04:30:59.449947+00:00 image_features_ViT-B-16: encoded 1616/10000 images
+2026-10-04T04:31:17.470492+00:00 image_features_ViT-B-16: encoded 1776/10000 images
+2026-10-04T04:31:35.359399+00:00 image_features_ViT-B-16: encoded 1936/10000 images
+2026-10-04T04:31:53.371343+00:00 image_features_ViT-B-16: encoded 2096/10000 images
+2026-10-04T04:32:11.543500+00:00 image_features_ViT-B-16: encoded 2256/10000 images
+2026-10-04T04:32:29.790623+00:00 image_features_ViT-B-16: encoded 2416/10000 images
+2026-10-04T04:32:47.716610+00:00 image_features_ViT-B-16: encoded 2576/10000 images
+2026-10-04T04:33:05.735345+00:00 image_features_ViT-B-16: encoded 2736/10000 images
+2026-10-04T04:33:23.792797+00:00 image_features_ViT-B-16: encoded 2896/10000 images
+2026-10-04T04:33:41.847481+00:00 image_features_ViT-B-16: encoded 3056/10000 images
+2026-10-04T04:34:00.652340+00:00 image_features_ViT-B-16: encoded 3216/10000 images
+2026-10-04T04:34:18.740739+00:00 image_features_ViT-B-16: encoded 3376/10000 images
+2026-10-04T04:34:36.583441+00:00 image_features_ViT-B-16: encoded 3536/10000 images
+2026-10-04T04:34:54.634668+00:00 image_features_ViT-B-16: encoded 3696/10000 images
+2026-10-04T04:35:12.493539+00:00 image_features_ViT-B-16: encoded 3856/10000 images
+2026-10-04T04:35:30.362718+00:00 image_features_ViT-B-16: encoded 4016/10000 images
+2026-10-04T04:35:48.436412+00:00 image_features_ViT-B-16: encoded 4176/10000 images
+2026-10-04T04:36:06.348824+00:00 image_features_ViT-B-16: encoded 4336/10000 images
+2026-10-04T04:36:24.437472+00:00 image_features_ViT-B-16: encoded 4496/10000 images
+2026-10-04T04:36:42.326976+00:00 image_features_ViT-B-16: encoded 4656/10000 images
+2026-10-04T04:37:00.179158+00:00 image_features_ViT-B-16: encoded 4816/10000 images
+2026-10-04T04:37:18.160110+00:00 image_features_ViT-B-16: encoded 4976/10000 images
+2026-10-04T04:37:36.157915+00:00 image_features_ViT-B-16: encoded 5136/10000 images
+2026-10-04T04:37:54.133969+00:00 image_features_ViT-B-16: encoded 5296/10000 images
+2026-10-04T04:38:11.973504+00:00 image_features_ViT-B-16: encoded 5456/10000 images
+2026-10-04T04:38:30.039614+00:00 image_features_ViT-B-16: encoded 5616/10000 images
+2026-10-04T04:38:48.098546+00:00 image_features_ViT-B-16: encoded 5776/10000 images
+2026-10-04T04:39:06.226461+00:00 image_features_ViT-B-16: encoded 5936/10000 images
+2026-10-04T04:39:24.272212+00:00 image_features_ViT-B-16: encoded 6096/10000 images
+2026-10-04T04:39:42.523805+00:00 image_features_ViT-B-16: encoded 6256/10000 images
+2026-10-04T04:40:00.562863+00:00 image_features_ViT-B-16: encoded 6416/10000 images
+2026-10-04T04:40:18.767480+00:00 image_features_ViT-B-16: encoded 6576/10000 images
+2026-10-04T04:40:36.812733+00:00 image_features_ViT-B-16: encoded 6736/10000 images
+2026-10-04T04:40:54.970970+00:00 image_features_ViT-B-16: encoded 6896/10000 images
+2026-10-04T04:41:13.204278+00:00 image_features_ViT-B-16: encoded 7056/10000 images
+2026-10-04T04:41:31.364622+00:00 image_features_ViT-B-16: encoded 7216/10000 images
+2026-10-04T04:41:49.474936+00:00 image_features_ViT-B-16: encoded 7376/10000 images
+2026-10-04T04:42:07.295867+00:00 image_features_ViT-B-16: encoded 7536/10000 images
+2026-10-04T04:42:25.051286+00:00 image_features_ViT-B-16: encoded 7696/10000 images
+2026-10-04T04:42:43.141807+00:00 image_features_ViT-B-16: encoded 7856/10000 images
+2026-10-04T04:43:01.116029+00:00 image_features_ViT-B-16: encoded 8016/10000 images
+2026-10-04T04:43:19.277837+00:00 image_features_ViT-B-16: encoded 8176/10000 images
+2026-10-04T04:43:37.600157+00:00 image_features_ViT-B-16: encoded 8336/10000 images
+2026-10-04T04:43:55.546511+00:00 image_features_ViT-B-16: encoded 8496/10000 images
+2026-10-04T04:44:13.441913+00:00 image_features_ViT-B-16: encoded 8656/10000 images
+2026-10-04T04:44:31.484115+00:00 image_features_ViT-B-16: encoded 8816/10000 images
+2026-10-04T04:44:49.717130+00:00 image_features_ViT-B-16: encoded 8976/10000 images
+2026-10-04T04:45:07.912486+00:00 image_features_ViT-B-16: encoded 9136/10000 images
+2026-10-04T04:45:26.148524+00:00 image_features_ViT-B-16: encoded 9296/10000 images
+2026-10-04T04:45:44.285857+00:00 image_features_ViT-B-16: encoded 9456/10000 images
+2026-10-04T04:46:02.099522+00:00 image_features_ViT-B-16: encoded 9616/10000 images
+2026-10-04T04:46:19.925935+00:00 image_features_ViT-B-16: encoded 9776/10000 images
+2026-10-04T04:46:37.991018+00:00 image_features_ViT-B-16: encoded 9936/10000 images
+2026-10-04T04:46:45.129377+00:00 image_features_ViT-B-16: encoded 10000/10000 images
+2026-10-04T04:46:54.884427+00:00 finished ViT-B-16 seed=20261003 scorer=positive_mean; selected k=1
+2026-10-04T04:47:00.647320+00:00 finished ViT-B-16 seed=20261003 scorer=contrastive_margin; selected k=1
+2026-10-04T04:47:06.495208+00:00 finished ViT-B-16 seed=20261004 scorer=positive_mean; selected k=0
+2026-10-04T04:47:12.326233+00:00 finished ViT-B-16 seed=20261004 scorer=contrastive_margin; selected k=0
+2026-10-04T04:47:18.405361+00:00 finished ViT-B-16 seed=20261005 scorer=positive_mean; selected k=1
+2026-10-04T04:47:24.225283+00:00 finished ViT-B-16 seed=20261005 scorer=contrastive_margin; selected k=1
+2026-10-04T04:47:30.099310+00:00 finished ViT-B-16 seed=20261006 scorer=positive_mean; selected k=1
+2026-10-04T04:47:35.901380+00:00 finished ViT-B-16 seed=20261006 scorer=contrastive_margin; selected k=1
+2026-10-04T04:47:41.878143+00:00 finished ViT-B-16 seed=20261007 scorer=positive_mean; selected k=2
+2026-10-04T04:47:47.702378+00:00 finished ViT-B-16 seed=20261007 scorer=contrastive_margin; selected k=0
+2026-10-04T04:47:47.702671+00:00 loading ViT-B-32 from exact local checkpoint visual_knowledge_calibration_server_pack\models\clip-vit-base-patch32
+2026-10-04T04:47:49.188375+00:00 image_features_ViT-B-32: encoded 16/10000 images
+2026-10-04T04:47:54.615239+00:00 image_features_ViT-B-32: encoded 176/10000 images
+2026-10-04T04:48:00.127776+00:00 image_features_ViT-B-32: encoded 336/10000 images
+2026-10-04T04:48:05.681865+00:00 image_features_ViT-B-32: encoded 496/10000 images
+2026-10-04T04:48:11.138494+00:00 image_features_ViT-B-32: encoded 656/10000 images
+2026-10-04T04:48:16.625642+00:00 image_features_ViT-B-32: encoded 816/10000 images
+2026-10-04T04:48:22.219156+00:00 image_features_ViT-B-32: encoded 976/10000 images
+2026-10-04T04:48:27.832292+00:00 image_features_ViT-B-32: encoded 1136/10000 images
+2026-10-04T04:48:33.405822+00:00 image_features_ViT-B-32: encoded 1296/10000 images
+2026-10-04T04:48:39.021602+00:00 image_features_ViT-B-32: encoded 1456/10000 images
+2026-10-04T04:48:44.639635+00:00 image_features_ViT-B-32: encoded 1616/10000 images
+2026-10-04T04:48:50.261855+00:00 image_features_ViT-B-32: encoded 1776/10000 images
+2026-10-04T04:48:55.618211+00:00 image_features_ViT-B-32: encoded 1936/10000 images
+2026-10-04T04:49:01.146796+00:00 image_features_ViT-B-32: encoded 2096/10000 images
+2026-10-04T04:49:06.895767+00:00 image_features_ViT-B-32: encoded 2256/10000 images
+2026-10-04T04:49:12.534083+00:00 image_features_ViT-B-32: encoded 2416/10000 images
+2026-10-04T04:49:18.156368+00:00 image_features_ViT-B-32: encoded 2576/10000 images
+2026-10-04T04:49:23.767304+00:00 image_features_ViT-B-32: encoded 2736/10000 images
+2026-10-04T04:49:29.297496+00:00 image_features_ViT-B-32: encoded 2896/10000 images
+2026-10-04T04:49:34.845842+00:00 image_features_ViT-B-32: encoded 3056/10000 images
+2026-10-04T04:49:40.507699+00:00 image_features_ViT-B-32: encoded 3216/10000 images
+2026-10-04T04:49:46.033992+00:00 image_features_ViT-B-32: encoded 3376/10000 images
+2026-10-04T04:49:51.548773+00:00 image_features_ViT-B-32: encoded 3536/10000 images
+2026-10-04T04:49:57.123315+00:00 image_features_ViT-B-32: encoded 3696/10000 images
+2026-10-04T04:50:02.679908+00:00 image_features_ViT-B-32: encoded 3856/10000 images
+2026-10-04T04:50:08.208017+00:00 image_features_ViT-B-32: encoded 4016/10000 images
+2026-10-04T04:50:13.666761+00:00 image_features_ViT-B-32: encoded 4176/10000 images
+2026-10-04T04:50:19.162137+00:00 image_features_ViT-B-32: encoded 4336/10000 images
+2026-10-04T04:50:24.721960+00:00 image_features_ViT-B-32: encoded 4496/10000 images
+2026-10-04T04:50:30.210127+00:00 image_features_ViT-B-32: encoded 4656/10000 images
+2026-10-04T04:50:35.698030+00:00 image_features_ViT-B-32: encoded 4816/10000 images
+2026-10-04T04:50:41.233133+00:00 image_features_ViT-B-32: encoded 4976/10000 images
+2026-10-04T04:50:46.878442+00:00 image_features_ViT-B-32: encoded 5136/10000 images
+2026-10-04T04:50:52.406096+00:00 image_features_ViT-B-32: encoded 5296/10000 images
+2026-10-04T04:50:57.967820+00:00 image_features_ViT-B-32: encoded 5456/10000 images
+2026-10-04T04:51:03.572285+00:00 image_features_ViT-B-32: encoded 5616/10000 images
+2026-10-04T04:51:09.202782+00:00 image_features_ViT-B-32: encoded 5776/10000 images
+2026-10-04T04:51:14.817195+00:00 image_features_ViT-B-32: encoded 5936/10000 images
+2026-10-04T04:51:20.447908+00:00 image_features_ViT-B-32: encoded 6096/10000 images
+2026-10-04T04:51:25.972501+00:00 image_features_ViT-B-32: encoded 6256/10000 images
+2026-10-04T04:51:31.500973+00:00 image_features_ViT-B-32: encoded 6416/10000 images
+2026-10-04T04:51:37.104230+00:00 image_features_ViT-B-32: encoded 6576/10000 images
+2026-10-04T04:51:42.602076+00:00 image_features_ViT-B-32: encoded 6736/10000 images
+2026-10-04T04:51:48.221149+00:00 image_features_ViT-B-32: encoded 6896/10000 images
+2026-10-04T04:51:53.801495+00:00 image_features_ViT-B-32: encoded 7056/10000 images
+2026-10-04T04:51:59.360256+00:00 image_features_ViT-B-32: encoded 7216/10000 images
+2026-10-04T04:52:04.971971+00:00 image_features_ViT-B-32: encoded 7376/10000 images
+2026-10-04T04:52:10.483735+00:00 image_features_ViT-B-32: encoded 7536/10000 images
+2026-10-04T04:52:15.931176+00:00 image_features_ViT-B-32: encoded 7696/10000 images
+2026-10-04T04:52:21.527945+00:00 image_features_ViT-B-32: encoded 7856/10000 images
+2026-10-04T04:52:27.093566+00:00 image_features_ViT-B-32: encoded 8016/10000 images
+2026-10-04T04:52:32.646507+00:00 image_features_ViT-B-32: encoded 8176/10000 images
+2026-10-04T04:52:38.310425+00:00 image_features_ViT-B-32: encoded 8336/10000 images
+2026-10-04T04:52:43.759896+00:00 image_features_ViT-B-32: encoded 8496/10000 images
+2026-10-04T04:52:49.318396+00:00 image_features_ViT-B-32: encoded 8656/10000 images
+2026-10-04T04:52:54.959763+00:00 image_features_ViT-B-32: encoded 8816/10000 images
+2026-10-04T04:53:00.674326+00:00 image_features_ViT-B-32: encoded 8976/10000 images
+2026-10-04T04:53:06.559262+00:00 image_features_ViT-B-32: encoded 9136/10000 images
+2026-10-04T04:53:12.308729+00:00 image_features_ViT-B-32: encoded 9296/10000 images
+2026-10-04T04:53:17.967882+00:00 image_features_ViT-B-32: encoded 9456/10000 images
+2026-10-04T04:53:23.565706+00:00 image_features_ViT-B-32: encoded 9616/10000 images
+2026-10-04T04:53:29.264652+00:00 image_features_ViT-B-32: encoded 9776/10000 images
+2026-10-04T04:53:35.010117+00:00 image_features_ViT-B-32: encoded 9936/10000 images
+2026-10-04T04:53:37.229894+00:00 image_features_ViT-B-32: encoded 10000/10000 images
+2026-10-04T04:53:47.060181+00:00 finished ViT-B-32 seed=20261003 scorer=positive_mean; selected k=3
+2026-10-04T04:53:53.175774+00:00 finished ViT-B-32 seed=20261003 scorer=contrastive_margin; selected k=3
+2026-10-04T04:53:59.189613+00:00 finished ViT-B-32 seed=20261004 scorer=positive_mean; selected k=2
+2026-10-04T04:54:04.965629+00:00 finished ViT-B-32 seed=20261004 scorer=contrastive_margin; selected k=3
+2026-10-04T04:54:10.838101+00:00 finished ViT-B-32 seed=20261005 scorer=positive_mean; selected k=3
+2026-10-04T04:54:16.602510+00:00 finished ViT-B-32 seed=20261005 scorer=contrastive_margin; selected k=2
+2026-10-04T04:54:22.444514+00:00 finished ViT-B-32 seed=20261006 scorer=positive_mean; selected k=0
+2026-10-04T04:54:28.249806+00:00 finished ViT-B-32 seed=20261006 scorer=contrastive_margin; selected k=3
+2026-10-04T04:54:34.126661+00:00 finished ViT-B-32 seed=20261007 scorer=positive_mean; selected k=0
+2026-10-04T04:54:39.881332+00:00 finished ViT-B-32 seed=20261007 scorer=contrastive_margin; selected k=0
+2026-10-04T04:54:40.750886+00:00 evaluation complete
+2026-10-04T04:54:58.281341+00:00 paired bootstrap complete: 20000 class-stratified replicates per contrast
+2026-10-04T04:54:58.284539+00:00 CORRECTED CLEAN AIRCRAFT RUN COMPLETE

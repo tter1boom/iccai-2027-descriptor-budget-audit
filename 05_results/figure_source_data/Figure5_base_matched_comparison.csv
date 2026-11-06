@@ -1,0 +1,17 @@
+backbone,interface,k,mean_macro_accuracy_percent,seed_sd_percentage_points,n_resamples,source
+ViT-B-16,single_recomposition,1,26.317647058823532,0.6442033579956178,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-16,base_matched_per_descriptor_ensemble,1,26.317647058823532,0.6442033579956178,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-16,single_recomposition,2,26.04919786096257,0.17502582028599167,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-16,base_matched_per_descriptor_ensemble,2,26.40980392156863,0.43174868694242763,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-16,single_recomposition,3,25.64402852049911,0.31950634800803446,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-16,base_matched_per_descriptor_ensemble,3,26.595008912655977,0.14098289272686898,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-16,single_recomposition,4,25.612299465240643,3.972054645195637e-15,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-16,base_matched_per_descriptor_ensemble,4,26.691622103386813,3.972054645195637e-15,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,single_recomposition,1,20.674509803921563,0.10823539099429842,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,base_matched_per_descriptor_ensemble,1,20.674509803921563,0.10823539099429842,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,single_recomposition,2,20.20659536541889,0.2100631900826718,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,base_matched_per_descriptor_ensemble,2,20.4632798573975,0.17198239339819074,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,single_recomposition,3,20.15811051693404,0.16756693949317913,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,base_matched_per_descriptor_ensemble,3,20.312834224598923,0.14699263891746864,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,single_recomposition,4,20.197860962566843,0.0,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv
+ViT-B-32,base_matched_per_descriptor_ensemble,4,20.262923351158648,0.0,5,04_results/secondary_analyses/base_matched_addendum/base_matched_interface_curves.csv

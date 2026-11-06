@@ -1,0 +1,60 @@
+{
+  "analysis": "Aircraft adjacent-budget paired inference",
+  "status": "completed",
+  "input_predictions": "external_aircraft_clean/results/predictions.csv",
+  "input_predictions_sha256": "5fe55b0dc3abb50b46e5c7ad40a645b1d18bdb50d01be78e27397062c18396f4",
+  "script": "revision_experiments/analysis_package_v13/CODE/run_exp1_aircraft_adjacent.py",
+  "script_sha256": "3ff3f7a2f218792bfbca539dea359d394a1c18ce7539cf5eb72e0c456f62514a",
+  "frozen_seeds": [
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007
+  ],
+  "backbones": [
+    "ViT-B-16",
+    "ViT-B-32"
+  ],
+  "rankers": [
+    "positive_mean",
+    "contrastive_margin"
+  ],
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "transitions": [
+    "0->1",
+    "1->2",
+    "2->3",
+    "3->4"
+  ],
+  "contrast_family_size": 16,
+  "bootstrap_replicates": 20000,
+  "signflip_replicates": 100000,
+  "master_random_seed": 20261004,
+  "bootstrap_seed": 9686496899844040118,
+  "signflip_seed": 11789901110311654668,
+  "holm_family": "all 16 adjacent-budget contrasts",
+  "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:12:46) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "result_files": {
+    "effects": "adjacent_effects.csv",
+    "bootstrap": "adjacent_bootstrap.csv",
+    "signflip": "adjacent_signflip.csv",
+    "results": "adjacent_results.csv",
+    "bootstrap_draws": "adjacent_bootstrap_draws.npz",
+    "signflip_null": "adjacent_signflip_null.npz",
+    "inputs": "bootstrap_inputs.npz",
+    "figure": "figure_adjacent_ci.pdf",
+    "log": "run.log"
+  },
+  "declaration": "This analysis was specified in response to reviewer comments before its numerical results were inspected. No result-dependent threshold, seed, contrast family, or reporting rule was changed after execution.",
+  "path_provenance": "Original machine-local paths are preserved in provenance/original_logs/; see provenance/release_mapping.json."
+}

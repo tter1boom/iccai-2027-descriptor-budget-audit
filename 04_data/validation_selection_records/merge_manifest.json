@@ -1,0 +1,258 @@
+{
+  "status": "PASS",
+  "shards": 40,
+  "counts": {
+    "selections": 24000,
+    "rankings": 32000,
+    "test_curves": 400,
+    "exact_prompts": 40000
+  },
+  "shard_markers": [
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261011,
+      "worker_index": 0,
+      "marker_sha256": "a57dea6676c49765621ba6dfac542a1e2135570f5932545ec3552412dd696442"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261012,
+      "worker_index": 1,
+      "marker_sha256": "814f38019fb830c2f5d30f938715e9335e8c17630e31444944f5026bf1f91881"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261013,
+      "worker_index": 2,
+      "marker_sha256": "f90cd131deef57703e57b2ceddddfd7ce43c4637a088c0c155961fbf389f22c5"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261014,
+      "worker_index": 3,
+      "marker_sha256": "1d1ab02cd4f67affa32d7aca64c038c321716c63515cd03547feef599a745722"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261015,
+      "worker_index": 0,
+      "marker_sha256": "3fb27c53e894817d1f3f2f738a7c9d7fec3719940f1c54825f29d4eb8d0de736"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261016,
+      "worker_index": 1,
+      "marker_sha256": "ef06391589f1bffae6436d6e1620a374ffa6ceb6e2079f291b0bff72def3ae66"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261017,
+      "worker_index": 2,
+      "marker_sha256": "2be5f04c8b06e5831c962700e1d4ad3d2d6368a9f055c434a056a475d045eb94"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261018,
+      "worker_index": 3,
+      "marker_sha256": "c1dfdd2f87805b36961445758b1a417274117d1e9230a51e2d2a322f75756699"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261019,
+      "worker_index": 0,
+      "marker_sha256": "07828e8b8172aa5b7064c22438e3e8b1d3ae43c0c94ea5138dbfade6efbead85"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261020,
+      "worker_index": 1,
+      "marker_sha256": "71340c5783cf5a742d0389848e6a39f57579198543d626c97f030326a10e9295"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261021,
+      "worker_index": 2,
+      "marker_sha256": "c173287f87bc7f0c8572c2a2a7484c2d438cf81bcad1a47d37a22079566a23a8"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261022,
+      "worker_index": 3,
+      "marker_sha256": "0fe577ae1457b96a9ef99b66e97beb694818a668122efd09f634383b96fc328b"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261023,
+      "worker_index": 0,
+      "marker_sha256": "f81bbe84a3315cc52f3ade18223e5903aca4c4933195660ab1f2baa8b4eff90f"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261024,
+      "worker_index": 1,
+      "marker_sha256": "51f38aba8e211bb640ba3d5b96fb228885e0740d2fbce63d943ad9cfb4f9e215"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261025,
+      "worker_index": 2,
+      "marker_sha256": "13b88ad87dfe079ffda7b96812aed122c7b14b3dae7ad0fa95b2becf6e9b6ae9"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261026,
+      "worker_index": 3,
+      "marker_sha256": "54fc23355b7d77dd36b0fea735003f5c3cb2e872b6cd5182980c140711813588"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261027,
+      "worker_index": 0,
+      "marker_sha256": "08e5cbe811b4cf5dcba7e6c131e766cf025da067d6166668ecb3162f5abcf42f"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261028,
+      "worker_index": 1,
+      "marker_sha256": "a461c5a423784f5aa9fd627fa4218f8c072609fbaa66c676fac6344b9cca2bb7"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261029,
+      "worker_index": 2,
+      "marker_sha256": "efe055833b11b49ec3e63391c2877945e1bdf2f028d494ed529af37ce3fd8394"
+    },
+    {
+      "backbone": "ViT-B-16",
+      "support_seed": 20261030,
+      "worker_index": 3,
+      "marker_sha256": "349b6fb51402cd19f6aa9dfefe304a650ddee9c793521360dab536fd3eb47df8"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261011,
+      "worker_index": 0,
+      "marker_sha256": "84ae562bd87e1fc026fc6f2915f7b8b13e58dfde0bea87ca8ee26f0c29a4dade"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261012,
+      "worker_index": 1,
+      "marker_sha256": "3e8897175e8b94f9f038ec07a6f346cc54526705016958a0d10fce3f21225a7b"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261013,
+      "worker_index": 2,
+      "marker_sha256": "bdd5f98e14baa8bf320143deba4c47d8c9a048aac79d0b45eb3f4b1152314ab3"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261014,
+      "worker_index": 3,
+      "marker_sha256": "1db70caf73e445b11b618267a7bfd8effda9f7e37d9a9ffddbeb7caebd31b7f4"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261015,
+      "worker_index": 0,
+      "marker_sha256": "c3208b449bf4d0fc5fd47de88e7a8ba6d81c88a8718b95a727571842fda3bbcb"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261016,
+      "worker_index": 1,
+      "marker_sha256": "674fdb2f1931bfa232fbb9a201e7970bb8926cf078a9f33967c2ee6dcdef2d5d"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261017,
+      "worker_index": 2,
+      "marker_sha256": "4dd54b146cf2592e4c1e3fc85147b93a12cc9cabfa263dda5ad6f2dad030c80e"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261018,
+      "worker_index": 3,
+      "marker_sha256": "6bfc22ef027caaf2f15f18fbeed718d003089258c3cf6124efcc02581b4e8878"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261019,
+      "worker_index": 0,
+      "marker_sha256": "fdfa928418545dbecafaee446b14684e3faef6673eda19e3322b0b92d5f63a7d"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261020,
+      "worker_index": 1,
+      "marker_sha256": "22c465037a0c374122bba97800d3a7fe7d95c6d132a23f5aa7d5780c7b2f2c9e"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261021,
+      "worker_index": 2,
+      "marker_sha256": "103736d75ef94f24a421c52a6c5749c0213f6984c511f8768ed2b14793df4271"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261022,
+      "worker_index": 3,
+      "marker_sha256": "96ed7a796a6b0750df96518f9487664b04b95d7c42653672a2eaf2bd875d7821"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261023,
+      "worker_index": 0,
+      "marker_sha256": "b6abce93eead4999ac44e82fe412362ec03eeaebb367e9bed9b381e9a58fb6c0"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261024,
+      "worker_index": 1,
+      "marker_sha256": "69dfc9b0d61dc320cae840e423a241d86d0f7a01664652e016b0dc465f821ded"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261025,
+      "worker_index": 2,
+      "marker_sha256": "6f1c6decb105cb2e64b455351995ec2dce59b42a4b3e5bfd432e1f99495c2fd3"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261026,
+      "worker_index": 3,
+      "marker_sha256": "f3065c7c0d0372177d392cc36a8082c23a33ad62c1127ab262739c223f52fb75"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261027,
+      "worker_index": 0,
+      "marker_sha256": "740c89c2f6e71781b2479a51705c46309c7e869f849dce0bc3c04ffaf07c23ad"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261028,
+      "worker_index": 1,
+      "marker_sha256": "9fadc3594b8c943fa2bd76790d2d78585e340f2f08a3182ba4acdc51ed3d0410"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261029,
+      "worker_index": 2,
+      "marker_sha256": "b020db43487fe4b52c6b4b07cfb67e4f34e62bb976a8efc4e848e3b37015baa1"
+    },
+    {
+      "backbone": "ViT-B-32",
+      "support_seed": 20261030,
+      "worker_index": 3,
+      "marker_sha256": "c2d0199259a623874ec58e73cee5f86380b9ea0188035b33eabca8d2296535d1"
+    }
+  ],
+  "output_sha256": {
+    "all_selections.csv": "02157d2c2c1450769d20e003d349fec7fa377839b2821eda31eedb0af4a9e032",
+    "rankings.csv": "730b346458f52c5f95cd09d15d634f322897c01ea5806668afc7b4d674c5794a",
+    "test_curves.csv": "43d3ea4b40c7bd55a80a3342ec92b2804bc7abe672f49e6c4ce19b92c95441bf",
+    "exact_prompts.csv": "ae6ce40b60dbb546a6dccc7d7bdb50b971f17760299cd58654c7beb822e95697"
+  }
+}

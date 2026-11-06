@@ -1,0 +1,22 @@
+{
+  "backbone": "ViT-B-16",
+  "support_seed": 20261029,
+  "worker_index": 2,
+  "device": "cuda:0",
+  "worker_script_sha256": "e2c95fe94847f0b4207ff31979b8b1e6df7d55acbc11ee4a8f61982971c4276b",
+  "core_script_sha256": "567b21876e0699bd37fa80b41a3502924dbae5a1571a8d45bfd1a07f0399540e",
+  "files": {
+    "all_selections.csv": "597940aa4114ea2d1ad7e803991ee782695e2709fd69d2825aed103d3f47624f",
+    "rankings.csv": "7154df626602ecee21b35575a13316ce07e6a0f42fd98560ee469659341c3b39",
+    "test_curves.csv": "eada0c8a44a3b9193fd372889cb28512b1bdd539da84cf0338f3021b75369fe2",
+    "exact_prompts.csv": "b5db5d63c419613be8f09e8e8f6cd46a73c0f58836187e33a83423f983103bb2",
+    "predictions_positive_mean.npz": "3674eaa7468a24e913910710b74037e9193e9b315733913aa8f135b2ab3e6d45",
+    "predictions_contrastive_margin.npz": "5907e8a3c28db4f88824392ff0a7cc9c1dda0c14d416c490099184e1fb23f334"
+  },
+  "counts": {
+    "selection_rows": 600,
+    "ranking_rows": 800,
+    "curve_rows": 10,
+    "prompt_rows": 1000
+  }
+}

@@ -1,0 +1,7 @@
+backbone,ranking,selected_k_by_seed,selected_test_macro_accuracy_mean_percent,selected_test_macro_accuracy_sd_percentage_points,n_support_validation_resamples,analysis_status
+ViT-B-16,fixed_catalogue_order,4|0|1|1|0,25.200178253119432,0.6843305337310857,5,post_review_exploratory_ranking_control
+ViT-B-32,fixed_catalogue_order,2|2|1|1|0,19.64385026737968,0.5681227818758015,5,post_review_exploratory_ranking_control
+ViT-B-16,positive_mean,1|0|1|1|2,25.902317290552578,1.0371556694400412,5,post_review_exploratory_ranking_control
+ViT-B-16,contrastive_margin,1|0|1|1|0,24.819786096256685,0.563074419880112,5,post_review_exploratory_ranking_control
+ViT-B-32,positive_mean,3|2|3|0|0,20.129411764705875,0.31350411489457247,5,post_review_exploratory_ranking_control
+ViT-B-32,contrastive_margin,3|3|2|3|0,19.709447415329766,0.6102895213805531,5,post_review_exploratory_ranking_control

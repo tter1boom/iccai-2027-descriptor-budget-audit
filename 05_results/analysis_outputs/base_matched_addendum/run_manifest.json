@@ -1,0 +1,76 @@
+{
+  "analysis_status": "post_hoc_descriptive_addendum_not_in_original_analysis_plan",
+  "scientific_question": "For the same ranked descriptors and base description, how does one joint prompt compare descriptively with an unweighted mean of separately encoded prompts?",
+  "prompt_template": "{base_description}. Diagnostic attributes: {descriptor}.",
+  "k1_identity": {
+    "joint_prompt_equals_independent_prompt": true,
+    "embedding_and_logit_tolerance": 1e-06,
+    "predictions_exactly_equal": true,
+    "identity_records": "k1_identity_checks.csv",
+    "per_image_records": "k1_prediction_identity.csv"
+  },
+  "aggregation": "For each class, average cosine similarities from the k separately encoded descriptor prompts, then take argmax across classes.",
+  "rankings_source": "04_results/secondary_analyses/matched_interfaces/rankings.csv",
+  "rankings_sha256": "153bd61eb114709f3cb983be33cf8690a84703a87071e57e542f08419099acdb",
+  "resource_source": "02_resource_audit/aircraft_descriptors_clean.json",
+  "resource_sha256": "67876cc858a9b6a1785b7eaa229a54dd40ad3394de7a7c989ad0d77b803808fc",
+  "feature_cache_sha256": {
+    "ViT-B-16": "93d1b2c9959fd2687a9bd06da73bc54caccfd4984d4c5ebb00d94b8cac6a1c97",
+    "ViT-B-32": "3eb82e8c0236da006787e6a4246967debb40c358e7e3e7d6e6a7cd341794f850"
+  },
+  "checkpoint_fingerprints": {
+    "ViT-B-16": {
+      "relative_path": "models/clip-vit-base-patch16",
+      "files": {
+        "config.json": "eaf1c9089a8553c913d27ea66407f8bfc2be9989c80c9f331ddb3d63d4c5e8ad",
+        "pytorch_model.bin": "ec89c7b09c749a60aae3c9cd910516f24b58214a7df060b48962d14c469cfbf0",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+        "vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69",
+        "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+        "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+        "tokenizer_config.json": "3f74b6a4d97fee70b3b96921a687fc5e3f2fb583f5f81e7c178c0c22281beade",
+        "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+      },
+      "device_policy": "CPU"
+    },
+    "ViT-B-32": {
+      "relative_path": "visual_knowledge_calibration_server_pack/models/clip-vit-base-patch32",
+      "files": {
+        "config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+        "pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+        "vocab.json": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363",
+        "merges.txt": "f526393189112391ce6f9795d4695f704121ce452c3aad1f5335cc41337eba85",
+        "tokenizer.json": "b556ac8c99757ffb677208af34bc8c6721572114111a6e0aaf5fa69ff0b8d842",
+        "tokenizer_config.json": "34b7336e4bee12e0a9730eaf5189f582ef3c3eea5027f65730e5717256755aad",
+        "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+      },
+      "device_policy": "CPU"
+    }
+  },
+  "support_seeds": [
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007
+  ],
+  "k_values": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "test_image_count": 3333,
+  "device": "cpu",
+  "image_model_inference": "none; only cached image-feature vectors and the frozen CLIP text encoders were used",
+  "test_image_pixels_loaded": false,
+  "outputs": [
+    "base_matched_interface_curves.csv",
+    "base_matched_predictions.csv",
+    "base_matched_exact_prompts.csv",
+    "k1_identity_checks.csv",
+    "k1_prediction_identity.csv"
+  ],
+  "script_sha256": "63c5c035dfd175ca67b043bc7a2cd5a7e6fa92e48a33bed5678d3fefd8a8c4dd"
+}

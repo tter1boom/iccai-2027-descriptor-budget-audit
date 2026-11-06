@@ -1,0 +1,5 @@
+backbone,ranker,gain_without_drugstore_pp,drugstore_share_positive_gain
+ViT-B-32,positive_mean,0.0,0.6875
+ViT-B-32,contrastive_margin,0.7407407407407407,0.6875
+ViT-B-16,positive_mean,5.925925925925926,0.4166666666666667
+ViT-B-16,contrastive_margin,2.5925925925925926,0.5217391304347826

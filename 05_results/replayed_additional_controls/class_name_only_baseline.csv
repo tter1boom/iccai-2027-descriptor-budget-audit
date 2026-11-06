@@ -1,0 +1,3 @@
+backbone,prompt_template,test_macro_accuracy,n_test,analysis_status
+ViT-B-16,a photo of a {official FGVC-Aircraft class name}.,0.23759358288770055,3333,post_review_exploratory_prompt_baseline
+ViT-B-32,a photo of a {official FGVC-Aircraft class name}.,0.18771836007130122,3333,post_review_exploratory_prompt_baseline

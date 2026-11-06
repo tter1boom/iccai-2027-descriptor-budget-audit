@@ -1,0 +1,11 @@
+backbone,seed,n_prompts,prompt_strings_identical,max_embedding_abs_difference,max_logit_abs_difference,predictions_identical,addendum_status
+ViT-B-16,20261003,100,True,3.5762786865234375e-07,2.384185791015625e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-16,20261004,100,True,3.5762786865234375e-07,2.384185791015625e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-16,20261005,100,True,3.5762786865234375e-07,2.384185791015625e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-16,20261006,100,True,3.5762786865234375e-07,2.384185791015625e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-16,20261007,100,True,3.5762786865234375e-07,2.384185791015625e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,20261003,100,True,1.7881393432617188e-07,2.682209014892578e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,20261004,100,True,1.7881393432617188e-07,2.682209014892578e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,20261005,100,True,1.7881393432617188e-07,2.682209014892578e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,20261006,100,True,1.7881393432617188e-07,2.682209014892578e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,20261007,100,True,1.7881393432617188e-07,2.682209014892578e-07,True,post_hoc_descriptive_addendum_not_in_original_analysis_plan

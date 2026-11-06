@@ -1,0 +1,44 @@
+{
+  "analysis_status": "post_review_exploratory_ranking_control",
+  "question": "How does support-conditioned descriptor ranking compare descriptively with fixed catalogue order under the same recomposition, budgets, validation selection rule and official test?",
+  "ranking": "Within each class, use descriptor catalogue index 1,2,3,4 for all seeds; no support-conditioned ordering or randomization.",
+  "interface": "single-prototype recomposition via the archived canonical prompt template",
+  "budget_values": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation_selection": "macro accuracy on the frozen 5-per-class validation sample; smallest k breaks ties",
+  "test": "complete fixed official FGVC-Aircraft test split (n=3333); macro accuracy",
+  "support_validation_seeds": [
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007
+  ],
+  "support_images_used_for_ranking": false,
+  "inference": "cached image features and frozen local CLIP text encoders; no image-model inference; no hypothesis tests or multiplicity claims",
+  "resource_sha256": "67876cc858a9b6a1785b7eaa229a54dd40ad3394de7a7c989ad0d77b803808fc",
+  "feature_cache_sha256": {
+    "ViT-B-16": "93d1b2c9959fd2687a9bd06da73bc54caccfd4984d4c5ebb00d94b8cac6a1c97",
+    "ViT-B-32": "3eb82e8c0236da006787e6a4246967debb40c358e7e3e7d6e6a7cd341794f850"
+  },
+  "inputs": [
+    "02_resource_audit/aircraft_descriptors_clean.json",
+    "01_protocol/split_manifests/",
+    "05_execution_records/feature_cache/",
+    "01_protocol/model_lock.json",
+    "04_results/aircraft_main/budget_curves.csv",
+    "04_results/aircraft_main/selected_budgets.csv"
+  ],
+  "outputs": [
+    "fixed_catalogue_budget_curves.csv",
+    "fixed_catalogue_validation_selected.csv",
+    "fixed_catalogue_test_curves.csv",
+    "selected_operating_point_descriptive_comparison.csv"
+  ],
+  "script_sha256": "ac1b845523b869ddbfa2c582c36aaf47177d0ceb4782cf26a358bda7adc3a4b7"
+}

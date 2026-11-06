@@ -1,0 +1,11 @@
+backbone,k,unique_class_specific_prompts,min_tokens,max_tokens,context_limit,over_limit_prompts,truncation,coverage
+ViT-B-16,0,100,9,16,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-16,1,400,17,33,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-16,2,600,23,44,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-16,3,400,29,53,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-16,4,100,35,61,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-32,0,100,9,16,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-32,1,400,17,33,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-32,2,600,23,44,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-32,3,400,29,53,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order
+ViT-B-32,4,100,35,61,77,0,disabled; overflow would fail,all class-specific catalogue subsets in canonical catalogue order

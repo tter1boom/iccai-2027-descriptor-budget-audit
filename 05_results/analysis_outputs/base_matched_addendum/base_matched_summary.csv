@@ -1,0 +1,9 @@
+backbone,k,mean_macro_accuracy_percent,seed_sd_percentage_points,paired_mean_difference_pp,n_resamples,analysis_status
+ViT-B-16,1,26.31764706,0.64420336,0.00000000,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-16,2,26.40980392,0.43174869,0.36060606,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-16,3,26.59500891,0.14098289,0.95098039,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-16,4,26.69162210,0.00000000,1.07932264,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,1,20.67450980,0.10823539,0.00000000,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,2,20.46327986,0.17198239,0.25668449,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,3,20.31283422,0.14699264,0.15472371,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan
+ViT-B-32,4,20.26292335,0.00000000,0.06506239,5,post_hoc_descriptive_addendum_not_in_original_analysis_plan

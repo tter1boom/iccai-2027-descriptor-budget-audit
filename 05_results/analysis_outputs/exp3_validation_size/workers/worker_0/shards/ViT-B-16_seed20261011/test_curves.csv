@@ -1,0 +1,11 @@
+backbone,ranker,support_seed,k,test_macro_accuracy
+ViT-B-16,positive_mean,20261011,0,0.2445276292335116
+ViT-B-16,positive_mean,20261011,1,0.2665329768270945
+ViT-B-16,positive_mean,20261011,2,0.2617736185383244
+ViT-B-16,positive_mean,20261011,3,0.25762923351158645
+ViT-B-16,positive_mean,20261011,4,0.2561229946524064
+ViT-B-16,contrastive_margin,20261011,0,0.2445276292335116
+ViT-B-16,contrastive_margin,20261011,1,0.2590463458110517
+ViT-B-16,contrastive_margin,20261011,2,0.2553119429590017
+ViT-B-16,contrastive_margin,20261011,3,0.2529055258467023
+ViT-B-16,contrastive_margin,20261011,4,0.2561229946524064

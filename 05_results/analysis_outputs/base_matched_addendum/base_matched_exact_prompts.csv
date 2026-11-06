@@ -1,0 +1,801 @@
+backbone,class_id,class_name,descriptor_id,prompt,prompt_template
+ViT-B-16,0,707-320,1,"a 707-320, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,0,707-320,2,"a 707-320, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,0,707-320,3,"a 707-320, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,0,707-320,4,"a 707-320, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,1,727-200,1,"a 727-200, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,1,727-200,2,"a 727-200, a type of aircraft. Diagnostic attributes: a third jet intake integrated at the base of the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,1,727-200,3,"a 727-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,1,727-200,4,"a 727-200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,2,737-200,1,"a 737-200, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,2,737-200,2,"a 737-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,2,737-200,3,"a 737-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,2,737-200,4,"a 737-200, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,3,737-300,1,"a 737-300, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,3,737-300,2,"a 737-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,3,737-300,3,"a 737-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,3,737-300,4,"a 737-300, a type of aircraft. Diagnostic attributes: a medium-length narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,4,737-400,1,"a 737-400, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,4,737-400,2,"a 737-400, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,4,737-400,3,"a 737-400, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,4,737-400,4,"a 737-400, a type of aircraft. Diagnostic attributes: a stretched narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,5,737-500,1,"a 737-500, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,5,737-500,2,"a 737-500, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,5,737-500,3,"a 737-500, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,5,737-500,4,"a 737-500, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,6,737-600,1,"a 737-600, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,6,737-600,2,"a 737-600, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,6,737-600,3,"a 737-600, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,6,737-600,4,"a 737-600, a type of aircraft. Diagnostic attributes: a very short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,7,737-700,1,"a 737-700, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,7,737-700,2,"a 737-700, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,7,737-700,3,"a 737-700, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,7,737-700,4,"a 737-700, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,8,737-800,1,"a 737-800, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,8,737-800,2,"a 737-800, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,8,737-800,3,"a 737-800, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,8,737-800,4,"a 737-800, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,9,737-900,1,"a 737-900, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,9,737-900,2,"a 737-900, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,9,737-900,3,"a 737-900, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,9,737-900,4,"a 737-900, a type of aircraft. Diagnostic attributes: a very long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,10,747-100,1,"a 747-100, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,10,747-100,2,"a 747-100, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,10,747-100,3,"a 747-100, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,10,747-100,4,"a 747-100, a type of aircraft. Diagnostic attributes: a widebody fuselage with a short upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,11,747-200,1,"a 747-200, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,11,747-200,2,"a 747-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,11,747-200,3,"a 747-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,11,747-200,4,"a 747-200, a type of aircraft. Diagnostic attributes: a widebody fuselage with a short upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,12,747-300,1,"a 747-300, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,12,747-300,2,"a 747-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,12,747-300,3,"a 747-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,12,747-300,4,"a 747-300, a type of aircraft. Diagnostic attributes: a widebody fuselage with an extended upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,13,747-400,1,"a 747-400, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,13,747-400,2,"a 747-400, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,13,747-400,3,"a 747-400, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,13,747-400,4,"a 747-400, a type of aircraft. Diagnostic attributes: a widebody fuselage with an extended upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,14,757-200,1,"a 757-200, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,14,757-200,2,"a 757-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,14,757-200,3,"a 757-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,14,757-200,4,"a 757-200, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,15,757-300,1,"a 757-300, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,15,757-300,2,"a 757-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,15,757-300,3,"a 757-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,15,757-300,4,"a 757-300, a type of aircraft. Diagnostic attributes: a very long stretched narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,16,767-200,1,"a 767-200, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,16,767-200,2,"a 767-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,16,767-200,3,"a 767-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,16,767-200,4,"a 767-200, a type of aircraft. Diagnostic attributes: a short widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,17,767-300,1,"a 767-300, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,17,767-300,2,"a 767-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,17,767-300,3,"a 767-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,17,767-300,4,"a 767-300, a type of aircraft. Diagnostic attributes: a stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,18,767-400,1,"a 767-400, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,18,767-400,2,"a 767-400, a type of aircraft. Diagnostic attributes: wider-span low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,18,767-400,3,"a 767-400, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,18,767-400,4,"a 767-400, a type of aircraft. Diagnostic attributes: a very long stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,19,777-200,1,"a 777-200, a type of aircraft. Diagnostic attributes: two very large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,19,777-200,2,"a 777-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,19,777-200,3,"a 777-200, a type of aircraft. Diagnostic attributes: six-wheel main landing-gear bogies.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,19,777-200,4,"a 777-200, a type of aircraft. Diagnostic attributes: a long widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,20,777-300,1,"a 777-300, a type of aircraft. Diagnostic attributes: two very large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,20,777-300,2,"a 777-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,20,777-300,3,"a 777-300, a type of aircraft. Diagnostic attributes: six-wheel main landing-gear bogies.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,20,777-300,4,"a 777-300, a type of aircraft. Diagnostic attributes: a very long stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,21,A300B4,1,"a A300B4, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,21,A300B4,2,"a A300B4, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,21,A300B4,3,"a A300B4, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,21,A300B4,4,"a A300B4, a type of aircraft. Diagnostic attributes: a broad widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,22,A310,1,"a A310, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,22,A310,2,"a A310, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,22,A310,3,"a A310, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,22,A310,4,"a A310, a type of aircraft. Diagnostic attributes: a short widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,23,A318,1,"a A318, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,23,A318,2,"a A318, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,23,A318,3,"a A318, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,23,A318,4,"a A318, a type of aircraft. Diagnostic attributes: a very short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,24,A319,1,"a A319, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,24,A319,2,"a A319, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,24,A319,3,"a A319, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,24,A319,4,"a A319, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,25,A320,1,"a A320, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,25,A320,2,"a A320, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,25,A320,3,"a A320, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,25,A320,4,"a A320, a type of aircraft. Diagnostic attributes: a medium-length narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,26,A321,1,"a A321, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,26,A321,2,"a A321, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,26,A321,3,"a A321, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,26,A321,4,"a A321, a type of aircraft. Diagnostic attributes: a long stretched narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,27,A330-200,1,"a A330-200, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,27,A330-200,2,"a A330-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,27,A330-200,3,"a A330-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,27,A330-200,4,"a A330-200, a type of aircraft. Diagnostic attributes: a shorter widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,28,A330-300,1,"a A330-300, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,28,A330-300,2,"a A330-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,28,A330-300,3,"a A330-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,28,A330-300,4,"a A330-300, a type of aircraft. Diagnostic attributes: a longer stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,29,A340-200,1,"a A340-200, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,29,A340-200,2,"a A340-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,29,A340-200,3,"a A340-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,29,A340-200,4,"a A340-200, a type of aircraft. Diagnostic attributes: a comparatively short widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,30,A340-300,1,"a A340-300, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,30,A340-300,2,"a A340-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,30,A340-300,3,"a A340-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,30,A340-300,4,"a A340-300, a type of aircraft. Diagnostic attributes: a medium-length widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,31,A340-500,1,"a A340-500, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,31,A340-500,2,"a A340-500, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,31,A340-500,3,"a A340-500, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,31,A340-500,4,"a A340-500, a type of aircraft. Diagnostic attributes: a long widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,32,A340-600,1,"a A340-600, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,32,A340-600,2,"a A340-600, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,32,A340-600,3,"a A340-600, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,32,A340-600,4,"a A340-600, a type of aircraft. Diagnostic attributes: an exceptionally long widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,33,A380,1,"a A380, a type of aircraft. Diagnostic attributes: four large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,33,A380,2,"a A380, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,33,A380,3,"a A380, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,33,A380,4,"a A380, a type of aircraft. Diagnostic attributes: a full-length double-deck widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,34,ATR-42,1,"a ATR-42, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,34,ATR-42,2,"a ATR-42, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,34,ATR-42,3,"a ATR-42, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,34,ATR-42,4,"a ATR-42, a type of aircraft. Diagnostic attributes: a compact fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,35,ATR-72,1,"a ATR-72, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,35,ATR-72,2,"a ATR-72, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,35,ATR-72,3,"a ATR-72, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,35,ATR-72,4,"a ATR-72, a type of aircraft. Diagnostic attributes: a stretched fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,36,An-12,1,"a An-12, a type of aircraft. Diagnostic attributes: four turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,36,An-12,2,"a An-12, a type of aircraft. Diagnostic attributes: four large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,36,An-12,3,"a An-12, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,36,An-12,4,"a An-12, a type of aircraft. Diagnostic attributes: a boxy deep fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,37,BAE 146-200,1,"a BAE 146-200, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,37,BAE 146-200,2,"a BAE 146-200, a type of aircraft. Diagnostic attributes: a high-mounted swept wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,37,BAE 146-200,3,"a BAE 146-200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,37,BAE 146-200,4,"a BAE 146-200, a type of aircraft. Diagnostic attributes: a short boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,38,BAE 146-300,1,"a BAE 146-300, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,38,BAE 146-300,2,"a BAE 146-300, a type of aircraft. Diagnostic attributes: a high-mounted swept wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,38,BAE 146-300,3,"a BAE 146-300, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,38,BAE 146-300,4,"a BAE 146-300, a type of aircraft. Diagnostic attributes: a stretched boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,39,BAE-125,1,"a BAE-125, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,39,BAE-125,2,"a BAE-125, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,39,BAE-125,3,"a BAE-125, a type of aircraft. Diagnostic attributes: a cruciform tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,39,BAE-125,4,"a BAE-125, a type of aircraft. Diagnostic attributes: a slender pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,40,Beechcraft 1900,1,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,40,Beechcraft 1900,2,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: a low-mounted wing with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,40,Beechcraft 1900,3,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,40,Beechcraft 1900,4,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: a tall narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,41,Boeing 717,1,"a Boeing 717, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,41,Boeing 717,2,"a Boeing 717, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,41,Boeing 717,3,"a Boeing 717, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,41,Boeing 717,4,"a Boeing 717, a type of aircraft. Diagnostic attributes: a narrow cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,42,C-130,1,"a C-130, a type of aircraft. Diagnostic attributes: four turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,42,C-130,2,"a C-130, a type of aircraft. Diagnostic attributes: four large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,42,C-130,3,"a C-130, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,42,C-130,4,"a C-130, a type of aircraft. Diagnostic attributes: a broad boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,43,C-47,1,"a C-47, a type of aircraft. Diagnostic attributes: two radial piston engines mounted ahead of a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,43,C-47,2,"a C-47, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,43,C-47,3,"a C-47, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,43,C-47,4,"a C-47, a type of aircraft. Diagnostic attributes: a large side cargo door on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,44,CRJ-200,1,"a CRJ-200, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,44,CRJ-200,2,"a CRJ-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,44,CRJ-200,3,"a CRJ-200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,44,CRJ-200,4,"a CRJ-200, a type of aircraft. Diagnostic attributes: a short slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,45,CRJ-700,1,"a CRJ-700, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,45,CRJ-700,2,"a CRJ-700, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,45,CRJ-700,3,"a CRJ-700, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,45,CRJ-700,4,"a CRJ-700, a type of aircraft. Diagnostic attributes: a medium-length slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,46,CRJ-900,1,"a CRJ-900, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,46,CRJ-900,2,"a CRJ-900, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,46,CRJ-900,3,"a CRJ-900, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,46,CRJ-900,4,"a CRJ-900, a type of aircraft. Diagnostic attributes: a long stretched slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,47,Cessna 172,1,"a Cessna 172, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,47,Cessna 172,2,"a Cessna 172, a type of aircraft. Diagnostic attributes: a high-mounted wing with struts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,47,Cessna 172,3,"a Cessna 172, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,47,Cessna 172,4,"a Cessna 172, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,48,Cessna 208,1,"a Cessna 208, a type of aircraft. Diagnostic attributes: a single nose-mounted turboprop engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,48,Cessna 208,2,"a Cessna 208, a type of aircraft. Diagnostic attributes: a high-mounted wing with struts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,48,Cessna 208,3,"a Cessna 208, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,48,Cessna 208,4,"a Cessna 208, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,49,Cessna 525,1,"a Cessna 525, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,49,Cessna 525,2,"a Cessna 525, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,49,Cessna 525,3,"a Cessna 525, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,49,Cessna 525,4,"a Cessna 525, a type of aircraft. Diagnostic attributes: a compact pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,50,Cessna 560,1,"a Cessna 560, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,50,Cessna 560,2,"a Cessna 560, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,50,Cessna 560,3,"a Cessna 560, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,50,Cessna 560,4,"a Cessna 560, a type of aircraft. Diagnostic attributes: a slender pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,51,Challenger 600,1,"a Challenger 600, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,51,Challenger 600,2,"a Challenger 600, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,51,Challenger 600,3,"a Challenger 600, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,51,Challenger 600,4,"a Challenger 600, a type of aircraft. Diagnostic attributes: a broad cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,52,DC-10,1,"a DC-10, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,52,DC-10,2,"a DC-10, a type of aircraft. Diagnostic attributes: a third jet engine integrated into the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,52,DC-10,3,"a DC-10, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,52,DC-10,4,"a DC-10, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,53,DC-3,1,"a DC-3, a type of aircraft. Diagnostic attributes: two radial piston engines mounted ahead of a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,53,DC-3,2,"a DC-3, a type of aircraft. Diagnostic attributes: a low-mounted cantilever wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,53,DC-3,3,"a DC-3, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,53,DC-3,4,"a DC-3, a type of aircraft. Diagnostic attributes: retractable main landing gear with a tailwheel stance.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,54,DC-6,1,"a DC-6, a type of aircraft. Diagnostic attributes: four radial piston engines mounted ahead of a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,54,DC-6,2,"a DC-6, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,54,DC-6,3,"a DC-6, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,54,DC-6,4,"a DC-6, a type of aircraft. Diagnostic attributes: a long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,55,DC-8,1,"a DC-8, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,55,DC-8,2,"a DC-8, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,55,DC-8,3,"a DC-8, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,55,DC-8,4,"a DC-8, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,56,DC-9-30,1,"a DC-9-30, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,56,DC-9-30,2,"a DC-9-30, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,56,DC-9-30,3,"a DC-9-30, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,56,DC-9-30,4,"a DC-9-30, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,57,DH-82,1,"a DH-82, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,57,DH-82,2,"a DH-82, a type of aircraft. Diagnostic attributes: two stacked wings in a biplane configuration.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,57,DH-82,3,"a DH-82, a type of aircraft. Diagnostic attributes: two open tandem cockpits.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,57,DH-82,4,"a DH-82, a type of aircraft. Diagnostic attributes: a conventional tail with external bracing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,58,DHC-1,1,"a DHC-1, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,58,DHC-1,2,"a DHC-1, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,58,DHC-1,3,"a DHC-1, a type of aircraft. Diagnostic attributes: a tandem cockpit under a clear canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,58,DHC-1,4,"a DHC-1, a type of aircraft. Diagnostic attributes: a conventional tailwheel undercarriage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,59,DHC-6,1,"a DHC-6, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,59,DHC-6,2,"a DHC-6, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,59,DHC-6,3,"a DHC-6, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,59,DHC-6,4,"a DHC-6, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,60,DHC-8-100,1,"a DHC-8-100, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,60,DHC-8-100,2,"a DHC-8-100, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,60,DHC-8-100,3,"a DHC-8-100, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,60,DHC-8-100,4,"a DHC-8-100, a type of aircraft. Diagnostic attributes: a short fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,61,DHC-8-300,1,"a DHC-8-300, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,61,DHC-8-300,2,"a DHC-8-300, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,61,DHC-8-300,3,"a DHC-8-300, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,61,DHC-8-300,4,"a DHC-8-300, a type of aircraft. Diagnostic attributes: a stretched fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,62,DR-400,1,"a DR-400, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,62,DR-400,2,"a DR-400, a type of aircraft. Diagnostic attributes: a low-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,62,DR-400,3,"a DR-400, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,62,DR-400,4,"a DR-400, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,63,Dornier 328,1,"a Dornier 328, a type of aircraft. Diagnostic attributes: two six-blade turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,63,Dornier 328,2,"a Dornier 328, a type of aircraft. Diagnostic attributes: a high-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,63,Dornier 328,3,"a Dornier 328, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,63,Dornier 328,4,"a Dornier 328, a type of aircraft. Diagnostic attributes: a compact fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,64,E-170,1,"a E-170, a type of aircraft. Diagnostic attributes: two turbofan engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,64,E-170,2,"a E-170, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,64,E-170,3,"a E-170, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,64,E-170,4,"a E-170, a type of aircraft. Diagnostic attributes: a short cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,65,E-190,1,"a E-190, a type of aircraft. Diagnostic attributes: two turbofan engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,65,E-190,2,"a E-190, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,65,E-190,3,"a E-190, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,65,E-190,4,"a E-190, a type of aircraft. Diagnostic attributes: a long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,66,E-195,1,"a E-195, a type of aircraft. Diagnostic attributes: two turbofan engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,66,E-195,2,"a E-195, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,66,E-195,3,"a E-195, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,66,E-195,4,"a E-195, a type of aircraft. Diagnostic attributes: a very long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,67,EMB-120,1,"a EMB-120, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,67,EMB-120,2,"a EMB-120, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,67,EMB-120,3,"a EMB-120, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,67,EMB-120,4,"a EMB-120, a type of aircraft. Diagnostic attributes: a slender cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,68,ERJ 135,1,"a ERJ 135, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,68,ERJ 135,2,"a ERJ 135, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,68,ERJ 135,3,"a ERJ 135, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,68,ERJ 135,4,"a ERJ 135, a type of aircraft. Diagnostic attributes: a short slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,69,ERJ 145,1,"a ERJ 145, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,69,ERJ 145,2,"a ERJ 145, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,69,ERJ 145,3,"a ERJ 145, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,69,ERJ 145,4,"a ERJ 145, a type of aircraft. Diagnostic attributes: a long slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,70,Embraer Legacy 600,1,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,70,Embraer Legacy 600,2,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,70,Embraer Legacy 600,3,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,70,Embraer Legacy 600,4,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: a long pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,71,Eurofighter Typhoon,1,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: twin rear jet exhausts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,71,Eurofighter Typhoon,2,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: delta wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,71,Eurofighter Typhoon,3,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: forward canard foreplanes.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,71,Eurofighter Typhoon,4,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: a single vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,72,F-16A/B,1,"a F-16A/B, a type of aircraft. Diagnostic attributes: a single rear jet exhaust.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,72,F-16A/B,2,"a F-16A/B, a type of aircraft. Diagnostic attributes: mid-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,72,F-16A/B,3,"a F-16A/B, a type of aircraft. Diagnostic attributes: a single vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,72,F-16A/B,4,"a F-16A/B, a type of aircraft. Diagnostic attributes: a bubble canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,73,F/A-18,1,"a F/A-18, a type of aircraft. Diagnostic attributes: twin rear jet exhausts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,73,F/A-18,2,"a F/A-18, a type of aircraft. Diagnostic attributes: high-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,73,F/A-18,3,"a F/A-18, a type of aircraft. Diagnostic attributes: two outward-canted vertical fins.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,73,F/A-18,4,"a F/A-18, a type of aircraft. Diagnostic attributes: a pointed nose.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,74,Falcon 2000,1,"a Falcon 2000, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,74,Falcon 2000,2,"a Falcon 2000, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,74,Falcon 2000,3,"a Falcon 2000, a type of aircraft. Diagnostic attributes: a cruciform tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,74,Falcon 2000,4,"a Falcon 2000, a type of aircraft. Diagnostic attributes: a broad cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,75,Falcon 900,1,"a Falcon 900, a type of aircraft. Diagnostic attributes: three jet engines arranged around the rear fuselage and vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,75,Falcon 900,2,"a Falcon 900, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,75,Falcon 900,3,"a Falcon 900, a type of aircraft. Diagnostic attributes: a cruciform tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,75,Falcon 900,4,"a Falcon 900, a type of aircraft. Diagnostic attributes: a broad cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,76,Fokker 100,1,"a Fokker 100, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,76,Fokker 100,2,"a Fokker 100, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,76,Fokker 100,3,"a Fokker 100, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,76,Fokker 100,4,"a Fokker 100, a type of aircraft. Diagnostic attributes: a long narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,77,Fokker 50,1,"a Fokker 50, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,77,Fokker 50,2,"a Fokker 50, a type of aircraft. Diagnostic attributes: six-blade propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,77,Fokker 50,3,"a Fokker 50, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,77,Fokker 50,4,"a Fokker 50, a type of aircraft. Diagnostic attributes: a compact fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,78,Fokker 70,1,"a Fokker 70, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,78,Fokker 70,2,"a Fokker 70, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,78,Fokker 70,3,"a Fokker 70, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,78,Fokker 70,4,"a Fokker 70, a type of aircraft. Diagnostic attributes: a short narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,79,Global Express,1,"a Global Express, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,79,Global Express,2,"a Global Express, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,79,Global Express,3,"a Global Express, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,79,Global Express,4,"a Global Express, a type of aircraft. Diagnostic attributes: a long broad fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,80,Gulfstream IV,1,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,80,Gulfstream IV,2,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,80,Gulfstream IV,3,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,80,Gulfstream IV,4,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: a medium-length broad fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,81,Gulfstream V,1,"a Gulfstream V, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,81,Gulfstream V,2,"a Gulfstream V, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,81,Gulfstream V,3,"a Gulfstream V, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,81,Gulfstream V,4,"a Gulfstream V, a type of aircraft. Diagnostic attributes: a long broad fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,82,Hawk T1,1,"a Hawk T1, a type of aircraft. Diagnostic attributes: a single rear jet exhaust.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,82,Hawk T1,2,"a Hawk T1, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,82,Hawk T1,3,"a Hawk T1, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,82,Hawk T1,4,"a Hawk T1, a type of aircraft. Diagnostic attributes: a tandem two-seat canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,83,Il-76,1,"a Il-76, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,83,Il-76,2,"a Il-76, a type of aircraft. Diagnostic attributes: a high-mounted swept wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,83,Il-76,3,"a Il-76, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,83,Il-76,4,"a Il-76, a type of aircraft. Diagnostic attributes: a large boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,84,L-1011,1,"a L-1011, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,84,L-1011,2,"a L-1011, a type of aircraft. Diagnostic attributes: a third jet intake at the base of the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,84,L-1011,3,"a L-1011, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,84,L-1011,4,"a L-1011, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,85,MD-11,1,"a MD-11, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,85,MD-11,2,"a MD-11, a type of aircraft. Diagnostic attributes: a third jet engine integrated into the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,85,MD-11,3,"a MD-11, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,85,MD-11,4,"a MD-11, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,86,MD-80,1,"a MD-80, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,86,MD-80,2,"a MD-80, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,86,MD-80,3,"a MD-80, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,86,MD-80,4,"a MD-80, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,87,MD-87,1,"a MD-87, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,87,MD-87,2,"a MD-87, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,87,MD-87,3,"a MD-87, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,87,MD-87,4,"a MD-87, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,88,MD-90,1,"a MD-90, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,88,MD-90,2,"a MD-90, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,88,MD-90,3,"a MD-90, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,88,MD-90,4,"a MD-90, a type of aircraft. Diagnostic attributes: a very long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,89,Metroliner,1,"a Metroliner, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,89,Metroliner,2,"a Metroliner, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,89,Metroliner,3,"a Metroliner, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,89,Metroliner,4,"a Metroliner, a type of aircraft. Diagnostic attributes: a very narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,90,Model B200,1,"a Model B200, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,90,Model B200,2,"a Model B200, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,90,Model B200,3,"a Model B200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,90,Model B200,4,"a Model B200, a type of aircraft. Diagnostic attributes: a long pointed nose ahead of the cockpit.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,91,PA-28,1,"a PA-28, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,91,PA-28,2,"a PA-28, a type of aircraft. Diagnostic attributes: a low-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,91,PA-28,3,"a PA-28, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,91,PA-28,4,"a PA-28, a type of aircraft. Diagnostic attributes: a compact cabin fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,92,SR-20,1,"a SR-20, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,92,SR-20,2,"a SR-20, a type of aircraft. Diagnostic attributes: a low-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,92,SR-20,3,"a SR-20, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,92,SR-20,4,"a SR-20, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,93,Saab 2000,1,"a Saab 2000, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,93,Saab 2000,2,"a Saab 2000, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,93,Saab 2000,3,"a Saab 2000, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,93,Saab 2000,4,"a Saab 2000, a type of aircraft. Diagnostic attributes: a long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,94,Saab 340,1,"a Saab 340, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,94,Saab 340,2,"a Saab 340, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,94,Saab 340,3,"a Saab 340, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,94,Saab 340,4,"a Saab 340, a type of aircraft. Diagnostic attributes: a short cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,95,Spitfire,1,"a Spitfire, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,95,Spitfire,2,"a Spitfire, a type of aircraft. Diagnostic attributes: elliptical low-mounted wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,95,Spitfire,3,"a Spitfire, a type of aircraft. Diagnostic attributes: an enclosed single-seat canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,95,Spitfire,4,"a Spitfire, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,96,Tornado,1,"a Tornado, a type of aircraft. Diagnostic attributes: twin rear jet exhausts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,96,Tornado,2,"a Tornado, a type of aircraft. Diagnostic attributes: variable-sweep wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,96,Tornado,3,"a Tornado, a type of aircraft. Diagnostic attributes: a single vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,96,Tornado,4,"a Tornado, a type of aircraft. Diagnostic attributes: a tandem two-seat cockpit.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,97,Tu-134,1,"a Tu-134, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,97,Tu-134,2,"a Tu-134, a type of aircraft. Diagnostic attributes: low-mounted anhedral swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,97,Tu-134,3,"a Tu-134, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,97,Tu-134,4,"a Tu-134, a type of aircraft. Diagnostic attributes: a slender narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,98,Tu-154,1,"a Tu-154, a type of aircraft. Diagnostic attributes: two rear-fuselage jet engines plus a fin-integrated center engine.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,98,Tu-154,2,"a Tu-154, a type of aircraft. Diagnostic attributes: low-mounted anhedral swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,98,Tu-154,3,"a Tu-154, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,98,Tu-154,4,"a Tu-154, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,99,Yak-42,1,"a Yak-42, a type of aircraft. Diagnostic attributes: two rear-fuselage jet engines plus a fin-integrated center engine.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,99,Yak-42,2,"a Yak-42, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,99,Yak-42,3,"a Yak-42, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-16,99,Yak-42,4,"a Yak-42, a type of aircraft. Diagnostic attributes: a compact cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,0,707-320,1,"a 707-320, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,0,707-320,2,"a 707-320, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,0,707-320,3,"a 707-320, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,0,707-320,4,"a 707-320, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,1,727-200,1,"a 727-200, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,1,727-200,2,"a 727-200, a type of aircraft. Diagnostic attributes: a third jet intake integrated at the base of the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,1,727-200,3,"a 727-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,1,727-200,4,"a 727-200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,2,737-200,1,"a 737-200, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,2,737-200,2,"a 737-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,2,737-200,3,"a 737-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,2,737-200,4,"a 737-200, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,3,737-300,1,"a 737-300, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,3,737-300,2,"a 737-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,3,737-300,3,"a 737-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,3,737-300,4,"a 737-300, a type of aircraft. Diagnostic attributes: a medium-length narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,4,737-400,1,"a 737-400, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,4,737-400,2,"a 737-400, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,4,737-400,3,"a 737-400, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,4,737-400,4,"a 737-400, a type of aircraft. Diagnostic attributes: a stretched narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,5,737-500,1,"a 737-500, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,5,737-500,2,"a 737-500, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,5,737-500,3,"a 737-500, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,5,737-500,4,"a 737-500, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,6,737-600,1,"a 737-600, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,6,737-600,2,"a 737-600, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,6,737-600,3,"a 737-600, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,6,737-600,4,"a 737-600, a type of aircraft. Diagnostic attributes: a very short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,7,737-700,1,"a 737-700, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,7,737-700,2,"a 737-700, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,7,737-700,3,"a 737-700, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,7,737-700,4,"a 737-700, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,8,737-800,1,"a 737-800, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,8,737-800,2,"a 737-800, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,8,737-800,3,"a 737-800, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,8,737-800,4,"a 737-800, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,9,737-900,1,"a 737-900, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,9,737-900,2,"a 737-900, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,9,737-900,3,"a 737-900, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,9,737-900,4,"a 737-900, a type of aircraft. Diagnostic attributes: a very long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,10,747-100,1,"a 747-100, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,10,747-100,2,"a 747-100, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,10,747-100,3,"a 747-100, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,10,747-100,4,"a 747-100, a type of aircraft. Diagnostic attributes: a widebody fuselage with a short upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,11,747-200,1,"a 747-200, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,11,747-200,2,"a 747-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,11,747-200,3,"a 747-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,11,747-200,4,"a 747-200, a type of aircraft. Diagnostic attributes: a widebody fuselage with a short upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,12,747-300,1,"a 747-300, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,12,747-300,2,"a 747-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,12,747-300,3,"a 747-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,12,747-300,4,"a 747-300, a type of aircraft. Diagnostic attributes: a widebody fuselage with an extended upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,13,747-400,1,"a 747-400, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,13,747-400,2,"a 747-400, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,13,747-400,3,"a 747-400, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,13,747-400,4,"a 747-400, a type of aircraft. Diagnostic attributes: a widebody fuselage with an extended upper-deck hump.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,14,757-200,1,"a 757-200, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,14,757-200,2,"a 757-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,14,757-200,3,"a 757-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,14,757-200,4,"a 757-200, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,15,757-300,1,"a 757-300, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,15,757-300,2,"a 757-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,15,757-300,3,"a 757-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,15,757-300,4,"a 757-300, a type of aircraft. Diagnostic attributes: a very long stretched narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,16,767-200,1,"a 767-200, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,16,767-200,2,"a 767-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,16,767-200,3,"a 767-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,16,767-200,4,"a 767-200, a type of aircraft. Diagnostic attributes: a short widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,17,767-300,1,"a 767-300, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,17,767-300,2,"a 767-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,17,767-300,3,"a 767-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,17,767-300,4,"a 767-300, a type of aircraft. Diagnostic attributes: a stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,18,767-400,1,"a 767-400, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,18,767-400,2,"a 767-400, a type of aircraft. Diagnostic attributes: wider-span low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,18,767-400,3,"a 767-400, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,18,767-400,4,"a 767-400, a type of aircraft. Diagnostic attributes: a very long stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,19,777-200,1,"a 777-200, a type of aircraft. Diagnostic attributes: two very large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,19,777-200,2,"a 777-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,19,777-200,3,"a 777-200, a type of aircraft. Diagnostic attributes: six-wheel main landing-gear bogies.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,19,777-200,4,"a 777-200, a type of aircraft. Diagnostic attributes: a long widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,20,777-300,1,"a 777-300, a type of aircraft. Diagnostic attributes: two very large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,20,777-300,2,"a 777-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,20,777-300,3,"a 777-300, a type of aircraft. Diagnostic attributes: six-wheel main landing-gear bogies.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,20,777-300,4,"a 777-300, a type of aircraft. Diagnostic attributes: a very long stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,21,A300B4,1,"a A300B4, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,21,A300B4,2,"a A300B4, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,21,A300B4,3,"a A300B4, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,21,A300B4,4,"a A300B4, a type of aircraft. Diagnostic attributes: a broad widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,22,A310,1,"a A310, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,22,A310,2,"a A310, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,22,A310,3,"a A310, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,22,A310,4,"a A310, a type of aircraft. Diagnostic attributes: a short widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,23,A318,1,"a A318, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,23,A318,2,"a A318, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,23,A318,3,"a A318, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,23,A318,4,"a A318, a type of aircraft. Diagnostic attributes: a very short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,24,A319,1,"a A319, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,24,A319,2,"a A319, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,24,A319,3,"a A319, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,24,A319,4,"a A319, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,25,A320,1,"a A320, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,25,A320,2,"a A320, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,25,A320,3,"a A320, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,25,A320,4,"a A320, a type of aircraft. Diagnostic attributes: a medium-length narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,26,A321,1,"a A321, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,26,A321,2,"a A321, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,26,A321,3,"a A321, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,26,A321,4,"a A321, a type of aircraft. Diagnostic attributes: a long stretched narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,27,A330-200,1,"a A330-200, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,27,A330-200,2,"a A330-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,27,A330-200,3,"a A330-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,27,A330-200,4,"a A330-200, a type of aircraft. Diagnostic attributes: a shorter widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,28,A330-300,1,"a A330-300, a type of aircraft. Diagnostic attributes: two large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,28,A330-300,2,"a A330-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,28,A330-300,3,"a A330-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,28,A330-300,4,"a A330-300, a type of aircraft. Diagnostic attributes: a longer stretched widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,29,A340-200,1,"a A340-200, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,29,A340-200,2,"a A340-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,29,A340-200,3,"a A340-200, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,29,A340-200,4,"a A340-200, a type of aircraft. Diagnostic attributes: a comparatively short widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,30,A340-300,1,"a A340-300, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,30,A340-300,2,"a A340-300, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,30,A340-300,3,"a A340-300, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,30,A340-300,4,"a A340-300, a type of aircraft. Diagnostic attributes: a medium-length widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,31,A340-500,1,"a A340-500, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,31,A340-500,2,"a A340-500, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,31,A340-500,3,"a A340-500, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,31,A340-500,4,"a A340-500, a type of aircraft. Diagnostic attributes: a long widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,32,A340-600,1,"a A340-600, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,32,A340-600,2,"a A340-600, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,32,A340-600,3,"a A340-600, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,32,A340-600,4,"a A340-600, a type of aircraft. Diagnostic attributes: an exceptionally long widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,33,A380,1,"a A380, a type of aircraft. Diagnostic attributes: four large jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,33,A380,2,"a A380, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,33,A380,3,"a A380, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,33,A380,4,"a A380, a type of aircraft. Diagnostic attributes: a full-length double-deck widebody fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,34,ATR-42,1,"a ATR-42, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,34,ATR-42,2,"a ATR-42, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,34,ATR-42,3,"a ATR-42, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,34,ATR-42,4,"a ATR-42, a type of aircraft. Diagnostic attributes: a compact fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,35,ATR-72,1,"a ATR-72, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,35,ATR-72,2,"a ATR-72, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,35,ATR-72,3,"a ATR-72, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,35,ATR-72,4,"a ATR-72, a type of aircraft. Diagnostic attributes: a stretched fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,36,An-12,1,"a An-12, a type of aircraft. Diagnostic attributes: four turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,36,An-12,2,"a An-12, a type of aircraft. Diagnostic attributes: four large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,36,An-12,3,"a An-12, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,36,An-12,4,"a An-12, a type of aircraft. Diagnostic attributes: a boxy deep fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,37,BAE 146-200,1,"a BAE 146-200, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,37,BAE 146-200,2,"a BAE 146-200, a type of aircraft. Diagnostic attributes: a high-mounted swept wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,37,BAE 146-200,3,"a BAE 146-200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,37,BAE 146-200,4,"a BAE 146-200, a type of aircraft. Diagnostic attributes: a short boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,38,BAE 146-300,1,"a BAE 146-300, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,38,BAE 146-300,2,"a BAE 146-300, a type of aircraft. Diagnostic attributes: a high-mounted swept wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,38,BAE 146-300,3,"a BAE 146-300, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,38,BAE 146-300,4,"a BAE 146-300, a type of aircraft. Diagnostic attributes: a stretched boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,39,BAE-125,1,"a BAE-125, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,39,BAE-125,2,"a BAE-125, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,39,BAE-125,3,"a BAE-125, a type of aircraft. Diagnostic attributes: a cruciform tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,39,BAE-125,4,"a BAE-125, a type of aircraft. Diagnostic attributes: a slender pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,40,Beechcraft 1900,1,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,40,Beechcraft 1900,2,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: a low-mounted wing with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,40,Beechcraft 1900,3,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,40,Beechcraft 1900,4,"a Beechcraft 1900, a type of aircraft. Diagnostic attributes: a tall narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,41,Boeing 717,1,"a Boeing 717, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,41,Boeing 717,2,"a Boeing 717, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,41,Boeing 717,3,"a Boeing 717, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,41,Boeing 717,4,"a Boeing 717, a type of aircraft. Diagnostic attributes: a narrow cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,42,C-130,1,"a C-130, a type of aircraft. Diagnostic attributes: four turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,42,C-130,2,"a C-130, a type of aircraft. Diagnostic attributes: four large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,42,C-130,3,"a C-130, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,42,C-130,4,"a C-130, a type of aircraft. Diagnostic attributes: a broad boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,43,C-47,1,"a C-47, a type of aircraft. Diagnostic attributes: two radial piston engines mounted ahead of a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,43,C-47,2,"a C-47, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,43,C-47,3,"a C-47, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,43,C-47,4,"a C-47, a type of aircraft. Diagnostic attributes: a large side cargo door on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,44,CRJ-200,1,"a CRJ-200, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,44,CRJ-200,2,"a CRJ-200, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,44,CRJ-200,3,"a CRJ-200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,44,CRJ-200,4,"a CRJ-200, a type of aircraft. Diagnostic attributes: a short slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,45,CRJ-700,1,"a CRJ-700, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,45,CRJ-700,2,"a CRJ-700, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,45,CRJ-700,3,"a CRJ-700, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,45,CRJ-700,4,"a CRJ-700, a type of aircraft. Diagnostic attributes: a medium-length slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,46,CRJ-900,1,"a CRJ-900, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,46,CRJ-900,2,"a CRJ-900, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,46,CRJ-900,3,"a CRJ-900, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,46,CRJ-900,4,"a CRJ-900, a type of aircraft. Diagnostic attributes: a long stretched slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,47,Cessna 172,1,"a Cessna 172, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,47,Cessna 172,2,"a Cessna 172, a type of aircraft. Diagnostic attributes: a high-mounted wing with struts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,47,Cessna 172,3,"a Cessna 172, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,47,Cessna 172,4,"a Cessna 172, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,48,Cessna 208,1,"a Cessna 208, a type of aircraft. Diagnostic attributes: a single nose-mounted turboprop engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,48,Cessna 208,2,"a Cessna 208, a type of aircraft. Diagnostic attributes: a high-mounted wing with struts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,48,Cessna 208,3,"a Cessna 208, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,48,Cessna 208,4,"a Cessna 208, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,49,Cessna 525,1,"a Cessna 525, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,49,Cessna 525,2,"a Cessna 525, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,49,Cessna 525,3,"a Cessna 525, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,49,Cessna 525,4,"a Cessna 525, a type of aircraft. Diagnostic attributes: a compact pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,50,Cessna 560,1,"a Cessna 560, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,50,Cessna 560,2,"a Cessna 560, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,50,Cessna 560,3,"a Cessna 560, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,50,Cessna 560,4,"a Cessna 560, a type of aircraft. Diagnostic attributes: a slender pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,51,Challenger 600,1,"a Challenger 600, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,51,Challenger 600,2,"a Challenger 600, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,51,Challenger 600,3,"a Challenger 600, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,51,Challenger 600,4,"a Challenger 600, a type of aircraft. Diagnostic attributes: a broad cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,52,DC-10,1,"a DC-10, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,52,DC-10,2,"a DC-10, a type of aircraft. Diagnostic attributes: a third jet engine integrated into the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,52,DC-10,3,"a DC-10, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,52,DC-10,4,"a DC-10, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,53,DC-3,1,"a DC-3, a type of aircraft. Diagnostic attributes: two radial piston engines mounted ahead of a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,53,DC-3,2,"a DC-3, a type of aircraft. Diagnostic attributes: a low-mounted cantilever wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,53,DC-3,3,"a DC-3, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,53,DC-3,4,"a DC-3, a type of aircraft. Diagnostic attributes: retractable main landing gear with a tailwheel stance.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,54,DC-6,1,"a DC-6, a type of aircraft. Diagnostic attributes: four radial piston engines mounted ahead of a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,54,DC-6,2,"a DC-6, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,54,DC-6,3,"a DC-6, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,54,DC-6,4,"a DC-6, a type of aircraft. Diagnostic attributes: a long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,55,DC-8,1,"a DC-8, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,55,DC-8,2,"a DC-8, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,55,DC-8,3,"a DC-8, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,55,DC-8,4,"a DC-8, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,56,DC-9-30,1,"a DC-9-30, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,56,DC-9-30,2,"a DC-9-30, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,56,DC-9-30,3,"a DC-9-30, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,56,DC-9-30,4,"a DC-9-30, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,57,DH-82,1,"a DH-82, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,57,DH-82,2,"a DH-82, a type of aircraft. Diagnostic attributes: two stacked wings in a biplane configuration.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,57,DH-82,3,"a DH-82, a type of aircraft. Diagnostic attributes: two open tandem cockpits.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,57,DH-82,4,"a DH-82, a type of aircraft. Diagnostic attributes: a conventional tail with external bracing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,58,DHC-1,1,"a DHC-1, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,58,DHC-1,2,"a DHC-1, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,58,DHC-1,3,"a DHC-1, a type of aircraft. Diagnostic attributes: a tandem cockpit under a clear canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,58,DHC-1,4,"a DHC-1, a type of aircraft. Diagnostic attributes: a conventional tailwheel undercarriage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,59,DHC-6,1,"a DHC-6, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,59,DHC-6,2,"a DHC-6, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,59,DHC-6,3,"a DHC-6, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,59,DHC-6,4,"a DHC-6, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,60,DHC-8-100,1,"a DHC-8-100, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,60,DHC-8-100,2,"a DHC-8-100, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,60,DHC-8-100,3,"a DHC-8-100, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,60,DHC-8-100,4,"a DHC-8-100, a type of aircraft. Diagnostic attributes: a short fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,61,DHC-8-300,1,"a DHC-8-300, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,61,DHC-8-300,2,"a DHC-8-300, a type of aircraft. Diagnostic attributes: large propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,61,DHC-8-300,3,"a DHC-8-300, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,61,DHC-8-300,4,"a DHC-8-300, a type of aircraft. Diagnostic attributes: a stretched fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,62,DR-400,1,"a DR-400, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,62,DR-400,2,"a DR-400, a type of aircraft. Diagnostic attributes: a low-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,62,DR-400,3,"a DR-400, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,62,DR-400,4,"a DR-400, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,63,Dornier 328,1,"a Dornier 328, a type of aircraft. Diagnostic attributes: two six-blade turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,63,Dornier 328,2,"a Dornier 328, a type of aircraft. Diagnostic attributes: a high-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,63,Dornier 328,3,"a Dornier 328, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,63,Dornier 328,4,"a Dornier 328, a type of aircraft. Diagnostic attributes: a compact fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,64,E-170,1,"a E-170, a type of aircraft. Diagnostic attributes: two turbofan engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,64,E-170,2,"a E-170, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,64,E-170,3,"a E-170, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,64,E-170,4,"a E-170, a type of aircraft. Diagnostic attributes: a short cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,65,E-190,1,"a E-190, a type of aircraft. Diagnostic attributes: two turbofan engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,65,E-190,2,"a E-190, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,65,E-190,3,"a E-190, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,65,E-190,4,"a E-190, a type of aircraft. Diagnostic attributes: a long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,66,E-195,1,"a E-195, a type of aircraft. Diagnostic attributes: two turbofan engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,66,E-195,2,"a E-195, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,66,E-195,3,"a E-195, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,66,E-195,4,"a E-195, a type of aircraft. Diagnostic attributes: a very long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,67,EMB-120,1,"a EMB-120, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,67,EMB-120,2,"a EMB-120, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,67,EMB-120,3,"a EMB-120, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,67,EMB-120,4,"a EMB-120, a type of aircraft. Diagnostic attributes: a slender cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,68,ERJ 135,1,"a ERJ 135, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,68,ERJ 135,2,"a ERJ 135, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,68,ERJ 135,3,"a ERJ 135, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,68,ERJ 135,4,"a ERJ 135, a type of aircraft. Diagnostic attributes: a short slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,69,ERJ 145,1,"a ERJ 145, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,69,ERJ 145,2,"a ERJ 145, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,69,ERJ 145,3,"a ERJ 145, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,69,ERJ 145,4,"a ERJ 145, a type of aircraft. Diagnostic attributes: a long slender fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,70,Embraer Legacy 600,1,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,70,Embraer Legacy 600,2,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,70,Embraer Legacy 600,3,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,70,Embraer Legacy 600,4,"a Embraer Legacy 600, a type of aircraft. Diagnostic attributes: a long pointed-nose fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,71,Eurofighter Typhoon,1,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: twin rear jet exhausts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,71,Eurofighter Typhoon,2,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: delta wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,71,Eurofighter Typhoon,3,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: forward canard foreplanes.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,71,Eurofighter Typhoon,4,"a Eurofighter Typhoon, a type of aircraft. Diagnostic attributes: a single vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,72,F-16A/B,1,"a F-16A/B, a type of aircraft. Diagnostic attributes: a single rear jet exhaust.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,72,F-16A/B,2,"a F-16A/B, a type of aircraft. Diagnostic attributes: mid-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,72,F-16A/B,3,"a F-16A/B, a type of aircraft. Diagnostic attributes: a single vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,72,F-16A/B,4,"a F-16A/B, a type of aircraft. Diagnostic attributes: a bubble canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,73,F/A-18,1,"a F/A-18, a type of aircraft. Diagnostic attributes: twin rear jet exhausts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,73,F/A-18,2,"a F/A-18, a type of aircraft. Diagnostic attributes: high-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,73,F/A-18,3,"a F/A-18, a type of aircraft. Diagnostic attributes: two outward-canted vertical fins.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,73,F/A-18,4,"a F/A-18, a type of aircraft. Diagnostic attributes: a pointed nose.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,74,Falcon 2000,1,"a Falcon 2000, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,74,Falcon 2000,2,"a Falcon 2000, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,74,Falcon 2000,3,"a Falcon 2000, a type of aircraft. Diagnostic attributes: a cruciform tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,74,Falcon 2000,4,"a Falcon 2000, a type of aircraft. Diagnostic attributes: a broad cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,75,Falcon 900,1,"a Falcon 900, a type of aircraft. Diagnostic attributes: three jet engines arranged around the rear fuselage and vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,75,Falcon 900,2,"a Falcon 900, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,75,Falcon 900,3,"a Falcon 900, a type of aircraft. Diagnostic attributes: a cruciform tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,75,Falcon 900,4,"a Falcon 900, a type of aircraft. Diagnostic attributes: a broad cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,76,Fokker 100,1,"a Fokker 100, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,76,Fokker 100,2,"a Fokker 100, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,76,Fokker 100,3,"a Fokker 100, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,76,Fokker 100,4,"a Fokker 100, a type of aircraft. Diagnostic attributes: a long narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,77,Fokker 50,1,"a Fokker 50, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,77,Fokker 50,2,"a Fokker 50, a type of aircraft. Diagnostic attributes: six-blade propellers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,77,Fokker 50,3,"a Fokker 50, a type of aircraft. Diagnostic attributes: a conventional high-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,77,Fokker 50,4,"a Fokker 50, a type of aircraft. Diagnostic attributes: a compact fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,78,Fokker 70,1,"a Fokker 70, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,78,Fokker 70,2,"a Fokker 70, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,78,Fokker 70,3,"a Fokker 70, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,78,Fokker 70,4,"a Fokker 70, a type of aircraft. Diagnostic attributes: a short narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,79,Global Express,1,"a Global Express, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,79,Global Express,2,"a Global Express, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,79,Global Express,3,"a Global Express, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,79,Global Express,4,"a Global Express, a type of aircraft. Diagnostic attributes: a long broad fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,80,Gulfstream IV,1,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,80,Gulfstream IV,2,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,80,Gulfstream IV,3,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,80,Gulfstream IV,4,"a Gulfstream IV, a type of aircraft. Diagnostic attributes: a medium-length broad fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,81,Gulfstream V,1,"a Gulfstream V, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,81,Gulfstream V,2,"a Gulfstream V, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,81,Gulfstream V,3,"a Gulfstream V, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,81,Gulfstream V,4,"a Gulfstream V, a type of aircraft. Diagnostic attributes: a long broad fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,82,Hawk T1,1,"a Hawk T1, a type of aircraft. Diagnostic attributes: a single rear jet exhaust.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,82,Hawk T1,2,"a Hawk T1, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,82,Hawk T1,3,"a Hawk T1, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,82,Hawk T1,4,"a Hawk T1, a type of aircraft. Diagnostic attributes: a tandem two-seat canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,83,Il-76,1,"a Il-76, a type of aircraft. Diagnostic attributes: four jet engines mounted beneath a high wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,83,Il-76,2,"a Il-76, a type of aircraft. Diagnostic attributes: a high-mounted swept wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,83,Il-76,3,"a Il-76, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,83,Il-76,4,"a Il-76, a type of aircraft. Diagnostic attributes: a large boxy fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,84,L-1011,1,"a L-1011, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,84,L-1011,2,"a L-1011, a type of aircraft. Diagnostic attributes: a third jet intake at the base of the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,84,L-1011,3,"a L-1011, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,84,L-1011,4,"a L-1011, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,85,MD-11,1,"a MD-11, a type of aircraft. Diagnostic attributes: two jet engines mounted beneath the wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,85,MD-11,2,"a MD-11, a type of aircraft. Diagnostic attributes: a third jet engine integrated into the vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,85,MD-11,3,"a MD-11, a type of aircraft. Diagnostic attributes: low-mounted swept wings with winglets.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,85,MD-11,4,"a MD-11, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,86,MD-80,1,"a MD-80, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,86,MD-80,2,"a MD-80, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,86,MD-80,3,"a MD-80, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,86,MD-80,4,"a MD-80, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,87,MD-87,1,"a MD-87, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,87,MD-87,2,"a MD-87, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,87,MD-87,3,"a MD-87, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,87,MD-87,4,"a MD-87, a type of aircraft. Diagnostic attributes: a short narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,88,MD-90,1,"a MD-90, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,88,MD-90,2,"a MD-90, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,88,MD-90,3,"a MD-90, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,88,MD-90,4,"a MD-90, a type of aircraft. Diagnostic attributes: a very long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,89,Metroliner,1,"a Metroliner, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,89,Metroliner,2,"a Metroliner, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,89,Metroliner,3,"a Metroliner, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,89,Metroliner,4,"a Metroliner, a type of aircraft. Diagnostic attributes: a very narrow fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,90,Model B200,1,"a Model B200, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,90,Model B200,2,"a Model B200, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,90,Model B200,3,"a Model B200, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,90,Model B200,4,"a Model B200, a type of aircraft. Diagnostic attributes: a long pointed nose ahead of the cockpit.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,91,PA-28,1,"a PA-28, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,91,PA-28,2,"a PA-28, a type of aircraft. Diagnostic attributes: a low-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,91,PA-28,3,"a PA-28, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,91,PA-28,4,"a PA-28, a type of aircraft. Diagnostic attributes: a compact cabin fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,92,SR-20,1,"a SR-20, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,92,SR-20,2,"a SR-20, a type of aircraft. Diagnostic attributes: a low-mounted wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,92,SR-20,3,"a SR-20, a type of aircraft. Diagnostic attributes: a conventional low-set tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,92,SR-20,4,"a SR-20, a type of aircraft. Diagnostic attributes: fixed tricycle landing gear.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,93,Saab 2000,1,"a Saab 2000, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,93,Saab 2000,2,"a Saab 2000, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,93,Saab 2000,3,"a Saab 2000, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,93,Saab 2000,4,"a Saab 2000, a type of aircraft. Diagnostic attributes: a long cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,94,Saab 340,1,"a Saab 340, a type of aircraft. Diagnostic attributes: two turboprop engines mounted on a low wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,94,Saab 340,2,"a Saab 340, a type of aircraft. Diagnostic attributes: a low-mounted straight wing.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,94,Saab 340,3,"a Saab 340, a type of aircraft. Diagnostic attributes: a conventional tail with mid-set horizontal stabilizers.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,94,Saab 340,4,"a Saab 340, a type of aircraft. Diagnostic attributes: a short cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,95,Spitfire,1,"a Spitfire, a type of aircraft. Diagnostic attributes: a single nose-mounted piston engine and propeller.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,95,Spitfire,2,"a Spitfire, a type of aircraft. Diagnostic attributes: elliptical low-mounted wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,95,Spitfire,3,"a Spitfire, a type of aircraft. Diagnostic attributes: an enclosed single-seat canopy.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,95,Spitfire,4,"a Spitfire, a type of aircraft. Diagnostic attributes: a conventional tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,96,Tornado,1,"a Tornado, a type of aircraft. Diagnostic attributes: twin rear jet exhausts.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,96,Tornado,2,"a Tornado, a type of aircraft. Diagnostic attributes: variable-sweep wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,96,Tornado,3,"a Tornado, a type of aircraft. Diagnostic attributes: a single vertical fin.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,96,Tornado,4,"a Tornado, a type of aircraft. Diagnostic attributes: a tandem two-seat cockpit.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,97,Tu-134,1,"a Tu-134, a type of aircraft. Diagnostic attributes: two jet engines mounted on the rear fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,97,Tu-134,2,"a Tu-134, a type of aircraft. Diagnostic attributes: low-mounted anhedral swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,97,Tu-134,3,"a Tu-134, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,97,Tu-134,4,"a Tu-134, a type of aircraft. Diagnostic attributes: a slender narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,98,Tu-154,1,"a Tu-154, a type of aircraft. Diagnostic attributes: two rear-fuselage jet engines plus a fin-integrated center engine.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,98,Tu-154,2,"a Tu-154, a type of aircraft. Diagnostic attributes: low-mounted anhedral swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,98,Tu-154,3,"a Tu-154, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,98,Tu-154,4,"a Tu-154, a type of aircraft. Diagnostic attributes: a long narrow-body fuselage.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,99,Yak-42,1,"a Yak-42, a type of aircraft. Diagnostic attributes: two rear-fuselage jet engines plus a fin-integrated center engine.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,99,Yak-42,2,"a Yak-42, a type of aircraft. Diagnostic attributes: low-mounted swept wings.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,99,Yak-42,3,"a Yak-42, a type of aircraft. Diagnostic attributes: a T-tail.",{base_description}. Diagnostic attributes: {descriptor}.
+ViT-B-32,99,Yak-42,4,"a Yak-42, a type of aircraft. Diagnostic attributes: a compact cylindrical fuselage.",{base_description}. Diagnostic attributes: {descriptor}.

@@ -1,0 +1,18 @@
+{
+  "record_type": "post-run reconstruction from saved execution records; not preregistration",
+  "resource": "02_resources/aircraft_descriptors_frozen.json",
+  "resource_sha256": "67876cc858a9b6a1785b7eaa229a54dd40ad3394de7a7c989ad0d77b803808fc",
+  "item_audit": "aircraft_descriptor_audit.csv",
+  "item_audit_sha256": "bdb085a4bbfaa1ec8a732e2ec0930388cfe07bdee5e726391ef0221ff18433b5",
+  "pre_run_gate_record": "../01_protocol/pre_run_checks.json",
+  "frozen_support_validation_manifests": [
+    "../01_protocol/split_manifests/split_seed_20261003.json",
+    "../01_protocol/split_manifests/split_seed_20261004.json",
+    "../01_protocol/split_manifests/split_seed_20261005.json",
+    "../01_protocol/split_manifests/split_seed_20261006.json",
+    "../01_protocol/split_manifests/split_seed_20261007.json"
+  ],
+  "model_lock": "../01_protocol/model_lock.json",
+  "source_note": "The frozen execution manifest was reconstructed after the run from saved scripts, model/tokenizer files, resource hashes and split manifests.",
+  "source_recorded_filename": "aircraft_descriptors_clean.json"
+}

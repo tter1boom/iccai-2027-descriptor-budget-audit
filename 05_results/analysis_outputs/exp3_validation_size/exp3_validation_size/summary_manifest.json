@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "checkpoint_rows": 24000,
+  "hierarchical_bootstrap_replicates": 10000,
+  "elapsed_seconds": 4.529242038726807,
+  "method": "support-resample outer level; validation-permutation inner level; vectorized equivalent of frozen protocol"
+}

@@ -1,0 +1,5 @@
+backbone,k,n_seed_ranker_outputs,test_image_count,predictions_identical_across_support_seeds_and_PM_CM,analysis_status
+ViT-B-16,0,10,3333,True,archived_endpoint_invariance_check
+ViT-B-16,4,10,3333,True,archived_endpoint_invariance_check
+ViT-B-32,0,10,3333,True,archived_endpoint_invariance_check
+ViT-B-32,4,10,3333,True,archived_endpoint_invariance_check

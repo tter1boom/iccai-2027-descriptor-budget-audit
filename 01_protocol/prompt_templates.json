@@ -1,0 +1,8 @@
+{
+  "base": "{BASE_DESCRIPTION}",
+  "base_note": "The runner consumes each resource record's base_description verbatim (for example: a 707-320, a type of aircraft).",
+  "descriptor_scoring": "a photo of an aircraft showing {DESCRIPTOR}.",
+  "recomposition": "{BASE_DESCRIPTION}. Diagnostic attributes: {SELECTED_DESCRIPTORS}.",
+  "serialization": "canonical descriptor catalogue order; semicolon separator; k=0 uses base_description verbatim",
+  "authority": "Recovered from the saved execution code; this release record corrects the mismatched v11 documentation and does not imply a rerun."
+}

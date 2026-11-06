@@ -1,0 +1,11 @@
+backbone,seed,ranking,selected_k,validation_macro_accuracy,test_macro_accuracy,analysis_status
+ViT-B-16,20261003,fixed_catalogue_order,4,0.228,0.2561229946524064,post_review_exploratory_ranking_control
+ViT-B-16,20261004,fixed_catalogue_order,0,0.26,0.2445276292335116,post_review_exploratory_ranking_control
+ViT-B-16,20261005,fixed_catalogue_order,1,0.254,0.257415329768271,post_review_exploratory_ranking_control
+ViT-B-16,20261006,fixed_catalogue_order,1,0.258,0.257415329768271,post_review_exploratory_ranking_control
+ViT-B-16,20261007,fixed_catalogue_order,0,0.252,0.2445276292335116,post_review_exploratory_ranking_control
+ViT-B-32,20261003,fixed_catalogue_order,2,0.22400000000000003,0.19045454545454552,post_review_exploratory_ranking_control
+ViT-B-32,20261004,fixed_catalogue_order,2,0.204,0.19045454545454552,post_review_exploratory_ranking_control
+ViT-B-32,20261005,fixed_catalogue_order,1,0.20800000000000002,0.2017023172905526,post_review_exploratory_ranking_control
+ViT-B-32,20261006,fixed_catalogue_order,1,0.21600000000000005,0.2017023172905526,post_review_exploratory_ranking_control
+ViT-B-32,20261007,fixed_catalogue_order,0,0.20800000000000002,0.19787878787878788,post_review_exploratory_ranking_control

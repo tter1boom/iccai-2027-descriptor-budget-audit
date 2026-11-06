@@ -1,0 +1,2167 @@
+{
+  "resource_id": "fgvc_aircraft_quality_controlled_double_audited",
+  "status": "approved_for_experiment_after_exact_application_and_pre_run_hash_token_checks",
+  "generation_boundary": "class names and v1 resource only; no Aircraft images, predictions, recalls, confusion matrices, validation outputs, or test outcomes were accessed",
+  "audit_method": {
+    "pass_1": "100-class source-by-source factual audit of engine/propulsion, wing, tail, and discriminative external morphology; ambiguous or unsupported claims were replaced conservatively.",
+    "pass_2": "Second adversarial recheck focusing on prior failure modes (engine count/position, wing position, tail type, family-length contrasts, nonvisual leakage), followed by automated structural consistency checks.",
+    "note": "This is a model-conducted double audit, not an independent human expert certification."
+  },
+  "quality_summary": {
+    "classes": 100,
+    "descriptors": 400,
+    "unique_descriptor_sentences": 117,
+    "unique_four_descriptor_combinations": 89,
+    "largest_identical_combination_group": 4,
+    "pending_status_count": 0,
+    "class_name_leakage_count": 0,
+    "within_class_duplicate_descriptor_count": 0
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "name_en": "707-320",
+      "base_description": "a 707-320, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B703",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B703"
+        },
+        {
+          "institution": "Boeing",
+          "title": "Boeing — Airplane Characteristics / 707 planning manual index",
+          "url": "https://www.boeing.com/commercial/airports/plan-manuals"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 1,
+      "name_en": "727-200",
+      "base_description": "a 727-200, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "a third jet intake integrated at the base of the vertical fin",
+        "low-mounted swept wings",
+        "a T-tail"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B722",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B722"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 2,
+      "name_en": "737-200",
+      "base_description": "a 737-200, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B732",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B732"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 3,
+      "name_en": "737-300",
+      "base_description": "a 737-300, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a medium-length narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B733",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B733"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 4,
+      "name_en": "737-400",
+      "base_description": "a 737-400, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a stretched narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B734",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B734"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 5,
+      "name_en": "737-500",
+      "base_description": "a 737-500, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B735",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B735"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 6,
+      "name_en": "737-600",
+      "base_description": "a 737-600, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a very short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B736",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B736"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 7,
+      "name_en": "737-700",
+      "base_description": "a 737-700, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B737",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B737"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 8,
+      "name_en": "737-800",
+      "base_description": "a 737-800, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B738",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B738"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 9,
+      "name_en": "737-900",
+      "base_description": "a 737-900, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a very long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B739",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B739"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 10,
+      "name_en": "747-100",
+      "base_description": "a 747-100, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a widebody fuselage with a short upper-deck hump"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B741",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B741"
+        },
+        {
+          "institution": "Boeing",
+          "title": "Boeing — 747-100/200/300 planning manual index",
+          "url": "https://www.boeing.com/commercial/airports/plan-manuals"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 11,
+      "name_en": "747-200",
+      "base_description": "a 747-200, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a widebody fuselage with a short upper-deck hump"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B742",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B742"
+        },
+        {
+          "institution": "Boeing",
+          "title": "Boeing — 747-100/200/300 planning manual index",
+          "url": "https://www.boeing.com/commercial/airports/plan-manuals"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 12,
+      "name_en": "747-300",
+      "base_description": "a 747-300, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a widebody fuselage with an extended upper-deck hump"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B743",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B743"
+        },
+        {
+          "institution": "Boeing",
+          "title": "Boeing — 747-100/200/300 planning manual index",
+          "url": "https://www.boeing.com/commercial/airports/plan-manuals"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 13,
+      "name_en": "747-400",
+      "base_description": "a 747-400, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings with winglets",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a widebody fuselage with an extended upper-deck hump"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B744",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B744"
+        },
+        {
+          "institution": "Boeing",
+          "title": "Boeing — 747-400 planning manual index",
+          "url": "https://www.boeing.com/commercial/airports/plan-manuals"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 14,
+      "name_en": "757-200",
+      "base_description": "a 757-200, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B752",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B752"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 15,
+      "name_en": "757-300",
+      "base_description": "a 757-300, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a very long stretched narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B753",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B753"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 16,
+      "name_en": "767-200",
+      "base_description": "a 767-200, a type of aircraft",
+      "descriptors": [
+        "two large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a short widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B762",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B762"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 17,
+      "name_en": "767-300",
+      "base_description": "a 767-300, a type of aircraft",
+      "descriptors": [
+        "two large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a stretched widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B763",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B763"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 18,
+      "name_en": "767-400",
+      "base_description": "a 767-400, a type of aircraft",
+      "descriptors": [
+        "two large jet engines mounted beneath the wings",
+        "wider-span low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a very long stretched widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B764",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B764"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 19,
+      "name_en": "777-200",
+      "base_description": "a 777-200, a type of aircraft",
+      "descriptors": [
+        "two very large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "six-wheel main landing-gear bogies",
+        "a long widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B772",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B772"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 20,
+      "name_en": "777-300",
+      "base_description": "a 777-300, a type of aircraft",
+      "descriptors": [
+        "two very large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "six-wheel main landing-gear bogies",
+        "a very long stretched widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B773",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B773"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 21,
+      "name_en": "A300B4",
+      "base_description": "a A300B4, a type of aircraft",
+      "descriptors": [
+        "two large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a broad widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A30B",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A30B"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 22,
+      "name_en": "A310",
+      "base_description": "a A310, a type of aircraft",
+      "descriptors": [
+        "two large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a short widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A310",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A310"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 23,
+      "name_en": "A318",
+      "base_description": "a A318, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a very short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A318",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A318"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 24,
+      "name_en": "A319",
+      "base_description": "a A319, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A319",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A319"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 25,
+      "name_en": "A320",
+      "base_description": "a A320, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a medium-length narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A320",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A320"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 26,
+      "name_en": "A321",
+      "base_description": "a A321, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a long stretched narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A321",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A321"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 27,
+      "name_en": "A330-200",
+      "base_description": "a A330-200, a type of aircraft",
+      "descriptors": [
+        "two large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a shorter widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A332",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A332"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 28,
+      "name_en": "A330-300",
+      "base_description": "a A330-300, a type of aircraft",
+      "descriptors": [
+        "two large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a longer stretched widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A333",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A333"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 29,
+      "name_en": "A340-200",
+      "base_description": "a A340-200, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a comparatively short widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A342",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A342"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 30,
+      "name_en": "A340-300",
+      "base_description": "a A340-300, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a medium-length widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A343",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A343"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 31,
+      "name_en": "A340-500",
+      "base_description": "a A340-500, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a long widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A345",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A345"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 32,
+      "name_en": "A340-600",
+      "base_description": "a A340-600, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "an exceptionally long widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A346",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A346"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 33,
+      "name_en": "A380",
+      "base_description": "a A380, a type of aircraft",
+      "descriptors": [
+        "four large jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a full-length double-deck widebody fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO A388",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=A388"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 34,
+      "name_en": "ATR-42",
+      "base_description": "a ATR-42, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a high wing",
+        "large propellers",
+        "a T-tail",
+        "a compact fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO AT43",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=AT43"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 35,
+      "name_en": "ATR-72",
+      "base_description": "a ATR-72, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a high wing",
+        "large propellers",
+        "a T-tail",
+        "a stretched fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO AT72",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=AT72"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 36,
+      "name_en": "An-12",
+      "base_description": "a An-12, a type of aircraft",
+      "descriptors": [
+        "four turboprop engines mounted on a high wing",
+        "four large propellers",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a boxy deep fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO AN12",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=AN12"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 37,
+      "name_en": "BAE 146-200",
+      "base_description": "a BAE 146-200, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath a high wing",
+        "a high-mounted swept wing",
+        "a T-tail",
+        "a short boxy fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B462",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B462"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 38,
+      "name_en": "BAE 146-300",
+      "base_description": "a BAE 146-300, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath a high wing",
+        "a high-mounted swept wing",
+        "a T-tail",
+        "a stretched boxy fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B463",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B463"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 39,
+      "name_en": "BAE-125",
+      "base_description": "a BAE-125, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a cruciform tail",
+        "a slender pointed-nose fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO H25B",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=H25B"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 40,
+      "name_en": "Beechcraft 1900",
+      "base_description": "a Beechcraft 1900, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a low wing",
+        "a low-mounted wing with winglets",
+        "a T-tail",
+        "a tall narrow fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B190",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B190"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 41,
+      "name_en": "Boeing 717",
+      "base_description": "a Boeing 717, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a narrow cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO B712",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=B712"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 42,
+      "name_en": "C-130",
+      "base_description": "a C-130, a type of aircraft",
+      "descriptors": [
+        "four turboprop engines mounted on a high wing",
+        "four large propellers",
+        "a conventional low-set tail",
+        "a broad boxy fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO C130",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=C130"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 43,
+      "name_en": "C-47",
+      "base_description": "a C-47, a type of aircraft",
+      "descriptors": [
+        "two radial piston engines mounted ahead of a low wing",
+        "a low-mounted straight wing",
+        "a conventional tail",
+        "a large side cargo door on the rear fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing — C-47 Skytrain Military Transport",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        },
+        {
+          "institution": "Smithsonian National Air and Space Museum",
+          "title": "Smithsonian National Air and Space Museum — D-Day and the Douglas C-47",
+          "url": "https://airandspace.si.edu/stories/editorial/d-day-and-douglas-c-47"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 44,
+      "name_en": "CRJ-200",
+      "base_description": "a CRJ-200, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a short slender fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO CRJ2",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=CRJ2"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 45,
+      "name_en": "CRJ-700",
+      "base_description": "a CRJ-700, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a medium-length slender fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO CRJ7",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=CRJ7"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 46,
+      "name_en": "CRJ-900",
+      "base_description": "a CRJ-900, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a long stretched slender fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO CRJ9",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=CRJ9"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 47,
+      "name_en": "Cessna 172",
+      "base_description": "a Cessna 172, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted piston engine and propeller",
+        "a high-mounted wing with struts",
+        "a conventional tail",
+        "fixed tricycle landing gear"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO C172",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=C172"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 48,
+      "name_en": "Cessna 208",
+      "base_description": "a Cessna 208, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted turboprop engine and propeller",
+        "a high-mounted wing with struts",
+        "a conventional tail",
+        "fixed tricycle landing gear"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO C208",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=C208"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 49,
+      "name_en": "Cessna 525",
+      "base_description": "a Cessna 525, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a compact pointed-nose fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO C525",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=C525"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 50,
+      "name_en": "Cessna 560",
+      "base_description": "a Cessna 560, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a conventional high-set tail",
+        "a slender pointed-nose fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO C560",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=C560"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 51,
+      "name_en": "Challenger 600",
+      "base_description": "a Challenger 600, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a broad cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO CL60",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=CL60"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 52,
+      "name_en": "DC-10",
+      "base_description": "a DC-10, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "a third jet engine integrated into the vertical fin",
+        "low-mounted swept wings",
+        "a conventional low-set tail"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO DC10",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=DC10"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 53,
+      "name_en": "DC-3",
+      "base_description": "a DC-3, a type of aircraft",
+      "descriptors": [
+        "two radial piston engines mounted ahead of a low wing",
+        "a low-mounted cantilever wing",
+        "a conventional tail",
+        "retractable main landing gear with a tailwheel stance"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "Smithsonian National Air and Space Museum",
+          "title": "Smithsonian National Air and Space Museum — Douglas DC-3",
+          "url": "https://airandspace.si.edu/collection-objects/douglas-dc-3/nasm_A19530075000"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 54,
+      "name_en": "DC-6",
+      "base_description": "a DC-6, a type of aircraft",
+      "descriptors": [
+        "four radial piston engines mounted ahead of a low wing",
+        "a low-mounted straight wing",
+        "a conventional tail",
+        "a long cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing — DC-6/C-118A historical product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 55,
+      "name_en": "DC-8",
+      "base_description": "a DC-8, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath the wings",
+        "low-mounted swept wings",
+        "a conventional tail",
+        "a long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "Boeing",
+          "title": "Boeing — DC-8 historical product information",
+          "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 56,
+      "name_en": "DC-9-30",
+      "base_description": "a DC-9-30, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO DC93",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=DC93"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 57,
+      "name_en": "DH-82",
+      "base_description": "a DH-82, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted piston engine and propeller",
+        "two stacked wings in a biplane configuration",
+        "two open tandem cockpits",
+        "a conventional tail with external bracing"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "Australian War Memorial",
+          "title": "Australian War Memorial — de Havilland DH-82 Tiger Moth",
+          "url": "https://www.awm.gov.au/collection/C963095"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 58,
+      "name_en": "DHC-1",
+      "base_description": "a DHC-1, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted piston engine and propeller",
+        "a low-mounted straight wing",
+        "a tandem cockpit under a clear canopy",
+        "a conventional tailwheel undercarriage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "Smithsonian National Air and Space Museum",
+          "title": "Smithsonian National Air and Space Museum — DHC-1A Chipmunk",
+          "url": "https://airandspace.si.edu/collection-objects/de-havilland-canada-dhc-1a-chipmunk-pennzoil-special/nasm_A19870364000"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 59,
+      "name_en": "DHC-6",
+      "base_description": "a DHC-6, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a high wing",
+        "large propellers",
+        "a conventional high-set tail",
+        "fixed tricycle landing gear"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO DHC6",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=DHC6"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 60,
+      "name_en": "DHC-8-100",
+      "base_description": "a DHC-8-100, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a high wing",
+        "large propellers",
+        "a T-tail",
+        "a short fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO DH8A",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=DH8A"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 61,
+      "name_en": "DHC-8-300",
+      "base_description": "a DHC-8-300, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a high wing",
+        "large propellers",
+        "a T-tail",
+        "a stretched fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO DH8C",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=DH8C"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 62,
+      "name_en": "DR-400",
+      "base_description": "a DR-400, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted piston engine and propeller",
+        "a low-mounted wing",
+        "a conventional high-set tail",
+        "fixed tricycle landing gear"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO DR40",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=DR40"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 63,
+      "name_en": "Dornier 328",
+      "base_description": "a Dornier 328, a type of aircraft",
+      "descriptors": [
+        "two six-blade turboprop engines mounted on a high wing",
+        "a high-mounted wing",
+        "a T-tail",
+        "a compact fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO D328",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=D328"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 64,
+      "name_en": "E-170",
+      "base_description": "a E-170, a type of aircraft",
+      "descriptors": [
+        "two turbofan engines mounted beneath the wings",
+        "low-mounted swept wings with winglets",
+        "a conventional tail",
+        "a short cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO E170",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=E170"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 65,
+      "name_en": "E-190",
+      "base_description": "a E-190, a type of aircraft",
+      "descriptors": [
+        "two turbofan engines mounted beneath the wings",
+        "low-mounted swept wings with winglets",
+        "a conventional tail",
+        "a long cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO E190",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=E190"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 66,
+      "name_en": "E-195",
+      "base_description": "a E-195, a type of aircraft",
+      "descriptors": [
+        "two turbofan engines mounted beneath the wings",
+        "low-mounted swept wings with winglets",
+        "a conventional tail",
+        "a very long cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO E195",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=E195"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 67,
+      "name_en": "EMB-120",
+      "base_description": "a EMB-120, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a low wing",
+        "a low-mounted straight wing",
+        "a T-tail",
+        "a slender cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO E120",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=E120"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 68,
+      "name_en": "ERJ 135",
+      "base_description": "a ERJ 135, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a short slender fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO E135",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=E135"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 69,
+      "name_en": "ERJ 145",
+      "base_description": "a ERJ 145, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a long slender fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO E145",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=E145"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 70,
+      "name_en": "Embraer Legacy 600",
+      "base_description": "a Embraer Legacy 600, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a long pointed-nose fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO E35L",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=E35L"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 71,
+      "name_en": "Eurofighter Typhoon",
+      "base_description": "a Eurofighter Typhoon, a type of aircraft",
+      "descriptors": [
+        "twin rear jet exhausts",
+        "delta wings",
+        "forward canard foreplanes",
+        "a single vertical fin"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO EUFI",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=EUFI"
+        },
+        {
+          "institution": "Eurofighter",
+          "title": "Eurofighter — official delta-canard design description",
+          "url": "https://www.eurofighter.com/news/the-first-hour"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 72,
+      "name_en": "F-16A/B",
+      "base_description": "a F-16A/B, a type of aircraft",
+      "descriptors": [
+        "a single rear jet exhaust",
+        "mid-mounted swept wings",
+        "a single vertical fin",
+        "a bubble canopy"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO F16",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=F16"
+        },
+        {
+          "institution": "U.S. Air Force",
+          "title": "U.S. Air Force — F-16 Fighting Falcon fact sheet",
+          "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104505/f-16-fighting-falcon/"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 73,
+      "name_en": "F/A-18",
+      "base_description": "a F/A-18, a type of aircraft",
+      "descriptors": [
+        "twin rear jet exhausts",
+        "high-mounted swept wings",
+        "two outward-canted vertical fins",
+        "a pointed nose"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO F18",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=F18"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 74,
+      "name_en": "Falcon 2000",
+      "base_description": "a Falcon 2000, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a cruciform tail",
+        "a broad cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO F2TH",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=F2TH"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 75,
+      "name_en": "Falcon 900",
+      "base_description": "a Falcon 900, a type of aircraft",
+      "descriptors": [
+        "three jet engines arranged around the rear fuselage and vertical fin",
+        "low-mounted swept wings",
+        "a cruciform tail",
+        "a broad cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO F900",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=F900"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 76,
+      "name_en": "Fokker 100",
+      "base_description": "a Fokker 100, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a long narrow fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO F100",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=F100"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 77,
+      "name_en": "Fokker 50",
+      "base_description": "a Fokker 50, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a high wing",
+        "six-blade propellers",
+        "a conventional high-set tail",
+        "a compact fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO F50",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=F50"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 78,
+      "name_en": "Fokker 70",
+      "base_description": "a Fokker 70, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a short narrow fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO F70",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=F70"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 79,
+      "name_en": "Global Express",
+      "base_description": "a Global Express, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a long broad fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO GLEX",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=GLEX"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 80,
+      "name_en": "Gulfstream IV",
+      "base_description": "a Gulfstream IV, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a medium-length broad fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO GLF4",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=GLF4"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 81,
+      "name_en": "Gulfstream V",
+      "base_description": "a Gulfstream V, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings with winglets",
+        "a T-tail",
+        "a long broad fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO GLF5",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=GLF5"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 82,
+      "name_en": "Hawk T1",
+      "base_description": "a Hawk T1, a type of aircraft",
+      "descriptors": [
+        "a single rear jet exhaust",
+        "low-mounted swept wings",
+        "a conventional tail",
+        "a tandem two-seat canopy"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO HAWK",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=HAWK"
+        },
+        {
+          "institution": "Royal Air Force",
+          "title": "Royal Air Force — Hawk T1",
+          "url": "https://www.raf.mod.uk/aircraft/hawk-t1/"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 83,
+      "name_en": "Il-76",
+      "base_description": "a Il-76, a type of aircraft",
+      "descriptors": [
+        "four jet engines mounted beneath a high wing",
+        "a high-mounted swept wing",
+        "a T-tail",
+        "a large boxy fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO IL76",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=IL76"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 84,
+      "name_en": "L-1011",
+      "base_description": "a L-1011, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "a third jet intake at the base of the vertical fin",
+        "low-mounted swept wings",
+        "a conventional low-set tail"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO L101",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=L101"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 85,
+      "name_en": "MD-11",
+      "base_description": "a MD-11, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted beneath the wings",
+        "a third jet engine integrated into the vertical fin",
+        "low-mounted swept wings with winglets",
+        "a conventional low-set tail"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO MD11",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=MD11"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 86,
+      "name_en": "MD-80",
+      "base_description": "a MD-80, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO MD81",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=MD81"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 87,
+      "name_en": "MD-87",
+      "base_description": "a MD-87, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a short narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO MD87",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=MD87"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 88,
+      "name_en": "MD-90",
+      "base_description": "a MD-90, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a very long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO MD90",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=MD90"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 89,
+      "name_en": "Metroliner",
+      "base_description": "a Metroliner, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a low wing",
+        "a low-mounted straight wing",
+        "a conventional low-set tail",
+        "a very narrow fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO SW4",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=SW4"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 90,
+      "name_en": "Model B200",
+      "base_description": "a Model B200, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a low wing",
+        "a low-mounted straight wing",
+        "a T-tail",
+        "a long pointed nose ahead of the cockpit"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO BE20",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=BE20"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 91,
+      "name_en": "PA-28",
+      "base_description": "a PA-28, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted piston engine and propeller",
+        "a low-mounted wing",
+        "a conventional tail",
+        "a compact cabin fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO P28A",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=P28A"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 92,
+      "name_en": "SR-20",
+      "base_description": "a SR-20, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted piston engine and propeller",
+        "a low-mounted wing",
+        "a conventional low-set tail",
+        "fixed tricycle landing gear"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO SR20",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=SR20"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 93,
+      "name_en": "Saab 2000",
+      "base_description": "a Saab 2000, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a low wing",
+        "a low-mounted straight wing",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a long cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO SB20",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=SB20"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 94,
+      "name_en": "Saab 340",
+      "base_description": "a Saab 340, a type of aircraft",
+      "descriptors": [
+        "two turboprop engines mounted on a low wing",
+        "a low-mounted straight wing",
+        "a conventional tail with mid-set horizontal stabilizers",
+        "a short cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO SF34",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=SF34"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 95,
+      "name_en": "Spitfire",
+      "base_description": "a Spitfire, a type of aircraft",
+      "descriptors": [
+        "a single nose-mounted piston engine and propeller",
+        "elliptical low-mounted wings",
+        "an enclosed single-seat canopy",
+        "a conventional tail"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "Royal Air Force Museum",
+          "title": "Royal Air Force Museum — The first flight of the Spitfire",
+          "url": "https://cms.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 96,
+      "name_en": "Tornado",
+      "base_description": "a Tornado, a type of aircraft",
+      "descriptors": [
+        "twin rear jet exhausts",
+        "variable-sweep wings",
+        "a single vertical fin",
+        "a tandem two-seat cockpit"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO TOR",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=TOR"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 97,
+      "name_en": "Tu-134",
+      "base_description": "a Tu-134, a type of aircraft",
+      "descriptors": [
+        "two jet engines mounted on the rear fuselage",
+        "low-mounted anhedral swept wings",
+        "a T-tail",
+        "a slender narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO T134",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=T134"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 98,
+      "name_en": "Tu-154",
+      "base_description": "a Tu-154, a type of aircraft",
+      "descriptors": [
+        "two rear-fuselage jet engines plus a fin-integrated center engine",
+        "low-mounted anhedral swept wings",
+        "a T-tail",
+        "a long narrow-body fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO T154",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=T154"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    },
+    {
+      "class_id": 99,
+      "name_en": "Yak-42",
+      "base_description": "a Yak-42, a type of aircraft",
+      "descriptors": [
+        "two rear-fuselage jet engines plus a fin-integrated center engine",
+        "low-mounted swept wings",
+        "a T-tail",
+        "a compact cylindrical fuselage"
+      ],
+      "review_status": "verified_double_checked",
+      "construction_scope": "image blind; generated without opening Aircraft images or using validation/test outcomes",
+      "sources": [
+        {
+          "institution": "EUROCONTROL Aviation Learning Centre",
+          "title": "Aircraft Performance Database — ICAO YK42",
+          "url": "https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?ICAO=YK42"
+        }
+      ],
+      "audit_note": "Pass 1: checked against named public technical/official source(s). Pass 2: adversarial architecture recheck plus automated structural QA."
+    }
+  ]
+}

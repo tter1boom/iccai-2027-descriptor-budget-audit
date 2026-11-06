@@ -1,0 +1,13 @@
+backbone,ranker,selected_k,true_class,rank,predicted_class_id,predicted_class,count,base_correct,selected_correct,base_correct_class_mean,base_strongest_competitor_mean,base_decision_margin_mean
+ViT-B-32,contrastive_margin,1,drugstore beetle,1,9,minute brown scavenger beetle,18,4,26,0.28359288175900776,0.2967792570590973,-0.013186375300089488
+ViT-B-32,contrastive_margin,1,drugstore beetle,2,4,spider beetle,5,4,26,0.28359288175900776,0.2967792570590973,-0.013186375300089488
+ViT-B-32,contrastive_margin,1,drugstore beetle,3,2,drugstore beetle,4,4,26,0.28359288175900776,0.2967792570590973,-0.013186375300089488
+ViT-B-32,positive_mean,1,drugstore beetle,1,9,minute brown scavenger beetle,18,4,26,0.28359288175900776,0.2967792570590973,-0.013186375300089488
+ViT-B-32,positive_mean,1,drugstore beetle,2,4,spider beetle,5,4,26,0.28359288175900776,0.2967792570590973,-0.013186375300089488
+ViT-B-32,positive_mean,1,drugstore beetle,3,2,drugstore beetle,4,4,26,0.28359288175900776,0.2967792570590973,-0.013186375300089488
+ViT-B-16,contrastive_margin,2,drugstore beetle,1,9,minute brown scavenger beetle,20,1,25,0.2757241427898407,0.29107111394405366,-0.015346971154212907
+ViT-B-16,contrastive_margin,2,drugstore beetle,2,4,spider beetle,6,1,25,0.2757241427898407,0.29107111394405366,-0.015346971154212907
+ViT-B-16,contrastive_margin,2,drugstore beetle,3,5,springtail,2,1,25,0.2757241427898407,0.29107111394405366,-0.015346971154212907
+ViT-B-16,positive_mean,1,drugstore beetle,1,9,minute brown scavenger beetle,20,1,21,0.2757241427898407,0.29107111394405366,-0.015346971154212907
+ViT-B-16,positive_mean,1,drugstore beetle,2,4,spider beetle,6,1,21,0.2757241427898407,0.29107111394405366,-0.015346971154212907
+ViT-B-16,positive_mean,1,drugstore beetle,3,5,springtail,2,1,21,0.2757241427898407,0.29107111394405366,-0.015346971154212907

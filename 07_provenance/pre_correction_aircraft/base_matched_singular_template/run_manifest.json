@@ -1,0 +1,50 @@
+{
+  "analysis_status": "post_hoc_addendum_not_in_original_five_analysis_protocol",
+  "scientific_question": "With the same class base description, ranked descriptors, support split, backbone, k, frozen test set and image features, does one joint text encoding differ from mean scores over separate base-matched descriptor prompts?",
+  "prompt_template": "{base_description}. Diagnostic attribute: {descriptor}.",
+  "aggregation": "unweighted mean of cosine-similarity scores from the k selected per-descriptor text embeddings, followed by argmax across classes",
+  "rankings_source": "revision_experiments/analysis_package_v13/RESULTS/experiment_5_matched_prior/rankings.csv",
+  "rankings_sha256": "153bd61eb114709f3cb983be33cf8690a84703a87071e57e542f08419099acdb",
+  "resource_path": "external_aircraft_clean/resources/aircraft_descriptors_clean.json",
+  "resource_sha256": "67876cc858a9b6a1785b7eaa229a54dd40ad3394de7a7c989ad0d77b803808fc",
+  "feature_cache_sha256": {
+    "ViT-B-16": "93d1b2c9959fd2687a9bd06da73bc54caccfd4984d4c5ebb00d94b8cac6a1c97",
+    "ViT-B-32": "3eb82e8c0236da006787e6a4246967debb40c358e7e3e7d6e6a7cd341794f850"
+  },
+  "checkpoint_fingerprints": {
+    "ViT-B-16": {
+      "path": "external_checkpoint://ViT-B-16 (not redistributed)",
+      "files": {
+        "config.json": "eaf1c9089a8553c913d27ea66407f8bfc2be9989c80c9f331ddb3d63d4c5e8ad",
+        "pytorch_model.bin": "ec89c7b09c749a60aae3c9cd910516f24b58214a7df060b48962d14c469cfbf0",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd"
+      }
+    },
+    "ViT-B-32": {
+      "path": "external_checkpoint://ViT-B-32 (not redistributed)",
+      "files": {
+        "config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+        "pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd"
+      }
+    }
+  },
+  "support_seeds": [
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007
+  ],
+  "k_values": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_test_images": 3333,
+  "device": "cpu",
+  "image_model_inference": "none; uses frozen cached image features and local text encoding only",
+  "test_images_opened": false,
+  "path_provenance": "Original machine-local paths are preserved in provenance/original_logs/; see provenance/release_mapping.json."
+}

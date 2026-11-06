@@ -1,0 +1,5 @@
+backbone,k,n_random_rankings,test_predictions_identical_across_rankings,max_logit_difference,analysis_status
+ViT-B-16,0,50,True,0.0,deterministic_fixed_prompt_invariance_check
+ViT-B-16,4,50,True,0.0,deterministic_fixed_prompt_invariance_check
+ViT-B-32,0,50,True,0.0,deterministic_fixed_prompt_invariance_check
+ViT-B-32,4,50,True,0.0,deterministic_fixed_prompt_invariance_check

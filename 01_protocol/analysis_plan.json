@@ -1,0 +1,196 @@
+{
+  "execution_order": [
+    1,
+    2,
+    4,
+    3,
+    5
+  ],
+  "analysis_status": "reviewer-driven post-review analyses",
+  "global_rules": {
+    "device": "CPU for statistics and cached-feature operations; four CUDA workers for Experiment 3 text encoding",
+    "no_paper_edit_before_results": true,
+    "no_third_dataset": true,
+    "no_model_expansion": true,
+    "result_dependent_changes_forbidden": true
+  },
+  "experiment_1": {
+    "name": "Aircraft adjacent-budget uncertainty",
+    "transitions": [
+      "0->1",
+      "1->2",
+      "2->3",
+      "3->4"
+    ],
+    "conditions": 4,
+    "family_size": 16,
+    "bootstrap_replicates": 20000,
+    "bootstrap": "class-stratified paired; one test draw shared across five resamples and all contrasts",
+    "signflip_replicates": 100000,
+    "signflip_unit": "one test image with its five-resample difference vector intact",
+    "p_value": "two-sided Monte Carlo add-one",
+    "multiplicity": "Holm across all 16 contrasts"
+  },
+  "experiment_2": {
+    "name": "development class concentration",
+    "contrast": "validation-selected minus k=0",
+    "loco_values": 40,
+    "bootstrap_replicates": 20000,
+    "bootstrap_unit": "visual-similarity component within class",
+    "bootstrap_estimand": "resample visual components within class; pool sampled image deltas and image counts within each class; compute each sampled class image-level mean; equally average class means",
+    "inference": "descriptive sensitivity intervals; no new p-value family",
+    "source_only": "optional only when an explicit frozen source-only per-image prediction file is supplied"
+  },
+  "experiment_4": {
+    "name": "prompt baselines",
+    "conditions": [
+      "class name only",
+      "standard class prompt",
+      "current base k=0",
+      "fixed k=1",
+      "k=4 (all four descriptors)"
+    ],
+    "domains": [
+      "development",
+      "Aircraft"
+    ],
+    "prompt_ensemble": false
+  },
+  "experiment_3": {
+    "name": "Aircraft validation size and regret",
+    "support_per_class": 5,
+    "support_seeds": [
+      20261011,
+      20261012,
+      20261013,
+      20261014,
+      20261015,
+      20261016,
+      20261017,
+      20261018,
+      20261019,
+      20261020,
+      20261021,
+      20261022,
+      20261023,
+      20261024,
+      20261025,
+      20261026,
+      20261027,
+      20261028,
+      20261029,
+      20261030
+    ],
+    "validation_per_class": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      "all"
+    ],
+    "validation_permutation_seeds": [
+      20261101,
+      20261102,
+      20261103,
+      20261104,
+      20261105,
+      20261106,
+      20261107,
+      20261108,
+      20261109,
+      20261110,
+      20261111,
+      20261112,
+      20261113,
+      20261114,
+      20261115,
+      20261116,
+      20261117,
+      20261118,
+      20261119,
+      20261120,
+      20261121,
+      20261122,
+      20261123,
+      20261124,
+      20261125,
+      20261126,
+      20261127,
+      20261128,
+      20261129,
+      20261130,
+      20261131,
+      20261132,
+      20261133,
+      20261134,
+      20261135,
+      20261136,
+      20261137,
+      20261138,
+      20261139,
+      20261140,
+      20261141,
+      20261142,
+      20261143,
+      20261144,
+      20261145,
+      20261146,
+      20261147,
+      20261148,
+      20261149,
+      20261150
+    ],
+    "nested_validation_subsets": true,
+    "selection_tie_break": "smallest k",
+    "oracle_regret": "max_k A_Q(k) - A_Q(k_hat_V)",
+    "hierarchical_bootstrap_replicates": 10000,
+    "parallel_workers": 4,
+    "support_seed_partition": "worker i receives support_seeds[i::4]",
+    "image_feature_source": "frozen corrected-clean B/16 and B/32 feature caches",
+    "per_worker_device": "one visible CUDA device, exposed locally as cuda:0"
+  },
+  "experiment_5": {
+    "name": "matched AttributeSelect comparison",
+    "k": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "matched_ranker": "positive_mean",
+    "interfaces": [
+      "single recomposed prototype",
+      "independent attribute voting",
+      "class-anchored descriptor ensemble"
+    ],
+    "references": [
+      "AS-Mean",
+      "AS-Probe"
+    ],
+    "global_attribute_encoding": "bare descriptor string",
+    "classification": "unweighted vote",
+    "claim_boundary": "matched-resource implementation of selection-and-voting principle, not reproduction of large-pool ImageNet setting"
+  },
+  "prompt_strings": {
+    "aircraft_descriptor_scoring": "a photo of an aircraft showing {descriptor}.",
+    "aircraft_recomposition": "{base_description}. Diagnostic attributes: {selected_descriptors}.",
+    "standard_clip_template": "a photo of a {class}.",
+    "class_anchored_descriptor": "a {class} with {descriptor}"
+  },
+  "script_sha256": {
+    "run_exp1_aircraft_adjacent.py": "3ff3f7a2f218792bfbca539dea359d394a1c18ce7539cf5eb72e0c456f62514a",
+    "run_exp2_class_concentration.py": "fec21dfa729aff9b202d4514275fb2d3392cdc325bfe890e4d41fadd63a0ae24",
+    "run_exp4_prompt_baselines.py": "de85157155236a49d7834014c9c55fa7c474dec9e890af055ad933a10214110f",
+    "run_exp3_validation_size.py": "cce80d67c01029649784f728e22d951f283caf66e6c02c83b287de2927b1293a",
+    "run_exp3_gpu_worker.py": "e2c95fe94847f0b4207ff31979b8b1e6df7d55acbc11ee4a8f61982971c4276b",
+    "merge_exp3_gpu_workers.py": "b81c4186c659db9ef1b05bd48b9772104de0f984e9cdce0b0e4383d00553ef28",
+    "summarize_exp3_checkpoint.py": "201e4b877b91076b928877106f154bcd90ab212685a5cc19be535c18473114a6",
+    "run_exp5_matched_prior.py": "db84244defdce858e65ef94fb9c9e0d102908c44b17209803d022670b73f74fe",
+    "aircraft_cached_core.py": "567b21876e0699bd37fa80b41a3502924dbae5a1571a8d45bfd1a07f0399540e"
+  },
+  "declaration": "The five analyses followed a documented post-review analysis plan. This consolidated protocol is not a preregistration; the chronology and implementation-change record are in 02_resource_audit/resource_revision_timeline.csv and 06_provenance/PROVENANCE_INDEX.csv.",
+  "record_type": "documented_post-review analysis plan; not preregistration",
+  "status": "documented_post_review_plan_not_preregistration",
+  "source_note": "The original versioned protocol is preserved unchanged in 06_provenance/original_records."
+}

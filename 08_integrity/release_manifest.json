@@ -1,0 +1,38 @@
+{
+  "release_name": "ICCAI_2027_Submission_v5_minor_revision",
+  "created_utc": "2026-11-06T13:33:34+00:00",
+  "layout": "Manuscript DOC/DOCX/PDF + Supplementary Appendix PDF + one public GitHub Reproducibility_Package",
+  "evidence_lineage": "Core Aircraft protocol, resource and predictions from the prior archive; fixed-order control from the subsequent archive; ICCAI controls and paper assets from this working build. See 07_provenance/PROVENANCE_INDEX.csv.",
+  "limits": [
+    "Restricted development and source images are not redistributed.",
+    "Local frozen CLIP checkpoints are not redistributed.",
+    "The public GitHub repository is account-attributed and is not an anonymous deposit."
+  ],
+  "submission_files": {
+    "Manuscript.doc": {
+      "sha256": "47eb29015012c3e6c559bf813d918163f8c73b816a587111370fbc0009ddf7a9",
+      "bytes": 797184
+    },
+    "Manuscript.docx": {
+      "sha256": "e2f102973e30cf4921785493b202ed7e103a8a55462f99087637f78a401a8e84",
+      "bytes": 709604
+    },
+    "Manuscript.pdf": {
+      "sha256": "840ab7d76e70904d0e5bed098b06aec2a65a319d24639b531c114ffd826f42ef",
+      "bytes": 591982
+    },
+    "Supplementary_Appendix.pdf": {
+      "sha256": "3239e416b9cd5a8fae6182459edc912c75daa40f402cef8df9481d3fd6fc1d51",
+      "bytes": 252210
+    }
+  },
+  "document_pages": {
+    "Manuscript.pdf": 9,
+    "Supplementary_Appendix.pdf": 6
+  },
+  "public_github_repository": {
+    "status": "created_pending_package_push",
+    "url": "https://github.com/tter1boom/iccai-2027-descriptor-budget-audit",
+    "visibility": "public"
+  }
+}

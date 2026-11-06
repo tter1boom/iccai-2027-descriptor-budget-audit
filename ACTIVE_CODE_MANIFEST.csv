@@ -1,0 +1,20 @@
+path,purpose,capability_level,required_inputs,produces,exact_reproduction
+03_code/core/aircraft_core.py,"Shared frozen resource, scoring, prompting and cache utilities",replay_from_features,Protocol/resource/cache plus local checkpoint root,Used by feature replay scripts,No
+03_code/experiments/fixed_catalogue_control.py,Post-review fixed catalogue ordering control,replay_from_features,"Split manifests, feature cache, local checkpoint root",05_results/replayed_fixed_order_control/,No
+03_code/experiments/additional_controls.py,"Random ranking, class-name baseline, normalized mean and k=1 identity analyses",replay_from_features,"Feature cache, matched rankings, validation records, local checkpoint root",05_results/replayed_additional_controls/,No
+03_code/statistics/holm_adjustment.py,Holm step-down correction,rerun_statistics,Raw p-value family,Adjusted p-values,Yes
+03_code/statistics/verify_adjacent_budget_tables.py,Reconcile integer exceedance p-values and Holm family,verify_only,Archived adjacent count/effect tables,Console PASS/FAIL,Yes
+06_reproduction/recompute_from_predictions.py,Recompute accuracy curves from per-image predictions,recompute_from_predictions,04_data/aircraft_prediction_records/predictions.csv,05_results/recomputed_aircraft_budget_curves.csv,Yes
+06_reproduction/verify_analysis_tables.py,"Verify archived grids, exact p-values, cached replay outputs, identity blocks and token/class audits",verify_only,Archived predictions/selection/identity tables,Console PASS/FAIL,Yes
+06_reproduction/rerun_resampling.py,Verify stored count-based p-values and Holm adjustment; null draws are not regenerated,verify_only,05_results/adjacent_inference.csv; paired_adjacent_effects.csv,Console PASS/FAIL,Yes
+06_reproduction/replay_from_features.py,Replay cached-feature addenda with local text encoder checkpoints,replay_from_features,Feature cache and fingerprinted local checkpoint directory,05_results/replayed_additional_controls/,No
+06_reproduction/verify_release.py,"Verify package structure, local-path hygiene, and file hashes",verify_only,08_integrity/SHA256SUMS.tsv,Console PASS/FAIL,Yes
+06_reproduction/generate_paper_tables.py,Enumerate paper-facing archived results,verify_only,05_results/*.csv,Console output,Yes
+03_code/core/ranking.py,"PM, CM, fixed and random ranking helpers",recompute_from_predictions,Support-image by descriptor similarities,Ranked descriptor indices,Yes
+03_code/core/prompting.py,Canonical recomposition and base-matched prompt constructors,recompute_from_predictions,Frozen resource record and selected descriptors,Exact prompt strings,Yes
+03_code/core/scoring.py,"Joint prototype, per-descriptor mean and normalized prototype scores",recompute_from_predictions,Image/text feature arrays,Interface scores,Yes
+03_code/core/metrics.py,Class-balanced macro accuracy,recompute_from_predictions,Truth and predicted class indices,Macro accuracy,Yes
+03_code/statistics/image_block_signflip.py,Image-level signs shared across the support-resample block,rerun_statistics,Per-image by support-resample effect matrix and labels,"Observed statistic, exceedance count, add-one p",No
+03_code/statistics/paired_bootstrap.py,Paired class-stratified bootstrap of per-image budget effects,rerun_statistics,Per-image by support-resample effect matrix and labels,Bootstrap draws,No
+03_code/statistics/validation_hierarchical_bootstrap.py,Nested support-cluster and validation-permutation bootstrap,rerun_statistics,Support by validation-permutation metric matrix,Replicates and percentile interval,No
+06_reproduction/generate_supplementary_audits.py,"Generate classwise gains/losses, exact p-value audit, per-budget token audit and checkpoint fingerprints",verify_only,"Archived classwise tables, exact sign-flip counts, replay tokenizer output, model lock and local frozen checkpoints",05_results/aircraft_per_class_gains_losses.csv; 05_results/aircraft_per_class_summary.csv; 05_results/adjacent_signflip_p_value_audit.csv; 01_protocol/prompt_token_audit_by_budget.csv; 01_protocol/checkpoint_tokenizer_manifest.json,No; derives audit tables from archived outputs

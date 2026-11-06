@@ -1,0 +1,46 @@
+{
+  "study": "Corrected external Aircraft rerun",
+  "dataset": "FGVC-Aircraft official variant-classification distribution",
+  "class_count": 100,
+  "official_split_image_counts": {
+    "train": 3334,
+    "validation": 3333,
+    "test": 3333,
+    "total": 10000
+  },
+  "support_pool": "Official train split; five images per class, 500 total per seed; sampled without replacement.",
+  "validation_pool": "Official validation split; five images per class, 500 total per seed; sampled without replacement.",
+  "test": "All 3,333 images in the official test split; no subsampling; the same fixed test set was used for all resamples.",
+  "support_validation_seeds": [
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007
+  ],
+  "sampling_rng": "NumPy PCG64 initialized with the listed integer seed.",
+  "ordering": "Class labels and image IDs were lexicographically sorted before sampling and manifest serialization.",
+  "backbones": [
+    "CLIP ViT-B/16",
+    "CLIP ViT-B/32"
+  ],
+  "rankers": [
+    "positive mean",
+    "contrastive margin"
+  ],
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "primary_metric": "Class-balanced (macro) accuracy.",
+  "fixed_test_history": "The official test split had been used in an earlier Aircraft analysis before the resource correction. The corrected resource and rerun protocol were re-audited and frozen before the reported rerun; these results are not an evaluation on a previously unseen external holdout.",
+  "source_records": [
+    "01_protocol/dataset_audit.json",
+    "01_protocol/split_manifests/",
+    "01_protocol/pre_run_checks.json",
+    "06_provenance/original_execution_code/"
+  ]
+}
