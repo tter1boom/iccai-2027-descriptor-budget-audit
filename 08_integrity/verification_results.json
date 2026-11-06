@@ -11,11 +11,12 @@
     "manuscript_template": "PASS: page size, margins, and core paragraph styles match the supplied ICCAI official template",
     "figures_and_equations": "PASS: nine-page PDF rendered and inspected; Figure 1, Figure 2, formulas, Table 1 panels, and Mean ? SD caption visually checked; legacy DOC export also renders to nine pages with formulas and figures visible",
     "public_github_repository": {
-      "status": "CREATED_PENDING_PUSH",
+      "status": "PASS",
       "url": "https://github.com/tter1boom/iccai-2027-descriptor-budget-audit",
-      "visibility": "public"
+      "visibility": "public",
+      "unauthenticated_http_read": "PASS"
     },
-    "public_release_content_scan": "PASS: no Git metadata, local paths, emails, or identifying Office/PDF metadata"
+    "public_release_content_scan": "PASS: one README; no Git metadata, local paths, email addresses, or identifying Office/PDF metadata"
   },
   "limitations": [
     "Source images and local frozen CLIP checkpoints are not redistributed.",

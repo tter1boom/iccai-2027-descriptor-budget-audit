@@ -1,6 +1,6 @@
 {
   "release_name": "ICCAI_2027_Submission_v5_minor_revision",
-  "created_utc": "2026-11-06T13:33:34+00:00",
+  "created_utc": "2026-11-06T13:40:05+00:00",
   "layout": "Manuscript DOC/DOCX/PDF + Supplementary Appendix PDF + one public GitHub Reproducibility_Package",
   "evidence_lineage": "Core Aircraft protocol, resource and predictions from the prior archive; fixed-order control from the subsequent archive; ICCAI controls and paper assets from this working build. See 07_provenance/PROVENANCE_INDEX.csv.",
   "limits": [
@@ -31,7 +31,7 @@
     "Supplementary_Appendix.pdf": 6
   },
   "public_github_repository": {
-    "status": "created_pending_package_push",
+    "status": "published",
     "url": "https://github.com/tter1boom/iccai-2027-descriptor-budget-audit",
     "visibility": "public"
   }
